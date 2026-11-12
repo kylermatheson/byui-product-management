@@ -4,19 +4,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Quarto book project for a **BYU–Idaho Product Management** course. The project generates a static website containing course materials, schedules, assessments, and chapter content.
+This is a Quarto book project for **MSB 341 - Product Management**, a BYU course taught by Scott Murff. The project generates a static website containing course materials, schedules, assessments, and chapter content.
 
-Course-specific details are intentionally placeholders until the instructor supplies the BYU–Idaho course number, term, meeting schedule, LMS, grading policy, and institutional notices.
+The course was previously numbered STRAT 490R ("Creating Digital Products with AI"); it reverted to a standard number for Fall 2026. It is cross-listed under three numbers that all meet together as one class: MSB 341 (sec 002), IS 693R (sec 008), and C S 498R (sec 005). The class meets Mondays 3:30 to 4:45 PM in 2439 TNRB and uses Canvas as the LMS.
 
 ### Location and deployment
 
-- **Canonical repo:** `byui-product-management` in the instructor's course workspace.
-- **GitHub:** `kylermatheson/byui-product-management`. **Live site:** https://kylermatheson.github.io/byui-product-management/
-- The source curriculum is preserved in the upstream BYU Strategy repository; do not push BYU–Idaho course-specific changes upstream.
+- **Canonical repo:** `~/courses/product-management` (moved from `~/Documents/courses/product-management`, whose copy is stale since 2026-08-29; a fork of the older `strategy-prototyping` repo, moved off OneDrive). Full git history is preserved.
+- **GitHub:** `byu-strategy/product-management`. **Live site:** https://byu-strategy.github.io/product-management/
+- The old `strategy-prototyping` repo (on OneDrive, GitHub `byu-strategy/strategy-prototyping`) is the archived STRAT 490R version. Do not commit new course work there.
 
 ### Teaching model
 
-Students are full-stack product builders and AI coding agents are a primary tool of instruction. Replace this paragraph with the instructor's teaching model and course-specific supporting artifacts before publishing.
+Scott coaches more than he lectures: students are full-stack product builders and Claude Code is the tool of instruction (every student has a paid Claude plan). Each Monday session has one emphasis, opens with a scripture and a quote, and pairs a short lecture segment with live build time in Claude Code. That stance shapes how Scott runs the room; see the jargon rule below for how little of it belongs in student-facing copy. Supporting artifacts in the repo:
 
 - `practice-plan-template.md`: the minute-by-minute daily plan template. Season benchmarks (sprints, quizzes, peer work) are published in `00-schedule.qmd`; individual practice plans are written the week of and published after class.
 - Builder template: the repo every student creates their own from. It lives in its own GitHub template repo, `byu-strategy/builder-template`, cloned locally at `~/courses/builder-template`. Edit and push it there; do not keep a copy in this repo (a copy here drifted out of date and was removed 2026-09-15). Folders: `sprints/` (plan and review per sprint, written by the two bundled skills), `discovery/`, `design/`, `product/`, `specs/`, `gtm/`, `metrics/`, `decisions/`. Ships `.claude/skills/sprint-plan` and `sprint-review`. Role-neutral throughout, since half the class is embedded on a team rather than founding anything. Students add Scott as a collaborator.

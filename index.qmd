@@ -1,43 +1,45 @@
 ---
-title: "BYU–Idaho Product Management"
-author: "[Instructor name]"
-date: "[Term and year]"
+title: "Overview"
+author: "Scott Murff"
+date: "9/14/2026"
 format:
   html: default
   pdf: default
 ---
 
 ::: {.course-numbers-page}
-BYU–Idaho · [Course number] · [Section]
+MSB 341 · IS 693R · C S 498R
 :::
 
-*[Term and year]*
+*FALL 2026*
 
 |                           |                            |
 |---------------------------|----------------------------|
-| **Instructor**            | [Instructor name]          |
-| **TAs**                   | [TA names]                 |
-| **Office Hours**          | [Office hours]             |
-| **Office Hours Location** | [Office hours location]    |
-| **LMS**                   | [LMS link]                 |
-| **Class Time**            | [Class time]               |
-| **Class Location**        | [Class location]           |
+| **Instructor**            | Scott Murff                |
+| **TAs**                   | Nate McCauley              |
+| **Office Hours**          | Wednesdays 1:30–3:30 PM, Fridays 3:00–3:30 PM |
+| **Office Hours Location** | 587 TNRB. Wed 3:00–3:30 PM and all of Friday are by phone. |
+| **LMS**                   | Canvas                     |
+| **Class Time**            | Mondays 3:30–4:45 PM       |
+| **Class Location**        | 2439 TNRB                  |
 
 ## Course Numbers
 
-Replace this paragraph with the BYU–Idaho course-number, section, meeting, and LMS information for your class.
+This course is cross-listed under three course numbers. It is all the same class: everyone meets together Mondays 3:30–4:45 PM in 2439 TNRB, uses this site, and uses Canvas as the LMS. Register under whichever number fits your program.
 
 | Course | Section | Title | Credit Hours |
 |--------|---------|-------|--------------|
-| [Course number] | [Section] | Product Management | [Credits] |
+| MSB 341 | 002 | Product Management | 3.0 |
+| IS 693R | 008 | Readings & Conference | 3.0 |
+| C S 498R | 005 | Undergraduate Special Projects | 3.0 |
 
 ## Prerequisites
 
-Add the prerequisites for your BYU–Idaho course here.
+*IS 201 - Introduction to Information Systems* OR similar. Students should have an interest in going deep on a technical level and learning to code with assistance from AI.
 
 ## Required Materials
 
-A modern laptop or desktop is recommended. Add the current hardware, software, and AI-tool requirements for your course here.
+A modern Laptop or desktop (Mac or Windows): - Operating Systems: macOS 10.15+ or Windows 10+ - Hardware: 4GB+ RAM (more is better)
 
 AI Tools: We use [Claude Code](https://www.anthropic.com/claude-code) throughout the course, which requires a paid Claude account. **Claude Pro at \$20 per month is enough to start.** Once your build work picks up you will hit usage limits, and that is the signal to upgrade to Claude Max at \$100 per month. You can offset either cost by applying for a [Rollins Center Validation Grant](https://programs.byucet.org/dashboard/grant/4), which reimburses up to \$500 for customer discovery and validation work on your product. Setup instructions are in [Computer Setup](00-computer-setup.qmd).
 
@@ -94,7 +96,11 @@ This course develops students’ ability to integrate strategic thinking and tec
 
 ## Instructor Bio
 
-Add your instructor bio here.
+Scott Murff is an Associate Teaching Professor of Strategy at the BYU Marriott School of Business, where he also serves as program director and teaches courses on business strategy, decision-making, and artificial intelligence. He brings over 15 years of experience at the intersection of business and technology, having worked as a consultant, product manager, and data scientist.
+
+Prior to joining BYU, Scott spent nearly seven years at McKinsey & Company in roles ranging from analytics specialist consultant to principal product manager, where he led product development and performance management initiatives for Fortune 500 clients. His earlier career includes building forecasting models as a VP at Zions Bancorporation and conducting regulatory research at the U.S. Office of the Comptroller of the Currency.
+
+Scott holds a Master’s degree in Management Science & Engineering from Stanford University and a B.A. in Economics with a minor in Math, from BYU. He is passionate about helping students apply AI, analytics, and strategy to meaningful real-world problems with both rigor and purpose.
 
 ## Schedule
 
