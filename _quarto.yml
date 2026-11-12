@@ -1,0 +1,96 @@
+project:
+  type: book
+  output-dir: _book
+    
+book:
+  title: "BYU–Idaho Product Management"
+  favicon: images/favicon-fullstack.svg
+  author: "[Instructor name]"
+  date: "[Term and year]"
+  chapters:
+    - part: Syllabus
+      chapters:
+        - index.qmd
+        - 00-computer-setup.qmd
+        - 00-schedule.qmd
+        - 00-assessments.qmd
+        - 00-release-notes.qmd
+    - part: Agentic Workflow
+      chapters:
+        - 01-building-with-ai-agents.qmd
+        - 02-directing-the-agent.qmd
+    - part: Discovery
+      chapters:
+        - 03-what-is-worth-building.qmd
+        - 04-finding-and-validating-the-problem.qmd
+    - part: Design
+      chapters:
+        - 05-interface-and-flow.qmd
+        - 05b-design-fundamentals.qmd
+        - 06-testing-the-design.qmd
+        - 06b-specs.qmd
+    - part: Application Architecture
+      chapters:
+        - 07-anatomy-of-an-application.qmd
+        - 08-data-and-apis.qmd
+        - 09-version-control-testing-and-tech-debt.qmd
+        - 09b-tests-and-tech-debt.qmd
+        - 09c-browser-and-developer-tools.qmd
+    - part: AI Systems
+      chapters:
+        - 10-how-models-work.qmd
+        - 11-models-in-your-product.qmd
+    - part: Launch and Learn
+      chapters:
+        - 12-going-to-market.qmd
+        - 13-business-models.qmd
+        - 14-measuring-what-matters.qmd
+        - 15-storytelling-and-the-final-demo.qmd
+    - part: Appendix
+      chapters:
+        - A1-logic-of-value.qmd
+        - A2-coding-agents-compared.qmd
+        - A3-claude-code-cli-and-desktop.qmd
+        - A4-codex-cli-and-desktop.qmd
+    - part: References
+      chapters:
+        - 93-why-this-class-works.qmd
+        - 94-problem-discovery-framework.qmd
+        - 95-eng-checklist.qmd
+        - 96-code-base-review.qmd
+        - 97-resources.qmd
+        - 97-thought-leaders.qmd
+        - 97-canon.qmd
+        - 97-builder-resources.qmd
+        - 98-tools.qmd
+        - 99-prompts.qmd
+        - 99-works-cited.qmd
+
+bibliography: references.bib
+csl: chicago-author-date.csl
+
+# Adds a "Learn in Claude" button to each ## section that states "**The model:**" (_extensions/learn)
+filters:
+  - learn
+  # ?c=DE02 links highlight the passages tagged with that builder concept (_extensions/concepts)
+  - concepts
+  # Topics | Weeks switch in the left rail; the weeks are in _weeks.yml (_extensions/week-view)
+  - week-view
+
+metadata-files:
+  - _weeks.yml
+
+format:
+  html:
+    include-in-header: _header.html
+    include-after-body: _footer.html
+    theme: cosmo
+    #link-external-icon: true
+    link-external-newwindow: true
+    css: styles.css
+    toc: true
+    number-sections: false
+execute:
+  eval: false
+    
+toc-title: On this page

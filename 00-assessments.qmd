@@ -1,0 +1,643 @@
+---
+title: "Assessments"
+editor: visual
+---
+
+## Grading Overview
+
+| Component | Points | % of Grade |
+|-----------|--------|------------|
+| Sprints 1 to 5 (5 × 50) | 250 | 55.6% |
+| Sprint 6, the final build | 100 | 22.2% |
+| Peer Product Testing | 50 | 11.1% |
+| Midterm Exam | 25 | 5.6% |
+| Final Exam | 25 | 5.6% |
+| **TOTAL** | **450** | **100%** |
+
+## List of All Assessments
+
+| Type | Description | Points | Learning Outcome(s)<sup>1</sup> |
+|------|-------------|--------|--------------------------------|
+| Exam | [Midterm Exam](#midterm-exam) | 25 | 1, 2, 3, 5 |
+| Exam | [Final Exam](#final-exam) | 25 | 1, 2, 3, 4, 5 |
+| Sprint | [Sprint 1](#sprint-1) | 50 | 4, 5 |
+| Sprint | [Sprint 2](#sprint-2) | 50 | 4, 5 |
+| Sprint | [Sprint 3](#sprint-3) | 50 | 4, 5 |
+| Sprint | [Sprint 4](#sprint-4) | 50 | 4, 5 |
+| Sprint | [Sprint 5](#sprint-5) | 50 | 4, 5 |
+| Sprint | [Sprint 6](#sprint-6) | 100 | 2, 4, 5 |
+| Peer | [Peer Product Testing](#peer-product-testing) | 50 | 4 |
+|  | **TOTAL** | **450** |  |
+
+::: {style="font-size:0.65em;"}
+**Notes**
+
+1. Table of Learning Outcomes
+
+| Learning Outcome | Supported BYU Aims |
+|----------------------------------|--------------------------------------|
+| 1. Explain how large language models generate text, and apply that understanding when building with them. | Intellectually Enlarging |
+| 2. Develop and articulate a product strategy grounded in customer discovery. | Intellectually Enlarging, Lifelong Learning and Service |
+| 3. Analyze the physical, mental, and spiritual impact a product is likely to have on its users, and choose accordingly. | Spiritually Strengthening, Character Building, Lifelong Learning and Service |
+| 4. Build, ship, and maintain a working digital product that delivers enduring value to a target customer group. | Intellectually Enlarging, Lifelong Learning and Service |
+| 5. Use AI coding agents to build and evaluate software, exercising judgment about when to trust, verify, or override the tool. | Intellectually Enlarging, Lifelong Learning and Service |
+
+:::
+
+---
+
+## Exams {#exams}
+
+Two exams, each worth 25 points (about 5.6% of your grade). Both are taken in the **testing center**
+on your own schedule within the posted window. Both are closed book, proctored, and
+multiple choice.
+
+Almost everything else you submit in this course is built with AI assistance, and that is
+intended. These two sittings are the exception. They are the one place your own
+understanding is measured on its own, which is why they exist and why they are worth
+preparing for.
+
+They are also deliberately low stakes. At about 5.6% each, the difference between a rough exam and
+a strong one is about two percent of your course grade. That is enough to make preparing
+worth it and not enough for one bad morning to matter.
+
+### Midterm Exam {#midterm-exam}
+
+**25 points | Testing center, Tue, Oct 20 to Thu, Oct 22 | 36 questions**
+
+Covers classes 1 through 6: the Agentic Workflow, Discovery, and Design axes. Scored the same way
+as the final (below): 80% correct or better earns all 25 points.
+
+### Final Exam {#final-exam}
+
+**25 points | Testing center, Tue, Dec 8 to Wed, Dec 9 | 84 questions, 2 hours**
+
+Cumulative across all six axes. 72 questions count toward your score, weighted toward the axes
+with the most to know: Agentic Workflow 16, Application Architecture 14, AI Systems 11, Discovery
+11, Launch and Learn 11, and Design 9. The other 12 are trial questions being tested for future
+exams; they look like the rest and do not count. Every question comes from what the chapters
+teach, in three kinds: know it (what something is or is for), use it (which tool or step fits a
+short situation), and predict it (what happens, or what went wrong, and why).
+
+**Your points.** The exam is meant to be hard, so 80% correct earns full credit:
+points = 25 × (your percent correct ÷ 80%), up to 25. For example, 80% or higher earns 25 points,
+70% earns 21.9, and 60% earns 18.75.
+
+**Your results by axis.** Alongside your score you get a result for each axis: Developing (below
+50% on that axis), Proficient (50% to 79%), or Strong (80% and up). The exam measures what you know
+on each axis, one part of your builder profile; your sprint work shows what you have built.
+
+**The three kinds of questions.** Both exams use the same three kinds, in roughly equal numbers:
+
+- **Know it** asks what something is or what it is for. Example: what does a leading indicator
+  tell you that a lagging indicator does not?
+- **Use it** gives you a short situation and asks which tool, step, or choice fits it. Example:
+  which of these is a leading indicator for this product?
+- **Predict it** describes a setup or a result and asks what will happen, or what went wrong and
+  why. Example: the team watched this metric for a month; why did it fail to warn them?
+
+Reading the chapters is the preparation; skimming them is not.
+
+## Your builder profile {#builder-profile}
+
+Your sprint reports include a builder profile: a six-sided chart with one area for each of the six
+builder axes, each scored from 0 to 100. It shows what you can do, and it is not part of your grade.
+
+- **Sprint work fills up to half of each area** (a quarter on AI Systems). It counts the concepts on
+  that axis you have shown in your own work, and the depth level of that work, from following a
+  template to changing the product because of what real users did.
+- **The exams fill the rest.** The midterm tests three axes (Agentic Workflow, Discovery, and
+  Design) and fills half of the exam part of those three, at the share of questions you got right.
+  It shows as its own ring. The final fills the rest, on all six axes.
+- **The starting center.** The center of the chart is your own rating from the September survey,
+  counted on the part of each axis that no exam has measured yet. After the midterm it counts for
+  half as much on the three axes the midterm tested.
+- **Sprint rings never shrink.** Each sprint adds a ring outside the center for what that sprint
+  showed. Once a ring is added, it stays.
+
+## Sprints
+
+Six sprints, two weeks each. Sprints 1 through 5 are worth 50 points. Sprint 6 is worth 100.
+From Sprint 2 on, each sprint is two Canvas assignments: the **Plan** (10 points, due the first
+Wednesday) and the **Wrap-up** (40 points, or 90 for Sprint 6, due the day the sprint ends).
+
+Every sprint is the same assignment: same structure, same deliverables, same rubric. What
+changes is what you decide to work on. A sprint is a timebox, not a phase.
+
+You are not all building the same kind of thing. Some of you are building your own product.
+Some of you are on a team and are working on whatever your role covers. The requirements
+below apply to both, and the rubric is the same for both.
+
+### What you turn in, and how
+
+Every sprint has the same four deliverables.
+
+| Deliverable | What it is | Where it lives | How you turn it in | When | Points |
+|---|---|---|---|---|--:|
+| **Plan** | What you will do, why, how you will know it is done, and how hard you expect it to be. [`/sprint-plan`](https://github.com/byu-strategy/builder-template/blob/main/.claude/skills/sprint-plan/SKILL.md) helps you write it. | `sprints/sprint-N-plan.md` in your course repo | Commit it, and paste its GitHub link into **Sprint N Plan** on Canvas. To change it later, run `/sprint-plan` again; no resubmitting | First Wednesday, 11:59 PM | 10 |
+| **Output** | What you finished this sprint, in whatever form the work takes: code, research, a design, a model, copy, a deck, an automation | Your course repo, another repo, a link, or your demo | Nothing separate to submit. List every place it lives under **Where the work lives** in your README | On or before the Monday the sprint ends, by 11:59 PM | 20 |
+| **Review** | What [`/sprint-review`](https://github.com/byu-strategy/builder-template/blob/main/.claude/skills/sprint-review/SKILL.md) produces: a report on your sprint, then your answers to its five retro questions | `sprints/sprint-N-review.md` in your course repo | Commit it, and paste its GitHub link into **Sprint N Wrap-up** on Canvas | On or before the Monday the sprint ends, by 11:59 PM | 10 |
+| **Demo** | 2 to 3 minutes on Loom of the work, working | Loom | Paste the Loom share link into **Sprint N Wrap-up** on Canvas. Set the Loom to "Anyone with the link" or share it with scott.murff@byu.edu | On or before the Monday the sprint ends, by 11:59 PM | 10 |
+
+**Retro**, short for retrospective, is your part of the review: your answers to the five
+questions `/sprint-review` asks after it shows you the report. Did you hit the goal, about how
+many hours did you work, why did the plan change if it did, how hard was it really, and what will you
+change next sprint. It saves your answers word for word with the report.
+
+Sprint 6 is worth 100: Plan 10, Output 50, Review 20, Demo 20, and its wrap-up is due Thursday, December 10, the last day of class.
+
+### How every sprint works
+
+Two Claude Code skills run the sprint: [`/sprint-plan`](https://github.com/byu-strategy/builder-template/blob/main/.claude/skills/sprint-plan/SKILL.md) at the start and [`/sprint-review`](https://github.com/byu-strategy/builder-template/blob/main/.claude/skills/sprint-review/SKILL.md) at the end. Both live in the
+[`.claude/skills`](https://github.com/byu-strategy/builder-template/tree/main/.claude/skills) folder of the
+[builder template](https://github.com/byu-strategy/builder-template), so your course repo already has them.
+Click either name to read exactly what it does.
+
+#### Day one
+
+Run [`/sprint-plan`](https://github.com/byu-strategy/builder-template/blob/main/.claude/skills/sprint-plan/SKILL.md). It asks you what you are going to do and writes `sprints/sprint-N-plan.md`:
+
+```markdown
+# Sprint N Plan
+
+**Goal:** What will be true in two weeks that is not true now?
+
+**Why this:** Why is this the right next thing?
+
+**Done looks like:** How will you know the goal was met? Be specific enough
+that someone else could check.
+
+**Predicted difficulty:** 1 to 5.
+```
+
+**Submit it on Canvas by Wednesday, 11:59 PM.** Commit and push the file, then paste its GitHub
+link into that sprint's Plan assignment. On time, with Goal, Why this, Done looks like, and
+Predicted difficulty all filled in, earns all 10 points. You do not resubmit when the plan
+changes: the link always shows the current file.
+
+**You can change the plan.** Plans change once you learn something, and that is normal. To change
+yours, run `/sprint-plan` again during the sprint. It asks what is changing and why, updates the
+plan, adds a dated note like this one, and commits it:
+
+```markdown
+**Changes:** Sep 24: dropped the slide template and added a competitor benchmark, because the
+licensing research had to come first.
+```
+
+There is nothing to resubmit on Canvas: your plan link always shows the current file. Changes
+cost nothing. At the end, your work is read against the plan as it stands, and your
+retro says how it changed. A change with no note is the one thing to avoid: without it, nobody
+reading your plan can tell what you set out to do.
+
+#### The two weeks
+
+Do the work, in your repo.
+
+#### On or before the Monday the sprint ends, by 11:59 PM
+
+**1. Run [`/sprint-review`](https://github.com/byu-strategy/builder-template/blob/main/.claude/skills/sprint-review/SKILL.md).** It shows you every project you worked in during the sprint window
+and asks which ones were this sprint. It then reads those sessions and your commits and writes
+a report: when you worked, where you got stuck and how you got unstuck, what took the most time,
+and which of the six axes your work advanced. It reads only the projects you confirm, and
+nothing leaves your machine except the report.
+
+**2. Answer its five retro questions.** After showing you the report, `/sprint-review` asks:
+
+1. Did you hit the goal? Yes, partly, or no, and why.
+2. How many hours do you estimate you worked on this sprint, all in, including time away from Claude Code?
+3. If the plan changed, why?
+4. Actual difficulty, 1 to 5, and why it differed from what you predicted.
+5. What will you change next sprint?
+
+Answer in your own words. It saves your answers exactly as you write them at the bottom of
+`sprints/sprint-N-review.md`, then commits and pushes the file.
+
+**3. Record a 2 to 3 minute demo on [Loom](https://www.loom.com).** Show your work, working, with real content, as
+described in [What your demo shows](#what-your-demo-shows). No intro and no reflection: the actual work. Loom only: not Google Drive, YouTube, or an uploaded
+file. Submit the Loom share link. A demo that is not a Loom scores 0. **Make sure Professor Murff can see your video: in Loom's Share settings, set it to "Anyone with the
+link" or share it with scott.murff@byu.edu.** A video he cannot open is not graded until it is shared.
+
+**4. Submit two links in that sprint's Wrap-up assignment on Canvas:** your review file on
+GitHub (`sprints/sprint-N-review.md`, with your retro at the bottom) and your Loom demo. Before
+you do, make sure the **Where the work lives** section of your README lists every repo and live
+link someone would need to check your output. Sprint 1 was one Canvas assignment and asked
+for your repo URL instead.
+
+### What you have to have
+
+- **Output.** Something real and finished exists now that did not two weeks ago. It does not
+  have to be public, launched, or used by anyone: plenty of valuable work is never shown to
+  anyone else.
+- **Professor Murff can check it, privately.** It is in your course repo, in another repo shared with
+  Professor Murff or summarized by `/sprint-review`, at a link, or shown working in your demo.
+  Work nobody can check, anywhere, cannot be graded.
+- **The plan,** submitted on Canvas by Wednesday, committed, and kept current with any changes
+  noted.
+- **The review,** committed: the `/sprint-review` report with your answers to its five retro
+  questions at the bottom.
+- **The Loom demo, 2 to 3 minutes.**
+
+### What output means for different work
+
+Output is whatever your sprint produced, on any of the six axes. Code is one kind among many.
+What counts is that it is real, finished for this sprint, and checkable by the course.
+
+| If your sprint was | Output means |
+|---|---|
+| A product feature | It works, in your repo or deployed, and your demo shows it working |
+| Frontend or design work | The interface or the designs exist, not just a description of them |
+| A landing page or campaign | The page or campaign is built, published or ready to publish |
+| Pricing or financial modeling | The model exists and runs on real numbers |
+| Marketing or sales copy | The copy is written and finished, not an outline |
+| An automation or workflow | It runs, and your demo shows it running |
+| Research or discovery | The findings are written up, with what you concluded from them |
+| Selling or outreach | The asks are made and on record: who you asked, when, what you asked for, and what they said |
+| Recruiting partners, customers, or payers | The same: graded on the asks you made and can show (see [Goals that need someone else to say yes](#grading-rubric)) |
+| Analytics or measurement | The tracking is set up and returning real data |
+
+If your work does not fit any of these, say what output means for it in your plan file before
+the sprint starts.
+
+### What your demo shows
+
+"Working" in the Demo rubric depends on the kind of work. Show the work itself, opened, for
+most of the video.
+
+| If your sprint was | Your demo shows |
+|---|---|
+| A product feature | The feature in use: click through it |
+| Frontend or design work | The interface or designs, clicked or scrolled through |
+| A landing page or campaign | The page live, with its sign-up or checkout used |
+| Pricing or financial modeling | The model, with one input changed and the result it gives |
+| Marketing or sales copy | The finished copy, where it will run |
+| An automation or workflow | It running, start to finish |
+| Research or discovery | One or two of your notes opened, and what you concluded |
+| Selling or outreach | Your deck, the asks you sent, and your pipeline |
+| Analytics or measurement | The dashboard returning real data |
+
+Keep real names, emails, and phone numbers off the screen. Open the copies in your repo, with
+names removed, instead of the original notes or your CRM.
+
+#### Any real artifact counts as output
+
+Your sprint can advance any of the six axes, and every one produces artifacts. Code is one kind
+among many. Any digital artifact that reflects real work counts, in whatever format it
+naturally takes:
+
+| Axis | Artifacts that count, for example |
+|---|---|
+| Agentic Workflow | A `CLAUDE.md`, slash commands and skills, subagent setups, an automation that runs, prompts and tool use in the product, an eval set and its results |
+| Discovery | Interview notes and synthesis, personas, a problem statement, survey results, a competitive teardown |
+| Design | Flows, wireframes and mockups, a Figma file, a usability test write-up, a live interface, a spec with user stories and acceptance criteria |
+| Application Architecture | Code, a deployed app on Vercel or elsewhere, a data model, an API, tests, a working model call or retrieval pipeline |
+| AI Systems | A write-up of how your model behaves and why, a hallucination or failure analysis, a retrieval or context-window experiment and what it showed |
+| Launch and Learn | A landing page, a pitch deck, pricing or a financial model, sales copy, an analytics dashboard |
+
+Markdown files, Word documents, slide decks, spreadsheets, PDFs, images, and live links are all
+fine. Two tests apply to every one of them: it is real work (not a template or a placeholder),
+and the course can check it. It does not have to be public. Commit it to a repo or list it under
+**Where the work lives** in your README; for a Google Doc, Figma file, or anything else behind a
+link, make sure it opens for us (set it to "Anyone with the link can view" or share it with
+aifoundry.byu@gmail.com).
+
+Interview notes and recordings are about real people. Commit notes and synthesis with names
+removed, and keep recordings out of the repo.
+
+### The difficulty scale
+
+| | |
+|---|---|
+| **1** | I already know how to do this |
+| **2** | I know most of it, with a few small gaps to fill |
+| **3** | I will have to learn something new, but the path is clear |
+| **4** | I will have to learn a lot, and the path is not clear |
+| **5** | I do not know whether this is possible |
+
+Difficulty is not graded in either direction. Rate it honestly.
+
+### Grading rubric
+
+50 points, or 100 for Sprint 6. The same four categories every sprint. The Plan assignment is
+the first category; the Wrap-up assignment is the other three.
+
+| Category | Points | Sprint 6 | What earns full points |
+|---|--:|--:|---|
+| **Plan** | 10 | 10 | Its GitHub link submitted on Canvas by Wednesday, 11:59 PM, with Goal, Why this, Done looks like, and Predicted difficulty all filled in. Graded for completion. |
+| **Output** | 20 | 50 | Real, finished, and checkable by the course; it does not have to be public or used by anyone. Read against your plan as it stands at the end, and weighed by how hard the work was for you. A goal that needs someone else's yes is graded on the asks you made. |
+| **Review** | 10 | 20 | Report committed, with your retro answering all five questions. Each question left unanswered costs 1 point. An empty retro earns at most half. Your hours estimate is never graded on the number. |
+| **Demo** | 10 | 20 | 2 to 3 minutes on Loom of your work, working, as described in [What your demo shows](#what-your-demo-shows), with real content. A demo that is not a Loom scores 0. Set it to "Anyone with the link" or share it with scott.murff@byu.edu. Length rules below. |
+
+**Demo length.** Aim for 2 to 3 minutes. A demo up to 3:30 loses no points. From Sprint 3, each started
+30 seconds past 3:30 costs 1 point (3:31 to 4:00 is minus 1, 4:01 to 4:30 minus 2, 4:31 to 5:00 minus 3).
+Sprint 6 aims for 3 to 4 minutes, and the same scale starts past 4:30.
+
+The plan is graded for completion, and your predicted difficulty is not graded. Aim high.
+From Sprint 2 on, output is weighed by how hard the work actually was for you, judged from
+the work itself: an ambitious goal you partly reach and
+account for in your retro can still earn full points.
+
+**Goals that need someone else to say yes.** Some goals depend on other people: signing design
+partners, getting a customer to pay, reaching a number of signups. You control the asks; you do
+not control the answers. For these goals, Output is graded on the asks you made and can show:
+who you asked, when, what you asked for, and what they said. A no, or a "not yet," costs no
+points when the ask is on record and your retro says what you learned from it. When you plan
+one of these goals, write the asks into it, for example "Ask 10 contractors to be design
+partners, and sign 2."
+
+**Disputing a deduction.** From Sprint 3, your sprint report lists each point deducted, with
+the rule behind it. If you think one is wrong, use its Dispute button: it opens a page where you
+say why and add links, screenshots, or notes, with no sign-in. Disputes are open for one week
+after grades are released, and Professor Murff replies to each one by email. A review looks at
+the deduction again against the rubric, so it can raise your score, leave it as it is, or lower
+it.
+
+**Sprints 1 and 2, and other questions about your sprint feedback:** those reports have no Dispute
+button, so add a comment on that sprint's assignment in Canvas, saying which part of the report you
+mean and what you think was missed. Professor Murff reads every comment. Questions sent by email,
+Slack, or anywhere else may be missed.
+
+### Confidential company work
+
+Many of you build inside a company whose code, data, or customers are not yours alone to share.
+You never have to share a company repo. Any of these works:
+
+- Share the repo with Professor Murff (`sdmurff`) if you and your
+  team are comfortable with that. Your course repo can stay private either way.
+- Leave it unshared and list it under **Where the work lives** in your README. `/sprint-review`
+  reads its commit history on your own computer and puts a summary in your report: dates,
+  messages, and file names, never code.
+- Show the result instead: the live product, a store listing, an account for the graders, or
+  your Loom. For most work that is the strongest evidence anyway.
+- If none of that works, build a sanitized version with fake data and note it in your plan file.
+
+Nothing in this course has to be public.
+
+---
+
+### Sprint 1 {#sprint-1}
+
+**50 points | Assigned: Mon, Sep 14 | Due: Mon, Sep 28**
+
+**Sprint 1 plan due: Wed, Sep 16, 11:59 PM.**
+
+The standard sprint, plus two one-time items:
+
+1. **Your repo,** created from the [builder template](https://github.com/byu-strategy/builder-template), with Professor Murff (`sdmurff`) added as a collaborator.
+2. **A context declaration** in that repo's `README.md`: your role (most roles combine several
+   kinds of work), what you are working on, who it is for, and who uses your work. "Not decided" is
+   fine to start; choosing is a legitimate Sprint 1 goal. Later sprints are read against this.
+   Revise it when it changes and note why.
+
+#### Set up with Claude Code
+
+A prompt walks you through all of it in Claude Code: creating your repo, adding the
+collaborators, writing your context declaration, and committing your Sprint 1 plan. Claude
+explains each step as it goes. Plan on about an hour.
+
+1. Finish [Computer Setup](00-computer-setup.qmd) through step 6, and know your GitHub username.
+2. Make a folder for class projects, such as `Documents/projects`. Avoid folders synced by
+   OneDrive, iCloud, Google Drive, or Dropbox.
+3. In VS Code, choose **File > Open Folder** and open that folder. Choose **Terminal > New
+   Terminal**, type `claude`, and press Enter.
+4. Expand the prompt below, click the copy button, paste it into Claude, and press Enter.
+
+Partway through, Claude asks you to reopen VS Code inside your new repo folder and paste the
+same prompt again. That is expected: it checks what is already done and continues from there.
+
+**If you get stuck,** post your question in the [course Slack](https://join.slack.com/t/byustrategyprogram/shared_invite/zt-49zknsqc4-iJK8onSDn5ZqKLnaasHXQA). Include the last error message Claude showed you and the task number you were on.
+
+::: {.callout-note collapse="true" title="Setup prompt: paste into Claude Code"}
+```bash
+I am a student in MSB 341 Product Management at BYU. Help me set up my course repo and write
+my first sprint plan. I may be new to git, GitHub, and the terminal, so teach me what is going
+on as we go.
+
+Deadline: Wednesday, September 16, 2026, 11:59 PM Mountain Time. The assignment is complete
+when sprints/sprint-1-plan.md is visible in my repo on GitHub.
+
+COURSE FACTS
+- Template repo: byu-strategy/builder-template
+- My repo: named <my NetID in lowercase>_msb341, owned by my personal GitHub account, private
+- Collaborator to add: sdmurff (instructor)
+
+HOW TO WORK WITH ME
+- First do CHECK FIRST below. Then make a task list from TASKS, mark anything already done as
+  complete, and show it to me. Update the list as tasks finish and show it at the end of each
+  task.
+- One task at a time. Before each task, explain in two or three plain sentences what we are
+  about to do and why. Define terms like repository, clone, commit, and push the first time
+  they come up.
+- Show each command before you run it and say in one sentence what it does. Run commands
+  yourself unless a task says I have to.
+- When you need something from me (a login, a choice, an answer), stop and wait.
+- End each task with a one-sentence recap of what changed.
+- If something fails, explain the error in plain language and fix it if you can. If you
+  cannot, tell me exactly what to post in the course Slack, and give me the link:
+  https://join.slack.com/t/byustrategyprogram/shared_invite/zt-49zknsqc4-iJK8onSDn5ZqKLnaasHXQA
+- Keep explanations short.
+
+CHECK FIRST (every time this prompt is pasted)
+I may paste this prompt twice: once in my projects folder and again inside my repo folder.
+Before making the task list, check:
+1. My operating system.
+2. Whether this folder is a git repo, and if so which GitHub repo it points to (git remote -v).
+3. Whether git and gh are installed, and whether gh is logged in (gh auth status).
+4. If gh is logged in: my GitHub username, whether my repo exists and is private, which of
+   sdmurff is a collaborator or has a pending invitation, and whether
+   sprints/sprint-1-plan.md exists in my repo on GitHub.
+Ask for my NetID if you need it. Tell me in a few lines what is already done.
+
+TASKS
+
+1. Check this folder.
+   Make sure the current folder is not inside OneDrive, iCloud Drive, Google Drive, or
+   Dropbox, because sync tools can corrupt git repos. If this folder is a git repo that is not
+   my own repo (for example byu-strategy/builder-template, cloned in class), explain that it
+   is the class's shared copy: I cannot push to it, and pointing it at my repo will not work
+   because the two have separate histories. Ask whether I changed any files in it; if I did,
+   remember its path for task 4. Then have me open a different folder, start claude, and paste
+   this prompt again.
+
+2. Install the tools.
+   Explain that git tracks versions of files and gh lets us work with GitHub from the
+   terminal. If git is missing: on a Mac, have me run xcode-select --install and wait for it;
+   on Windows, send me to https://git-scm.com. If gh is missing: on a Mac with Homebrew, run
+   brew install gh; on Windows, run winget install --id GitHub.cli --source winget. Otherwise
+   send me to https://cli.github.com to download the installer. Do not install Homebrew and do
+   not use sudo. If an install needs a new terminal to take effect, tell me to quit VS Code
+   fully, reopen it in this folder, start claude, and paste this prompt again.
+
+3. Log in to GitHub.
+   Explain that this connects the terminal to my GitHub account so pushes are allowed. I have
+   to run the login myself because it asks questions. Tell me to open a second terminal with
+   the + button in the terminal panel and run:
+     gh auth login --hostname github.com --git-protocol https --web
+   Tell me to copy the one-time code, press Enter, paste the code in the browser, and approve,
+   and to answer Y if asked "Authenticate Git with your GitHub credentials?". When I say I am
+   done, run gh auth setup-git, then gh auth status, and confirm I am logged in.
+
+4. Create my repo from the template.
+   Explain what a template is, why each student gets their own copy, and why it is private.
+   Ask for my NetID. If the repo already exists, skip creating it. Otherwise run:
+     gh repo create <netid>_msb341 --template byu-strategy/builder-template --private --clone
+   If the repo exists but is not in this folder, run gh repo clone <netid>_msb341. Check that
+   the new folder contains CLAUDE.md and a sprints folder. If the folder is empty, delete that
+   empty folder and run gh repo clone <netid>_msb341. If the repo is public, make it private
+   with gh repo edit <username>/<netid>_msb341 --visibility private
+   --accept-visibility-change-consequences. If task 1 found files I changed in a class copy,
+   copy those files (never the .git folder) into the new repo folder now.
+
+5. Share my repo with the instructors.
+   Explain that collaborators can see the repo, which is how my work reaches the instructors;
+   there is nothing separate to submit. Run:
+     gh api -X PUT repos/<username>/<netid>_msb341/collaborators/sdmurff
+   Confirm it appears as a collaborator or a pending invitation. Pending is fine.
+
+6. Move into my repo.
+   Explain that Claude Code loads the repo's CLAUDE.md and the course commands /sprint-plan
+   and /sprint-review only when it is started inside the repo folder. Tell me exactly what to
+   do: type /exit, choose File > Open Folder in VS Code and open the <netid>_msb341 folder,
+   choose Terminal > New Terminal, type claude, and paste this same prompt again.
+
+7. Describe my role and my work.
+   Explain that README.md is the front page of the repo, that its Context section is the
+   record later sprints are graded against, and that /sprint-plan reads it. Explain that it is
+   expected to change as my work changes, and that the Sprint 1 version is due with Sprint 1 on
+   Monday, September 28. Explain that students in this course play different roles and not
+   everyone ships software, but everyone uses Claude Code to produce real work. In README.md,
+   replace [your name] with my name. Then ask me about the Context section one item at a time:
+   - My role, first. Most roles in this course combine several hats, so press me on it. If I
+     give a one-word title like "PM" or "marketing", ask what I will actually do week to week,
+     what my team needs that nobody else covers, and which parts of the work I will own. If I
+     am solo, I likely wear most of the hats; ask which ones I expect to spend the most time
+     on. Offer these as ideas and ask which apply:
+       product: discovery, user interviews, specs, prioritization
+       engineering: building features, data, deployment
+       design: flows, interface, testing with users
+       go-to-market: positioning, landing pages, campaigns, sales outreach
+       pricing and business model: pricing research, financial models
+       analytics: metrics, tracking, reporting
+       operations: agent workflows and automations that do repetitive work
+     The ideas are prompts, not answers. Do not assign me a role. Record the hats I choose, in
+     my words.
+   - What I am working on: my own product, or my part of a team's product. If I do not know
+     yet, write "Not decided" followed by the options I am weighing, and tell me that choosing
+     is a legitimate Sprint 1 goal.
+   - Who it is for: the customer or segment the work ultimately serves.
+   - Who uses my work: the specific person who will use what I make. For a team role this can
+     be my teammates, such as engineers using my specs or sales using my pricing.
+   Mark anything I cannot answer yet as "Not decided". Use my words; tighten them, but do not
+   invent a role, a project, or answers for me. Then explain commit and push, commit with the
+   message "Add project context", push, and confirm it went to <username>/<netid>_msb341.
+
+8. Write my Sprint 1 plan.
+   Explain that each sprint is two weeks and opens with a plan submitted on Canvas by
+   Wednesday, that the plan is graded for completion, and that the predicted difficulty is not
+   graded. Then run the sprint-plan skill
+   and follow its instructions exactly. The answers must be mine: do not suggest a goal for
+   me. When the skill gives the commit command, run it.
+
+9. Confirm it is turned in.
+   Check on GitHub, not just on my computer, that sprints/sprint-1-plan.md is in my repo, that
+   the repo is private, and that sdmurff is a collaborator or invited. Show the
+   finished task list and a short summary: my repo URL, the deadline, and that every sprint
+   starts with /sprint-plan and ends with /sprint-review.
+
+RULES
+- Never write my README answers or my sprint plan for me.
+- Never push to any repo other than <username>/<netid>_msb341.
+- Never ask for, show, or store passwords or tokens.
+- No real names, emails, or phone numbers of other people go in the repo.
+- Change git and gh settings only as these tasks require.
+```
+:::
+
+### Sprint 2 {#sprint-2}
+
+**50 points (Plan 10, Wrap-up 40) | Assigned: Mon, Sep 28 | Plan due: Sat, Oct 3 | Due: Mon, Oct 12**
+
+The standard sprint. Its plan is due Saturday, October 3, rather than Wednesday, because the plan moved to its
+own Canvas assignment partway through the sprint's first week and Sprint 1 grades came out late. If your Sprint 2 plan is already
+committed, paste its GitHub link into the Sprint 2 Plan assignment.
+
+### Sprint 3 {#sprint-3}
+
+**50 points (Plan 10, Wrap-up 40) | Assigned: Mon, Oct 12 | Plan due: Wed, Oct 14 | Due: Mon, Oct 26**
+
+The standard sprint.
+
+### Sprint 4 {#sprint-4}
+
+**50 points (Plan 10, Wrap-up 40) | Assigned: Mon, Oct 26 | Plan due: Wed, Oct 28 | Due: Mon, Nov 9**
+
+The standard sprint.
+
+### Sprint 5 {#sprint-5}
+
+**50 points (Plan 10, Wrap-up 40) | Assigned: Mon, Nov 9 | Plan due: Wed, Nov 11 | Due: Mon, Nov 23**
+
+The standard sprint.
+
+### Sprint 6 {#sprint-6}
+
+**100 points (Plan 10, Wrap-up 90) | Assigned: Mon, Nov 23 | Plan due: Wed, Nov 25 | Due: Thu, Dec 10**
+
+The standard sprint, worth double, with a higher bar. By Dec 10 what you have built should be
+as good as you can make it. The demo runs 3 to 4 minutes instead of 2 to 3 and covers
+the semester rather than the sprint: the problem, a live demo, and what you learned.
+
+---
+
+## Peer Assignment
+
+The peer assignment teaches you to give and receive constructive feedback, a critical professional skill. You'll be randomly paired with a classmate.
+
+---
+
+### Peer Product Testing
+
+**50 points | Assigned: Mon, Nov 30 | Due: Mon, Dec 7**
+
+**Goal:** Be a real test user for a peer's product and provide actionable UX feedback.
+
+**Process:**
+
+1. You'll be assigned a partner
+2. You become an actual user of their product
+3. You sign up, use core features, and try to break things
+4. You record the whole thing
+
+**Deliverable:** A 5-minute Loom video of you using your peer's product. That's it.
+
+**How to record your test session:**
+
+1. **Start Loom, share your screen, and open their app URL**
+2. **Think out loud the entire time:** narrate what you see, what you expect, where you're confused, what works
+3. **Try to complete the core task:** sign up, use the main feature, see if your data persists
+4. **Try to break things:** what happens with bad input? Edge cases? Unexpected flows?
+5. **End with your summary:** look at the camera and give:
+   - 3 things that worked well (be specific)
+   - 3 things you'd improve (most impactful first)
+   - Would you use this product? Why or why not?
+
+**Submit:** Your Loom URL on Canvas. Share the video with your peer too; it is useful feedback for them.
+
+**Grading Rubric (50 points)**
+
+| Score | What the TA sees |
+|-------|-----------------|
+| **45-50** | Genuine engagement: spent real time exploring the product. Think-aloud narration is specific and continuous. Summary feedback is actionable and constructive. |
+| **35-44** | Good test session but narration is sparse, or summary feedback is vague. Clearly used the product but didn't explore it in depth. |
+| **25-34** | Surface-level engagement. Quick walkthrough without much exploration or thoughtful feedback. |
+| **15-24** | Video submitted but minimal effort. Barely used the product. |
+| **0** | Not submitted. |
+
+::: {.callout-tip title="Testing Mindset"}
+Your job is to help your peer see their product the way a new user sees it. Be honest but kind. The best feedback is specific ("The button on the checkout page didn't respond when I clicked it") not vague ("The checkout was buggy").
+:::
+
+---
+
+## Student Ratings
+
+Complete the end-of-semester student ratings to earn 5 extra credit points.

@@ -1,0 +1,164 @@
+"""Post approved sprint grades to Canvas (the Review assignment; Sprint 1's single assignment), each with the student's HTML report attached
+(it opens in the browser from the comment; tested with the Test Student, 2026-10-16).
+
+Run from the courses hub, after Scott has reviewed review.html and marked rows approved:
+
+    python3 ~/courses/product-management/scripts/post_grades.py --sprint 1              # dry run
+    python3 ~/courses/product-management/scripts/post_grades.py --sprint 1 --test <net_id>
+    python3 ~/courses/product-management/scripts/post_grades.py --sprint 1 --send
+
+Dry run (the default) prints exactly what would be posted and touches nothing.
+--test <net_id> posts one student only, so Scott can check it in SpeedGrader.
+--send posts every row with approved = yes in grades.csv.
+
+Before any write it switches the assignment to manual posting, so grades and comments stay
+hidden from students until Scott clicks Post in Canvas; if that switch fails, nothing is
+posted. Each post uploads the feedback PDF as a submission comment file, sets the grade, and
+appends to posted.csv. A student already in posted.csv with the same score is skipped, so a
+rerun never posts a second comment; a changed score is posted again with a new comment.
+"""
+import argparse, csv, datetime as dt, sys
+from pathlib import Path
+
+import requests
+
+sys.path.insert(0, str(Path.home() / ".claude/skills/canvas-lms/scripts"))
+from canvas_client import CanvasAPI, load_config
+sys.path.insert(0, str(Path(__file__).parent))
+from sprint_config import COURSE_ID, SPRINTS
+DATA = Path.home() / "hubs/courses/_data/product-management"
+LOG_COLS = ["net_id", "canvas_user_id", "score", "posted_at", "comment_file_id"]
+
+
+def comment_text(row, sprint, note=""):
+    return (f"{row['preferred_first'] or row['name']}, your Sprint {sprint} report is attached. Open it in your "
+            f"browser: it covers each category, your builder profile, and next steps for Sprint {sprint + 1}. "
+            + (f"To dispute a deduction, use its Dispute button in the report. Other questions: reply to this comment."
+               if sprint >= 3 else "Questions about the grade: reply to this comment.") + (f" {note}" if note else ""))
+
+
+def report_name(sprint):
+    return f"sprint-{sprint}-report.html"
+
+
+def upload(cfg, aid, uid, pdf, name):
+    """Canvas three-step upload of a submission comment file; returns the file id."""
+    base = cfg["url"].rstrip("/")
+    base = base if base.endswith("/api/v1") else base + "/api/v1"
+    h = {"Authorization": f"Bearer {cfg['token']}"}
+    r = requests.post(f"{base}/courses/{COURSE_ID}/assignments/{aid}/submissions/{uid}/comments/files",
+                      headers=h, data={"name": name, "size": pdf.stat().st_size,
+                                       "content_type": "text/html"}, timeout=60)
+    r.raise_for_status()
+    slot = r.json()
+    with open(pdf, "rb") as fh:
+        up = requests.post(slot["upload_url"], data=slot["upload_params"],
+                           files={"file": (name, fh, "text/html")},
+                           allow_redirects=False, timeout=120)
+    if up.status_code in (301, 302, 303):
+        up = requests.get(up.headers["Location"], headers=h, timeout=60)
+    up.raise_for_status()
+    return up.json()["id"]
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--sprint", type=int, required=True)
+    g = ap.add_mutually_exclusive_group()
+    g.add_argument("--send", action="store_true")
+    g.add_argument("--test", metavar="NET_ID")
+    ap.add_argument("--replace", action="store_true",
+                    help="re-post rows already posted (rebuilt reports): delete this script's earlier feedback "
+                         "comment for each student, then post the new one, so nobody gets two")
+    ap.add_argument("--note", default="",
+                    help="a sentence added to the comment, e.g. that the report was updated after a regrade")
+    a = ap.parse_args()
+
+    base = DATA / f"grading/sprint-{a.sprint}"
+    rows = list(csv.DictReader(open(base / "grades.csv")))
+    log_path = base / "posted.csv"
+    posted = {}
+    if log_path.exists():
+        for r in csv.DictReader(open(log_path)):
+            posted[r["net_id"]] = r["score"]
+
+    todo, skipped = [], []
+    for r in rows:
+        if a.test and r["net_id"] != a.test:
+            continue
+        if not a.test and r.get("approved", "").strip().lower() != "yes":
+            skipped.append((r["net_id"], "not approved"))
+            continue
+        if posted.get(r["net_id"]) == r["final_total"] and not a.replace:
+            skipped.append((r["net_id"], f"already posted {r['final_total']}"))
+            continue
+        pdf = base / "feedback" / f"{r['net_id']}.html"
+        if not pdf.exists():
+            skipped.append((r["net_id"], "no report"))
+            continue
+        todo.append((r, pdf))
+
+    aid = SPRINTS[a.sprint]["review"]
+    cfg = load_config()
+    api = CanvasAPI(cfg["url"], cfg["token"], COURSE_ID)
+    asg = api.get(f"/assignments/{aid}")
+    print(f"{asg['name']} ({aid}), {asg['points_possible']:g} points, "
+          f"manual posting {'on' if asg.get('post_manually') else 'OFF'}")
+    for r, pdf in todo:
+        print(f"  {r['net_id']:10} {r['final_total']:>5}  {report_name(a.sprint)}  \"{comment_text(r, a.sprint, a.note)}\"")
+    print(f"{len(todo)} to post, {len(skipped)} skipped"
+          + "".join(f"\n  skip {n}: {why}" for n, why in skipped if why != "not approved")
+          + (f"\n  {sum(1 for _, w in skipped if w == 'not approved')} not approved yet" if skipped else ""))
+
+    if not (a.send or a.test):
+        print("dry run: nothing posted. Add --test <net_id> or --send.")
+        return
+    if not todo:
+        return
+
+    if not asg.get("post_manually"):
+        # REST ignores post_manually; the post policy is set through Canvas's GraphQL API.
+        base = cfg["url"].rstrip("/").replace("/api/v1", "")
+        requests.post(f"{base}/api/graphql", headers={"Authorization": f"Bearer {cfg['token']}"}, timeout=30,
+                      json={"query": 'mutation{setAssignmentPostPolicy(input:{assignmentId:"%s",postManually:true})'
+                                     '{postPolicy{postManually}}}' % aid})
+        if not api.get(f"/assignments/{aid}").get("post_manually"):
+            sys.exit("could not switch the assignment to manual posting; nothing posted")
+        print("switched to manual posting: grades stay hidden until you Post them in Canvas")
+
+    new = not log_path.exists()
+    with open(log_path, "a", newline="") as fh:
+        w = csv.DictWriter(fh, LOG_COLS)
+        if new:
+            w.writeheader()
+        base = cfg["url"].rstrip("/")
+        base = base if base.endswith("/api/v1") else base + "/api/v1"
+        for r, pdf in todo:
+            uid = r["canvas_user_id"]
+            # A changed score replaces the earlier report rather than adding a second one (2026-10-20 regrade).
+            if a.replace or r["net_id"] in posted:  # remove only the earlier comment that carried this student's report
+                sub = api.get(f"/assignments/{aid}/submissions/{uid}", params={"include[]": ["submission_comments"]})
+                for c in sub.get("submission_comments", []):
+                    if any(x.get("display_name") in (report_name(a.sprint), f"{r['net_id']}.pdf") for x in c.get("attachments", [])):
+                        requests.delete(f"{base}/courses/{COURSE_ID}/assignments/{aid}/submissions/{uid}/comments/{c['id']}",
+                                        headers={"Authorization": f"Bearer {cfg['token']}"}, timeout=30)
+            fid = upload(cfg, aid, uid, pdf, report_name(a.sprint))
+            api.put(f"/assignments/{aid}/submissions/{uid}", json={
+                "submission": {"posted_grade": r["final_total"]},
+                "comment": {"text_comment": comment_text(r, a.sprint, a.note), "file_ids": [fid]}})
+            got = api.get(f"/assignments/{aid}/submissions/{uid}")
+            # Canvas applies the late policy itself, so its score can be lower by points_deducted.
+            ok = abs((got.get("score") or 0) + (got.get("points_deducted") or 0) - float(r["final_total"])) < 0.01
+            w.writerow({"net_id": r["net_id"], "canvas_user_id": uid, "score": r["final_total"],
+                        "posted_at": dt.datetime.now().isoformat(timespec="seconds"),
+                        "comment_file_id": fid})
+            fh.flush()
+            late = f" (late policy: -{got['points_deducted']:g})" if got.get("points_deducted") else ""
+            print(f"  posted {r['net_id']:10} {r['final_total']:>5}  canvas reads {got.get('score')}{late}"
+                  f"{'' if ok else '  MISMATCH'}")
+    log_path.chmod(0o600)
+    print("Grades are hidden until you click Post in Canvas (Gradebook, the assignment's menu).")
+
+
+if __name__ == "__main__":
+    main()

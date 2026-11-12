@@ -1,0 +1,39 @@
+<header class="book-header-banner">
+  <a href="https://strategy.byu.edu" target="_blank">
+    <img src="images/strat-logo.png" alt="BYU Strategy - Marriott School of Business" />
+  </a>
+</header>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5TPMPSE4HZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5TPMPSE4HZ');
+</script>
+
+<!-- Sidebar title: add cross-listed course numbers and relocate the version chip -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var title = document.querySelector('.sidebar-title');
+    if (!title) return;
+
+    // Cross-listed course numbers, shown directly under the title.
+    if (!document.querySelector('.sidebar-course-numbers')) {
+      var nums = document.createElement('div');
+      nums.className = 'sidebar-course-numbers';
+      nums.textContent = 'BYU–Idaho · Product Management';
+      title.insertAdjacentElement('afterend', nums);
+    }
+
+    // Move the footer version chip up next to the title.
+    var chip = document.getElementById('site-version-chip');
+    if (chip && !title.contains(chip)) {
+      title.appendChild(chip);
+      var sep = document.querySelector('.footer-version-sep');
+      if (sep) sep.remove();
+    }
+  });
+</script>

@@ -1,0 +1,146 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+This is a Quarto book project for a **BYU–Idaho Product Management** course. The project generates a static website containing course materials, schedules, assessments, and chapter content.
+
+Course-specific details are intentionally placeholders until the instructor supplies the BYU–Idaho course number, term, meeting schedule, LMS, grading policy, and institutional notices.
+
+### Location and deployment
+
+- **Canonical repo:** `byui-product-management` in the instructor's course workspace.
+- **GitHub:** `kylermatheson/byui-product-management`. **Live site:** https://kylermatheson.github.io/byui-product-management/
+- The source curriculum is preserved in the upstream BYU Strategy repository; do not push BYU–Idaho course-specific changes upstream.
+
+### Teaching model
+
+Students are full-stack product builders and AI coding agents are a primary tool of instruction. Replace this paragraph with the instructor's teaching model and course-specific supporting artifacts before publishing.
+
+- `practice-plan-template.md`: the minute-by-minute daily plan template. Season benchmarks (sprints, quizzes, peer work) are published in `00-schedule.qmd`; individual practice plans are written the week of and published after class.
+- Builder template: the repo every student creates their own from. It lives in its own GitHub template repo, `byu-strategy/builder-template`, cloned locally at `~/courses/builder-template`. Edit and push it there; do not keep a copy in this repo (a copy here drifted out of date and was removed 2026-09-15). Folders: `sprints/` (plan and review per sprint, written by the two bundled skills), `discovery/`, `design/`, `product/`, `specs/`, `gtm/`, `metrics/`, `decisions/`. Ships `.claude/skills/sprint-plan` and `sprint-review`. Role-neutral throughout, since half the class is embedded on a team rather than founding anything. Students add Scott as a collaborator.
+- `repo-analysis/`: `analyze.py` reads a roster and produces a team stat sheet (commit cadence, folder-category balance, artifact counts) for coaching and film selection. Never grade raw commit counts; use the sheet to pick coaching conversations, then read the artifacts.
+
+**Jargon rule:** student-facing copy uses plain, familiar terms. Call a class session a **class** or a **session**, never a "practice". Use industry terms (sprint, PRD, MVP, discovery, code review, retro) for anything assessed, documented, or resume-transferable. The athletic framing is Scott's in-room coaching stance, not site vocabulary: keep it out of the site unless he asks for it. Ordinary English uses of the word "practice" ("retrieval practice", "best practices") are fine and are not the metaphor.
+
+### Course spine and faith integration
+
+The course is organized around one loop, **AIRE**: Aim, Inform, Reason, Enact (introduced in Chapter 1). Discovery is Inform, specs and scoping are Reason, building and shipping are Enact, and the Aim (what is worth building) is the values question taken up in the Product Morality chapter. The decision engine is multiplicative, Information × Reasoning × Execution (grounding "why we grade decisions, not outcomes" in the grading philosophy), and the belief-truth diagram in Chapter 3 pictures the Inform/Reason half. Keep new content coherent with this spine.
+
+Faith is integrated, not bolted on. This is BYU: each class opens with a scripture and a quote tied to the emphasis (the Wooden model, per Brigham Young's charge to Karl G. Maeser to teach nothing "without the Spirit of God"). Do not shy away from the faith dimension in course content; keep it truthful and tied to the product point, and still obey the copy voice (no em dashes, plain, no emoji). The reusable opener pairings live in `practice-plan-template.md`.
+
+## Architecture
+
+### Content Structure
+- **Syllabus**: `index.qmd`, `00-computer-setup.qmd`, `00-schedule.qmd`, `00-assessments.qmd`, `00-release-notes.qmd`
+- **Topic chapters**: `01-` through `15-`, in reading order, grouped into the six Builder axes
+  (Agentic Workflow, Discovery, Design, Application Architecture, AI Systems, Launch and Learn).
+  Two weeks per axis across 13 sessions. The file number IS the reading order; keep it that way.
+- **Resources**: `93-` through `99-` reference pages
+- **Configuration**: `_quarto.yml` defines the book structure, chapter order, and output settings
+- **Weeks view**: the left rail has a Topics | Weeks switch. Topics is the `_quarto.yml` order;
+  Weeks is `_weeks.yml` (class dates, readings per week, deadlines), drawn by
+  `_extensions/week-view`. New visitors start on Weeks; after that the reader's choice sticks. "This week" is worked out in the reader's browser from today's date,
+  so it advances with no rebuild. When a date, reading, or deadline in `00-schedule.qmd`
+  changes, change `_weeks.yml` in the same commit.
+- Design docs kept out of the book use a leading underscore so Quarto ignores them:
+  `_outline-refactor-map.md`, `_refactor-punchlist.md`, `_grading-architecture-scratch.md`
+
+### Build System
+- **Primary tool**: Quarto (installed at `/usr/local/bin/quarto`)
+- **Output**: Static HTML website generated to `_book/` directory (configured in `_quarto.yml`)
+- **Assets**: Images stored in `images/` directory, copied to output during build
+- **Python Engine**: Project uses Jupyter for python code execution (Python 3.12+)
+- **Deployment**: Automated via GitHub Actions to GitHub Pages on push to main branch
+
+## Common Commands
+
+### Build and Preview
+```bash
+# Build the entire book
+quarto render
+
+# Preview with live reload during development
+quarto preview
+
+# Build and serve locally
+quarto serve
+```
+
+### Chapter Management
+- All chapters are defined in `_quarto.yml` under `book.chapters`, grouped into Syllabus, the six axis parts, Appendix, and References
+- Chapter files follow naming convention: `##-topic-name.qmd`
+- When adding new chapters, update both the file and the YAML configuration
+- Roughly half the class are **sandbox** students embedded on company teams in varying roles (engineer, GTM, pricing); the rest are solo builders. Course requirements are the same for both: the axes do not flex, the product and the user do.
+
+### Creating Presentation Slides
+- The project supports RevealJS slide decks from chapter content
+- Slide files use naming convention: `##-topic-name-slides.qmd`
+- Slide format configuration includes:
+  ```yaml
+  format:
+    revealjs:
+      theme: [default, custom.scss]
+      slide-number: true
+      chalkboard: true
+  ```
+- Custom slide styling defined in `custom.scss` with BYU branding (navy #002E5D, royal blue #0057B8)
+- Render slides with: `quarto render ##-topic-name-slides.qmd`
+
+### File References
+- Internal links between chapters use relative paths: `[Link Text](file.qmd)`
+- Cross-references to assessments use anchors: `[Link](00-assessments.qmd#section-id)`
+- All file references in content must match exactly with actual filenames
+
+## Important Notes
+
+- The project uses Quarto's book format with HTML output
+- Bibliography references use `references.bib` with `chicago-author-date.csl` style (set in `_quarto.yml`); verify every new entry against CrossRef, Open Library or the publisher, and escape tweet handles as `\@handle`
+- Custom CSS styling in `styles.css` for book pages
+- Custom SCSS styling in `custom.scss` for RevealJS slides (BYU color scheme)
+- Header/footer includes via `_header.html` and `_footer.html`
+- Python code execution disabled by default (`execute: eval: false` in config)
+- When renaming chapter files, update all references in `_quarto.yml`, schedule, assessments, and cross-links
+- GitHub Actions workflow (`.github/workflows/publish.yml`) automatically builds and deploys to GitHub Pages on push to main
+
+## Commit and push regime
+
+This course site is a product. A push to `main` publishes it live to students via GitHub Pages, so committing and pushing are two different acts with two different owners.
+
+- **Commit straight to `main`, no feature branches.** Solo-maintainer workflow. Recovery is `git reset` while unpushed, `git revert` once pushed. Never rewrite pushed history.
+- **Commit often, without asking.** Committing is pre-authorized and always reversible. Commit after each unit of work; do not end a task with "want me to commit?".
+- **Conventional prefixes, one concern per commit.** `feat:` / `fix:` / `content:` / `chore:` / `docs:`. A schedule change and a new chapter section are two commits, not one.
+- **Stage explicit paths only.** Never `git add -A`, `git add .`, or `git commit -am`. The working tree often holds unrelated files (OneDrive artifacts, drafts, PDFs); never sweep them into a commit.
+- **Do NOT push.** Pushing publishes to students, so it is the human's deliberate act. When work is committed, say it is ready and stop. The `/push` skill is the only sanctioned push path; invoking it is push authorization for that one run only.
+- **Every push is a versioned release.** The site carries a version (vX.Y.Z) shown in the footer chip (`_footer.html`), which links to `00-release-notes.qmd`. The `/push` skill writes student-facing notes for everything shipping, bumps the version in both places (they must always match), tags the commit, then pushes. Patch bump by default; minor for a new chapter or major section.
+
+## Concurrent agents on `main`
+
+You may be one of several Claude Code sessions working in this repo at the same time. A git-safety hook (`scripts/hooks/bash-guard.{sh,mjs}`, wired in `.claude/settings.json`) enforces the load-bearing parts; the rest is discipline. Cross-session state lives under `.git/.wg-agent/` (never tracked).
+
+- **Expect foreign changes.** The working tree may show uncommitted edits you did not make: a sibling session mid-task. Do not revert, stash, commit, or "tidy" another session's changes. If unsure whether a change is yours, leave it.
+- **Stage explicit paths, commit explicit paths.** The git index is shared across sessions, so a pathspec-less `git commit` commits the whole index, including files a sibling staged. Stage your files by name and commit them by name: `git commit -m "..." -- path/a path/b`. The hook blocks blanket forms (`git add -A`/`.`, `commit -am`) and pathspec-less commits when the index holds files this session didn't stage.
+- **Never run tree-wide destructive git.** `git reset --hard`, `git checkout -- .`, `git clean -f`, `git stash` act on the whole tree and destroy other sessions' work. Hook-blocked; scope to your own paths.
+- **Never force-push.** Hook-blocked everywhere, including worktrees.
+- The hook auto-relaxes inside a linked git worktree, where the tree is private.
+- `.claude/settings.json` is tracked so the hook wiring travels; personal config belongs in `.claude/settings.local.json` (gitignored).
+
+## Working discipline (definition of done)
+
+- **Preview is the default working mode.** Keep `quarto preview` running the whole time you work. It renders the full book on startup, live-reloads on every save, and doubles as both the build check and the browser Scott watches. Start it in the background near the top of a working session, read its output to confirm each change renders cleanly, and prefer it over one-off `quarto render`. Scott wants preview open all the time.
+- **A full render is still the pre-push gate.** Preview rebuilds incrementally on save (often just the file being viewed), so it can miss whole-book breakage. Before a push, and for any change touching `_quarto.yml`, cross-references, or file renames, run a full `quarto render` (the `/push` skill already does this) to catch broken links across the book. A broken render pushed to main is a broken deploy.
+- **Check cross-references when files move or sections change.** Renames and anchor edits must be chased through `_quarto.yml`, the schedule, assessments, and cross-links; broken internal links are the top regression here.
+- **Verify proportional to risk.** A typo or copy tweak just needs a clean preview. Navigation changes, schedule restructures, and styling changes earn a real look in the browser before commit.
+- **Never reformat or rewrite content you weren't asked to touch.** Keep diffs scoped to the task so review stays cheap.
+
+## Copy voice
+
+- **No em dashes, anywhere.** Not in course content, commit messages, code comments, or replies to Scott. Use a comma, colon, period, or "and" instead.
+- **Plain and factual.** Direct, not flowery or salesy. Scott adds the flourishes himself. This applies to all student-facing copy: syllabus text, assignment instructions, announcements.
+- **No emoji as UI or content decoration** unless explicitly asked.
+- **No mannered prose.** Mannered prose substitutes metaphor and flourish for direct statement. Instead of "a parameter worth varying," the mannered writer produces "a dial worth turning." Instead of "this point still matters," they write "this point earns its keep." The phrases exist to display the writer, not to convey the idea, and readers can tell. That is why mannered prose irritates: it makes the reader work harder so the writer can perform. It is also imprecise. Metaphors drag in connotations the writer did not choose and cannot control. The fix is to say what you mean. When a literal phrase is available, use it. This covers every chapter, caption, figure label, alt text, exercise, exam item and release note, whoever writes it, subagents included (brief them with this rule). An analogy chosen to teach a mental model is allowed when it is accurate and the text says where it breaks; the test is whether the figure of speech carries the idea or decorates it.
+
+## Mockups and design iteration
+
+When asked for a design, layout, or "show me what X could look like" (site styling, slide themes, page layouts), build a high-fidelity, self-contained HTML mockup in `.mockups/` at the repo root (gitignored). Real fonts, spacing, and representative content. Finish by printing the clickable absolute `file://` path. Mockups are throwaway: once built into the site, they are done. Desktop only unless asked.

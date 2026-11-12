@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1000 540" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title>The jagged frontier</title>
+<desc>Left panel: five tasks placed from left to right by how hard they look to a person, from easier to harder: count the letters in a word, news after the model's training, summarize a meeting, long arithmetic, and write a React component. Each sits in the top band if the model does it well, or the bottom band if it gets it wrong. Summarize a meeting and write a React component are on top; the other three are on the bottom. A dashed line shows what you might expect, sloping smoothly down as tasks get harder. A solid line connects the actual results and zigzags between the bands: that zigzag is the jagged frontier. Right panel, from a BCG experiment: on a task that looked doable but that the model got wrong, consultants without AI got it right 84 percent of the time, and consultants using GPT-4 60 to 70 percent of the time. Many trusted a plausible, wrong answer.</desc>
+<defs>
+<filter id="sh" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0A2E4D" flood-opacity="0.12"/></filter>
+<linearGradient id="navyg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E3F6A"/><stop offset="1" stop-color="#002E5D"/></linearGradient>
+<linearGradient id="royalg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1F6FCC"/><stop offset="1" stop-color="#0057B8"/></linearGradient>
+<marker id="ax" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5A6672"/></marker>
+</defs>
+<rect width="1000" height="540" rx="8" fill="#FAFBFC"/>
+<rect x="40" y="40" width="580" height="470" rx="12" fill="#FFFFFF" stroke="#D3DCE5" stroke-width="1" filter="url(#sh)"/>
+<rect x="56" y="64" width="548" height="196" rx="8" fill="#EEF4FB"/>
+<text x="588" y="92" text-anchor="end" font-size="15" font-weight="700" letter-spacing="1.2" fill="#002E5D">MODEL DOES IT WELL</text>
+<text x="72" y="452" font-size="15" font-weight="700" letter-spacing="1.2" fill="#B03A3A">MODEL GETS IT WRONG</text>
+<path d="M95,150 C250,190 420,330 590,400" fill="none" stroke="#8A939C" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="96" y="136" font-size="15" font-style="italic" fill="#5A6672">what you might expect</text>
+<path d="M120,355 L230,355 L340,175 L450,355 L560,175" fill="none" stroke="#0057B8" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="120" cy="355" r="15" fill="#FFFFFF" stroke="#B03A3A" stroke-width="2"/><g transform="translate(111,346) scale(0.75)" fill="none" stroke="#B03A3A" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" />
+  <path d="m6 6 12 12" /></g><text x="120" y="393" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">Count the letters</text><text x="120" y="413" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">in a word</text><circle cx="230" cy="355" r="15" fill="#FFFFFF" stroke="#B03A3A" stroke-width="2"/><g transform="translate(221,346) scale(0.75)" fill="none" stroke="#B03A3A" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" />
+  <path d="m6 6 12 12" /></g><text x="230" y="393" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">News after</text><text x="230" y="413" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">its training</text><circle cx="340" cy="175" r="15" fill="#FFFFFF" stroke="#002E5D" stroke-width="2"/><g transform="translate(331,166) scale(0.75)" fill="none" stroke="#002E5D" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></g><text x="340" y="127" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">Summarize</text><text x="340" y="147" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">a meeting</text><circle cx="450" cy="355" r="15" fill="#FFFFFF" stroke="#B03A3A" stroke-width="2"/><g transform="translate(441,346) scale(0.75)" fill="none" stroke="#B03A3A" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" />
+  <path d="m6 6 12 12" /></g><text x="450" y="393" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">Long</text><text x="450" y="413" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">arithmetic</text><circle cx="560" cy="175" r="15" fill="#FFFFFF" stroke="#002E5D" stroke-width="2"/><g transform="translate(551,166) scale(0.75)" fill="none" stroke="#002E5D" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></g><text x="560" y="127" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">Write a React</text><text x="560" y="147" text-anchor="middle" font-size="16" fill="#2C3E50" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">component</text>
+<line x1="80" y1="478" x2="590" y2="478" stroke="#5A6672" stroke-width="1.5" marker-end="url(#ax)"/>
+<text x="80" y="500" font-size="15" fill="#5A6672">easier</text>
+<text x="335" y="500" text-anchor="middle" font-size="15" font-weight="600" fill="#2C3E50">how hard it looks to a person</text>
+<text x="590" y="500" text-anchor="end" font-size="15" fill="#5A6672">harder</text>
+<rect x="652" y="40" width="308" height="470" rx="12" fill="#FFFFFF" stroke="#D3DCE5" stroke-width="1" filter="url(#sh)"/>
+<text x="676" y="78" font-size="15" font-weight="700" letter-spacing="1.2" fill="#5A6672">BCG EXPERIMENT</text>
+<text x="676" y="112" font-size="19" font-weight="700" fill="#002E5D">A task that looked doable,</text>
+<text x="676" y="136" font-size="19" font-weight="700" fill="#002E5D">but the model got it wrong</text>
+<text x="676" y="196" font-size="16" font-weight="600" fill="#2C3E50">Without AI</text>
+<rect x="676" y="206" width="260" height="34" rx="6" fill="#E9ECEF"/>
+<rect x="676" y="206" width="218" height="34" rx="6" fill="url(#navyg)"/>
+<text x="884" y="229" text-anchor="end" font-size="17" font-weight="700" fill="#FFFFFF">84%</text>
+<text x="676" y="280" font-size="16" font-weight="600" fill="#2C3E50">Using GPT-4</text>
+<rect x="676" y="290" width="260" height="34" rx="6" fill="#E9ECEF"/>
+<rect x="676" y="290" width="182" height="34" rx="6" fill="#B9D0EA"/>
+<rect x="676" y="290" width="156" height="34" rx="6" fill="url(#royalg)"/>
+<text x="822" y="313" text-anchor="end" font-size="17" font-weight="700" fill="#FFFFFF">60 to 70%</text>
+<text x="676" y="356" font-size="15" fill="#5A6672">share who got it right</text>
+<line x1="676" y1="390" x2="936" y2="390" stroke="#E1E5EA"/>
+<text x="676" y="424" font-size="16" fill="#2C3E50">Many trusted a plausible,</text>
+<text x="676" y="446" font-size="16" fill="#2C3E50">wrong answer.</text>
+</svg>

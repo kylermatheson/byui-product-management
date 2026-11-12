@@ -1,0 +1,134 @@
+---
+title: "Resources"
+editor: visual
+---
+
+## Agent Team Kit
+
+Setup and working agreements for running many Claude Code agents on one shared repo. It is updated through the semester, so refer back to it.
+
+- [Agent Team Kit repo](https://github.com/ai-foundry-byu/agent-team-kit)
+
+## Thought Leaders
+
+### Aakash Gupta
+
+- [LinkedIn](https://www.linkedin.com/in/aagupta/)
+- [X](https://x.com/aakashg0)
+- [YouTube](https://www.youtube.com/@growproduct/videos)
+
+### Colin Matthews 
+
+- [LinkedIn](https://www.linkedin.com/in/colinmatthews-pm/)
+
+### Lenny Rachitsky
+
+- [Substack](https://www.lennysnewsletter.com/)
+
+### Paweł Huryn
+
+### Dan Olsen
+
+### Marty Cagan
+
+### Melissa Perri
+
+- [X](https://x.com/lissijean)
+
+### Shreyas Doshi
+
+- [Teresa Torres](https://www.linkedin.com/in/teresatorres/)
+
+### Gibson Biddle
+
+- [X](https://x.com/gibsonbiddle)
+
+## Interview Preparation
+
+- [Product Manager interview simulator](https://www.linkedin.com/posts/arijanover_i-built-a-product-manager-interview-simulator-activity-7333522481271525378-feKo/)
+
+- [How top tech companies interview product managers](https://corpwaters.substack.com/p/how-top-tech-companies-interview)
+
+## Bookmarks
+
+- [AI for PMs Roadmap](https://www.linkedin.com/posts/aagupta_some-of-the-smartest-ceos-we-know-are-saying-activity-7327303728460435456-l6zO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABxVuoByW5PDRHey5Wh_ef3dPtGKfJRCmw)
+
+## AI Workflows
+
+::: {.callout-note collapse=true}
+
+## Cursor Workflow
+
+[Stanislav Beliaev CTO of GetFluently.App](https://www.linkedin.com/posts/stasbel_how-to-make-cursor-10x-more-useful-with-this-activity-7331676675308511232-ym7p/)
+
+How to make Cursor 10x more useful with this one system 👇
+
+At Fluently (AI English Coach → https://getfluently.app) we use Cursor to streamline our development process.
+
+By following these proven practices, you can ship features in hours, not days.
+
+→ Before using Cursor:
+
+• Ask Claude (or ChatGPT) to create a clear, detailed plan in markdown
+• Have the AI ask clarifying questions, critique its own plan, and regenerate if needed
+• Save this plan as "instructions. md" for easy reference during development.
+• Use ChatGPT to add an extra planning layer before coding by another AI, reducing errors and complexity.
+
+→ Workflow and incremental development:
+
+Break work into small, manageable tasks or feature increments.
+
+Use an Edit-Test loop:
+1. Write a failing test case first (TDD approach).
+2. Instruct AI to write code to pass the test.
+3. Run the test.
+4. If it fails, AI analyzes failure and fixes code.
+5. Repeat until tests pass.
+
+Review AI-generated changes after tests pass.
+Encourage AI to explain its chain of thought in prompts.
+
+→ Debugging
+
+• If stuck, ask Cursor to generate a detailed report of all files and their roles, including errors.
+• Use ChatGPT or Claude to analyze the report and suggest fixes.
+• Use tools like gitingest.com to collect all scripts, configs, and relevant files in a single page for easier AI ingestion.
+• Refer to the latest documentation via context7.com for up-to-date info.
+
+→ Cursor-specific tips
+
+• Use CursorRules to set broad project rules (always in AI context). Search Cursor Directory for examples.
+• Typical rule: Write tests → write code → run tests → update code until tests pass.
+• Use /Reference open editors to quickly add files to AI context.
+• Use cursorignore to exclude irrelevant files.
+• Keep context short by explicitly adding files via @. Longer context can confuse AI.
+• Start new chats when the context becomes too long.
+• Resync or reindex code frequently to keep AI up to date.
+• Notepads are useful for frequently used prompts.
+
+→ Version control and file management
+
+• Use Git often to commit changes regularly.
+• Avoid large sets of uncommitted changes.
+• Creating files and folders (e.g., touch, mkdir) is always acceptable.
+• Running tests (Vitest, PM test, NR test, build, tsc) is always allowed.
+
+→ Optional settings and modes
+
+Enable YOLO mode to have AI write tests automatically.
+
+Use a system prompt in "Rules for AI" in Cursor settings:
+• Keep answers concise and direct.
+• Suggest alternative solutions.
+• Avoid unnecessary explanations.
+• Prioritize technical details over generic advice.
+
+:::
+
+## References
+
+[How To Get The Most Out Of Vibe Coding](https://www.ycombinator.com/library/MN-how-to-get-the-most-out-of-vibe-coding), Y Combinator Startup School 
+
+[All about pivoting](https://www.ycombinator.com/library/6p-all-about-pivoting), Y Combinator Startup School 
+
+
