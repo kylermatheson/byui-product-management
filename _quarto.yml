@@ -3,10 +3,10 @@ project:
   output-dir: _book
     
 book:
-  title: "Product Management"
+  title: "BYU–Idaho Product Management"
   favicon: images/favicon-fullstack.svg
-  author: "Scott Murff"
-  date: "9/14/2026"
+  author: "[Instructor name]"
+  date: "[Term and year]"
   chapters:
     - part: Syllabus
       chapters:
