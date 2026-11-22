@@ -36,7 +36,7 @@ project rather than a tutorial app.
 ```bash
 Context first, because you do not know any of this yet.
 
-I am a student in a BYU course that trains AI product builders: people who
+I am a student in a BYU-Idaho course that trains AI product builders: people who
 can carry an idea from a user problem to a working product that someone
 actually uses, with AI as both the material and the tool.
 
@@ -113,7 +113,7 @@ project rather than a tutorial app.
 ```bash
 Context first, because you do not know any of this yet.
 
-I am a student in a BYU course that trains AI product builders: people who
+I am a student in a BYU-Idaho course that trains AI product builders: people who
 can carry an idea from a user problem to a working product that someone
 actually uses, with AI as both the material and the tool.
 
@@ -197,7 +197,7 @@ project rather than a tutorial app.
 ```bash
 Context first, because you do not know any of this yet.
 
-I am a student in a BYU course that trains AI product builders: people who
+I am a student in a BYU-Idaho course that trains AI product builders: people who
 can carry an idea from a user problem to a working product that someone
 actually uses, with AI as both the material and the tool.
 
@@ -280,7 +280,7 @@ project rather than a tutorial app.
 ```bash
 Context first, because you do not know any of this yet.
 
-I am a student in a BYU course that trains AI product builders: people who
+I am a student in a BYU-Idaho course that trains AI product builders: people who
 can carry an idea from a user problem to a working product that someone
 actually uses, with AI as both the material and the tool.
 
@@ -369,7 +369,7 @@ project rather than a tutorial app.
 ```bash
 Context first, because you do not know any of this yet.
 
-I am a student in a BYU course that trains AI product builders: people who
+I am a student in a BYU-Idaho course that trains AI product builders: people who
 can carry an idea from a user problem to a working product that someone
 actually uses, with AI as both the material and the tool.
 
@@ -453,7 +453,7 @@ project rather than a tutorial app.
 ```bash
 Context first, because you do not know any of this yet.
 
-I am a student in a BYU course that trains AI product builders: people who
+I am a student in a BYU-Idaho course that trains AI product builders: people who
 can carry an idea from a user problem to a working product that someone
 actually uses, with AI as both the material and the tool.
 

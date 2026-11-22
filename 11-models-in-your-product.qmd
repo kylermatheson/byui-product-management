@@ -285,7 +285,7 @@ Anthropic does not offer its own embedding model; its documentation points to pr
 as Voyage AI. Any embedding model works, as long as you embed documents and questions with the
 same one.
 
-**Worked example.** A course-help bot for MSB 341 holds the syllabus and assessment pages. A
+**Worked example.** A course-help bot for BYU-Idaho Product Management holds the syllabus and assessment pages. A
 student asks, "Can I turn in Sprint 3 late?" Retrieval returns the late-work policy, and the
 answer quotes it. Now suppose the late policy was never loaded, but a paragraph about late
 *registration* was. The nearest chunks are about lateness, the model answers from them, and the

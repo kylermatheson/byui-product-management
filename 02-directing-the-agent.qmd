@@ -2,6 +2,10 @@
 title: "Directing the Agent"
 ---
 
+::: {.callout-note title="Using this chapter with Codex"}
+Codex is the primary course tool; Claude is the supported alternative. The worked examples retain Claude's configuration names so they remain technically accurate. For Codex, use `AGENTS.md` for repository instructions and the [Codex appendix](A4-codex-cli-and-desktop.qmd) for its configuration and permission controls. Use the shared [course workflows](00-course-workflows.qmd) for assessed work. Do not copy Claude settings files or slash commands into Codex and assume they have the same effect.
+:::
+
 ## Why This Matters
 
 You have a working app and almost no control over how it got built. This chapter is about

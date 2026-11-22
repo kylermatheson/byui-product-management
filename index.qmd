@@ -1,62 +1,46 @@
 ---
 title: "Overview"
-author: "Scott Murff"
-date: "9/14/2026"
+author: "Rob Teigen, Professor; Kyle Matheson, Teaching Assistant"
 format:
   html: default
   pdf: default
 ---
 
-::: {.course-numbers-page}
-MSB 341 · IS 693R · C S 498R
-:::
+**BYU-Idaho | Winter 2027 Second Block | February 22–April 8, 2027**
 
-*FALL 2026*
-
-|                           |                            |
-|---------------------------|----------------------------|
-| **Instructor**            | Scott Murff                |
-| **TAs**                   | Nate McCauley              |
-| **Office Hours**          | Wednesdays 1:30–3:30 PM, Fridays 3:00–3:30 PM |
-| **Office Hours Location** | 587 TNRB. Wed 3:00–3:30 PM and all of Friday are by phone. |
-| **LMS**                   | Canvas                     |
-| **Class Time**            | Mondays 3:30–4:45 PM       |
-| **Class Location**        | 2439 TNRB                  |
+| Course information | Details |
+|---|---|
+| **Professor** | Rob Teigen |
+| **Teaching Assistant** | Kyle Matheson |
+| **Professor email / GitHub username** | ________ / ________ |
+| **TA email / GitHub username** | ________ / ________ |
+| **Office Hours** | ________ |
+| **Office Hours Location** | ________ |
+| **LMS and course link** | ________ |
+| **Course communication channel and link** | ________ |
+| **Class Days and Time** | ________ |
+| **Class Location / Delivery Format** | ________ |
 
 ## Course Numbers
 
-This course is cross-listed under three course numbers. It is all the same class: everyone meets together Mondays 3:30–4:45 PM in 2439 TNRB, uses this site, and uses Canvas as the LMS. Register under whichever number fits your program.
-
 | Course | Section | Title | Credit Hours |
-|--------|---------|-------|--------------|
-| MSB 341 | 002 | Product Management | 3.0 |
-| IS 693R | 008 | Readings & Conference | 3.0 |
-| C S 498R | 005 | Undergraduate Special Projects | 3.0 |
+|---|---|---|---|
+| ________ | ________ | Product Management | ________ |
 
 ## Prerequisites
 
-*IS 201 - Introduction to Information Systems* OR similar. Students should have an interest in going deep on a technical level and learning to code with assistance from AI.
+**Prerequisites:** ________. Students should have an interest in going deep on a technical level and learning to code with assistance from AI.
 
 ## Required Materials
 
 A modern Laptop or desktop (Mac or Windows): - Operating Systems: macOS 10.15+ or Windows 10+ - Hardware: 4GB+ RAM (more is better)
 
-AI Tools: We use [Claude Code](https://www.anthropic.com/claude-code) throughout the course, which requires a paid Claude account. **Claude Pro at \$20 per month is enough to start.** Once your build work picks up you will hit usage limits, and that is the signal to upgrade to Claude Max at \$100 per month. You can offset either cost by applying for a [Rollins Center Validation Grant](https://programs.byucet.org/dashboard/grant/4), which reimburses up to \$500 for customer discovery and validation work on your product. Setup instructions are in [Computer Setup](00-computer-setup.qmd).
+AI Tools: **Codex is the primary option; Claude is a supported alternative.** You need access to one working coding agent, not both paid subscriptions. See [Computer Setup](00-computer-setup.qmd) for installation and current official account requirements. Account or funding arrangements for this offering: ________.
 
-You should also get Gemini for [free](https://gemini.google/students/) as this will be a useful supplement to Claude Code.
+Other AI tools, including Gemini, ChatGPT, and Cursor, may supplement your selected coding agent. Optional resources and access arrangements: ________. All other materials are available online at no cost.
 
-If you have other paid accounts to ChatGPT, Cursor, or others these can be used as supplements as well. 
-
-Optional: [Innovators DNAs Resources and Assessment](https://apps.innovatorsdna.com/portal/byu-strat-2025) (special reduced price of \$20)
-
-All other materials are available online at no cost.
-
-::: {.callout-tip title="Learning a section with Claude"}
-Most sections of the course book have a small **Learn in Claude** button beside the heading. Click it to
-copy a prompt for that section, then paste it into Claude Code in your course repo. If your repo
-does not have the `/learn` skill yet, Claude installs it first.
-Claude tutors you on that section's core idea, for as long as you choose, and
-saves a short log to your `learning/` folder.
+::: {.callout-tip title="Learning a section with your coding agent"}
+Use **Learn with Codex** beside a chapter heading, or choose the **Claude** alternative. The button copies a plain-text tutoring prompt. Paste it into your chosen agent in your course repo. Both options use the same local [course workflows](00-course-workflows.qmd) and save a short log to `learning/` with your permission.
 :::
 
 ## Description
@@ -70,15 +54,15 @@ as the way you build and inside the product you build), **Discovery** (what to b
 whom, and whether you should), **Design** (the surface and the flow), **Application
 Architecture** (how it is structured, shipped, and kept safe), **AI Systems** (how the models
 work, and why they behave the way they do), and **Launch and Learn** (how people find it, and
-whether it worked). Each gets about two weeks. You rate yourself on all six in the first week.
+whether it worked). Each has a weekly emphasis in Weeks 1–6, followed by a final week of testing, revision, and demos. You rate yourself on all six in the first week.
 After that, your sprint reports show a builder profile on the same six axes, filled by your sprint
 work and the two exams ([Your builder profile](00-assessments.qmd#builder-profile)).
 
 ![](images/diagrams/builder-axes.svg){fig-alt="A hexagon with one builder axis at each corner, clockwise from the upper left: Agentic Workflow, Discovery, Design, Launch and Learn, AI Systems, and Application Architecture, each with an icon. Faint rings inside mark levels from the center to the edge." fig-align="center" width="70%"}
 
-Tooling is Claude Code, GitHub, Next.js, Supabase, and Vercel. You do not need to arrive
+Tooling is Codex (primary) or Claude (alternative), GitHub, Next.js, Supabase, and Vercel. You do not need to arrive
 knowing any of them. You will ship something in week one that you do not fully understand,
-and spend the rest of the semester learning what you shipped.
+and spend the rest of the course learning what you shipped.
 
 ## Purpose
 
@@ -86,7 +70,7 @@ This course develops students’ ability to integrate strategic thinking and tec
 
 ## Learning Outcomes
 
-| Learning Outcome | Supported BYU Aims |
+| Learning Outcome | Learning emphasis |
 |----|----|
 | 1\. Explain how large language models generate text, and apply that understanding when building with them. | Intellectually Enlarging |
 | 2\. Develop and articulate a product strategy grounded in customer discovery. | Intellectually Enlarging, Lifelong Learning and Service |
@@ -94,13 +78,19 @@ This course develops students’ ability to integrate strategic thinking and tec
 | 4\. Build, ship, and maintain a working digital product that delivers enduring value to a target customer group. | Intellectually Enlarging, Lifelong Learning and Service |
 | 5\. Use AI coding agents to build and evaluate software, exercising judgment about when to trust, verify, or override the tool. | Intellectually Enlarging, Lifelong Learning and Service |
 
-## Instructor Bio
+[]{#instructor-bio}
 
-Scott Murff is an Associate Teaching Professor of Strategy at the BYU Marriott School of Business, where he also serves as program director and teaches courses on business strategy, decision-making, and artificial intelligence. He brings over 15 years of experience at the intersection of business and technology, having worked as a consultant, product manager, and data scientist.
+## Professor Bio
 
-Prior to joining BYU, Scott spent nearly seven years at McKinsey & Company in roles ranging from analytics specialist consultant to principal product manager, where he led product development and performance management initiatives for Fortune 500 clients. His earlier career includes building forecasting models as a VP at Zions Bancorporation and conducting regulatory research at the U.S. Office of the Comptroller of the Currency.
+**Rob Teigen**
 
-Scott holds a Master’s degree in Management Science & Engineering from Stanford University and a B.A. in Economics with a minor in Math, from BYU. He is passionate about helping students apply AI, analytics, and strategy to meaningful real-world problems with both rigor and purpose.
+Biography: ________.
+
+## Teaching Assistant Bio
+
+**Kyle Matheson**
+
+Biography: ________.
 
 ## Schedule
 
@@ -108,7 +98,7 @@ See the [Schedule section](00-schedule.qmd) for a weekly schedule of class topic
 
 ## Grading
 
-Most of your grade comes from building a real product across the semester, not on exams. This is deliberate. The research this course is built on says the thing worth certifying is authentic performance, the whole game done and iterated with feedback, not recall on a test. The two exams are proctored and closed book, which makes them the one place your own understanding is measured without AI assistance, and at 5% each they are deliberately low stakes. For the reasoning behind this design, see [Why This Class Works This Way](93-why-this-class-works.qmd).
+Most of your grade comes from building a real product across the course, not on exams. This is deliberate. The research this course is built on says the thing worth certifying is authentic performance, the whole game done and iterated with feedback, not recall on a test. The two exams are proctored and closed book, which makes them the one place your own understanding is measured without AI assistance, and at 5% each they are deliberately low stakes. For the reasoning behind this design, see [Why This Class Works This Way](93-why-this-class-works.qmd).
 
 | Component | Points | % of Grade |
 |-----------|--------|------------|
@@ -144,8 +134,7 @@ The grading scale is show below:
 
 ### Late work policy
 
-**Exams**: Both exams are taken in the testing center within a posted window. The midterm window is Tue, Oct 20 to Thu, Oct 22, and the final window is Tue, Dec 8 to Wed, Dec 9. Each opens at 8:00 AM on its first day and closes at 9:00 PM on its last, and the testing center charges a $5 late fee after 2:00 PM on the last day. Windows cannot be extended, so schedule early rather than on the last day.
-
+**Exams**: Both exams remain closed book and proctored. Midterm window: ________. Final exam window: ________. Delivery arrangements: ________. Windows cannot be extended; complete each exam within its posted window.
 **Homework**: May be turned in up to 9 days late for partial credit with a 10% penalty per day according to the following schedule:
 
 | Days Late | Late Penalty |
@@ -161,31 +150,15 @@ The grading scale is show below:
 | 9         | -90%         |
 | 10        | No Credit    |
 
-**Sprint 6**: Sprint 6 must be submitted by 11:59pm on Thu, Dec 10. It cannot be turned in late for credit.
+**Sprint 6**: Submission deadline: ________. It cannot be turned in late for credit.
 
-**Final Exam**: The Final Exam must be completed within the testing center window, Tue, Dec 8 to Wed, Dec 9. It cannot be taken late.
+**Final Exam**: Complete it within the posted window: ________. It cannot be taken late.
 
 ## Classroom Culture
 
 ### Mission and Aims
 
-The mission of Brigham Young University — founded, supported, and guided by The Church of Jesus Christ of Latter-day Saints — is to assist individuals in their quest for perfection and eternal life. That assistance should provide a period of intensive learning in a stimulating setting where a commitment to excellence is expected and the full realization of human potential is pursued.
-
-BYU seeks to develop students of faith, intellect, and character who have the skills and the desire to continue learning and to serve others throughout their lives.
-
-A BYU education should be (1) spiritually strengthening, (2) intellectually enlarging, and (3) character building, leading to (4) lifelong learning and service.
-
-Building on the foundational Mission and Aims, the Marriott School of Business aspires to transform the world through Christlike leadership by developing leaders of faith, intellect, and character guided by the following 4 values:
-
--   **Faith in Christ** - We value deep and abiding faith in Jesus Christ. Our faith gives us the capacity to envision a better future, the confidence to make that future happen, and the courage to act in the face of challenges.
-
--   **Integrity in Action** - We value integrity and hold ourselves to the highest moral and ethical standards. Acting with integrity builds trust, strengthens character, and focuses our ambitions on things of eternal consequence.
-
--   **Respect for All** - We value respect for all individuals as children of God and recognize the inherent worth, divine potential, and agency of each person. A climate of respect and belonging enhances our learning, facilitates collaboration, and encourages personal growth.
-
--   **Excellence** - We value excellence in learning, teaching, research, management, and leadership. An expectation of excellence magnifies our influence and motivates us to continually improve.
-
-We evaluate our decisions and actions by the impact they will have on the academic experience, professional preparation, character development, emotional well-being, and spiritual growth of our students.
+BYU-Idaho mission and learning framework text: ________.
 
 #### Laptop Policy
 
@@ -200,25 +173,29 @@ I teach in a conversational discussion based style, which includes cold calling 
 The following resources are available to get help:
 
 -   Start with AI chat bots and the course website to see if they can assist
--   Use the course Slack channel to ask classmates for help
+-   Use the course communication channel (________) to ask classmates for help
 -   Attend TA or Professor office hours
--   Use **Slack** or email to contact one of the course TAs
--   Use **Slack** or email to contact Professor Murff
+-   Contact Kyle Matheson, Teaching Assistant: ________
+-   Contact Rob Teigen, Professor: ________
 
 ## Honor Code
 
-In keeping with the principles of the BYU Honor Code, students are expected to be honest in all of their academic work. Academic honesty means, most fundamentally, that any work you present as your own must in fact be your own work and not that of another. Violations of this principle may result in a failing grade in the course and additional disciplinary action by the university. Students are also expected to adhere to the Dress and Grooming Standards. Adherence demonstrates respect for yourself and others and ensures an effective learning and working environment. It is the university's expectation, and every instructor's expectation in class, that each student will abide by all Honor Code standards. Please call the Honor Code Office at 422-2847 if you have questions about those standards.
+BYU-Idaho Honor Code and academic honesty policy text: ________.
+
+Office contact and policy link: ________.
 
 ## Preventing & Responding to Sexual Misconduct
 
-The health and well-being of students is of paramount importance at Brigham Young University. If you or someone you know has experienced sexual harassment (including sexual violence), there are many resources available for assistance.
+BYU-Idaho policy text, reporting requirements, and support resources: ________.
 
-In accordance with Title IX of the Education Amendments of 1972, BYU prohibits unlawful sex discrimination, including sexual harassment, against any participant in its education programs or activities. The university also prohibits sexual harassment by its personnel and students. Sexual harassment occurs when
-
-a person is subjected to unwelcome sexual speech or conduct so severe, pervasive, and offensive that it effectively denies their ability to access any BYU education program or activity; any aid, benefit, or service of BYU is conditioned on a person’s participation in unwelcome sexual conduct; or a person suffers sexual assault, dating violence, domestic violence, or stalking on the basis of sex. University policy requires all faculty members to promptly report incidents of sexual harassment that come to their attention in any way, including through face-to-face conversations, a written class assignment or paper, class discussion, email, text, or social media post. Incidents of sexual harassment should be reported to the Title IX Coordinator at t9coordinator\@byu.edu or (801) 422-8692 or 1085 WSC. Reports may also be submitted online at https://titleix.byu.edu/report or 1-888-238-1062 (24-hours a day).
-
-BYU offers confidential resources for those affected by sexual harassment, including the university’s Sexual Assault Survivor Advocate, as well as a number of non-confidential resources and services that may be helpful. Additional information about Title IX, the university’s Sexual Harassment Policy, reporting requirements, and resources can be found at http://titleix.byu.edu or by contacting the university’s Title IX Coordinator.
+Office contact and policy link: ________.
 
 ## Student Disability
 
-Brigham Young University is committed to providing a working and learning atmosphere that reasonably accommodates qualified persons with disabilities. A disability is a physical or mental impairment that substantially limits one or more major life activities. Whether an impairment is substantially limiting depends on its nature and severity, its duration or expected duration, and its permanent or expected permanent or long-term impact. Examples include vision or hearing impairments, physical disabilities, chronic illnesses, emotional disorders (e.g., depression, anxiety), learning disorders, and attention disorders (e.g., ADHD). If you have a disability which impairs your ability to complete this course successfully, please contact the University Accessibility Center (UAC), 2170 WSC or 801-422-2767 to request a reasonable accommodation. The UAC can also assess students for learning, attention, and emotional concerns. If you feel you have been unlawfully discriminated against on the basis of disability, please contact the Equal Opportunity Office at 801-422-5895, eo_manager\@byu.edu, or visit https://hrs.byu.edu/equal-opportunity for help.”
+BYU-Idaho accessibility and accommodation policy text: ________.
+
+Office contact and policy link: ________.
+
+## Course Sources
+
+See [Credits and Source Attribution](99-credits.qmd) for the original course and retained author credits.

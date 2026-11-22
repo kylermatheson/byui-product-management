@@ -3,6 +3,8 @@ title: "Tech Stack Components"
 editor: visual
 ---
 
+**Course coding agent:** Codex is the primary option; Claude is a supported alternative. Start with [Computer Setup](00-computer-setup.qmd) and the shared [course workflows](00-course-workflows.qmd). The tools below remain supplemental resources.
+
 ## Programming Languages
 
 | Language     | Description                                                                 |

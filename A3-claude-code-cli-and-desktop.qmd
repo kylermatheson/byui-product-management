@@ -2,6 +2,8 @@
 title: "Claude Code in the Terminal and the Desktop App"
 ---
 
+**Supported course alternative:** Use Claude instead of Codex if you prefer. Both tools follow the same [local course workflows](00-course-workflows.qmd); this appendix retains the Claude-specific reference material.
+
 ::: {.callout-note}
 ## What this appendix is
 

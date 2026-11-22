@@ -28,3 +28,6 @@
 .learn-failed .learn-note { background: #B03A3A; }
 @media (prefers-reduced-motion: reduce) { .learn-btn, .learn-note { transition: none; } }
 @media print { .learn-btn { display: none; } }
+
+.learn-alternative { font-weight: 500; background: transparent; }
+@media (max-width: 600px) { .learn-note { white-space: normal; min-width: 12rem; max-width: 80vw; } }

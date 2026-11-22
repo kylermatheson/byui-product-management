@@ -1,0 +1,15 @@
+---
+title: "Credits and Source Attribution"
+---
+
+This BYU-Idaho adaptation is based on **Product Management**, originally developed and taught by **Scott Murff at Brigham Young University (BYU)**. Original source: [byu-strategy/product-management](https://github.com/byu-strategy/product-management).
+
+The teaching team for this offering is **Rob Teigen, Professor**, and **Kyle Matheson, Teaching Assistant**. Original authorship is distinct from the current teaching roles.
+
+Original copyright notice: **© Scott Murff**. Retained diagrams, quotations, references, and third-party materials retain their original credits. Attribution does not transfer ownership or grant additional reuse rights.
+
+An unchanged snapshot of every tracked file from source commit `8872f176e63740ac0e227ca3af86d56ac10aad59`, including original syllabus information and release notes, is preserved in the repository's `_source-original/source.tar.gz`. Its manifest records the source commit, file inventory, and archive checksum. The archive is excluded from the published site.
+
+The seven weekly date ranges follow the **Winter 2027 Academic Dates & Deadlines** calendar, updated June 17, 2026, using its **WI 27 Second Block (02/22/27–04/08/27)** column. The calendar is used only for course dates, not for additional administrative deadlines.
+
+See [Works Cited](99-works-cited.qmd) for instructional references.

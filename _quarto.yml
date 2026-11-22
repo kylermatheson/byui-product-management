@@ -1,17 +1,23 @@
 project:
   type: book
   output-dir: _book
+  resources:
+    - "course-support/**"
+    - "!_source-original/**"
+    - "!AGENT.md"
+    - "!AGENTS.md"
     
 book:
   title: "Product Management"
   favicon: images/favicon-fullstack.svg
-  author: "Scott Murff"
-  date: "9/14/2026"
+  author: "Rob Teigen, Professor; Kyle Matheson, Teaching Assistant"
+  subtitle: "BYU-Idaho | Winter 2027 Second Block"
   chapters:
     - part: Syllabus
       chapters:
         - index.qmd
         - 00-computer-setup.qmd
+        - 00-course-workflows.qmd
         - 00-schedule.qmd
         - 00-assessments.qmd
         - 00-release-notes.qmd
@@ -65,11 +71,12 @@ book:
         - 98-tools.qmd
         - 99-prompts.qmd
         - 99-works-cited.qmd
+        - 99-credits.qmd
 
 bibliography: references.bib
 csl: chicago-author-date.csl
 
-# Adds a "Learn in Claude" button to each ## section that states "**The model:**" (_extensions/learn)
+# Adds Codex-first learning buttons to each ## section that states "**The model:**" (_extensions/learn)
 filters:
   - learn
   # ?c=DE02 links highlight the passages tagged with that builder concept (_extensions/concepts)

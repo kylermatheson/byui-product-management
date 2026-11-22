@@ -1,0 +1,68 @@
+---
+title: "Course Starter and Workflows"
+---
+
+Use **Codex first**, or **Claude as a supported alternative**. Both follow the same local written procedures. These are plain-text prompts, not installed slash commands. You do not need the original course's external template or Claude-only skills.
+
+## Course starter {#course-starter}
+
+1. [Download the course starter](course-support/byui-product-management-starter.zip) and extract it into a new folder for your own project, outside cloud-synced folders.
+2. Open that folder in VS Code or your agent's desktop workspace. Keep it separate from the shared course website repository.
+3. Start `codex` in its terminal, or `claude` if you selected the alternative. Finish [Computer Setup](00-computer-setup.qmd) first if needed.
+4. Paste the setup prompt below. It checks what is done and can resume when you reopen the project.
+
+The starter contains `AGENTS.md` for Codex, `CLAUDE.md` for the Claude alternative, a README context declaration, sprint templates, shared `course-prompts/`, and folders for sprint work, learning, discovery, design, product, specs, go-to-market, metrics, and decisions. Templates are starting points; your actual answers and finished work are the deliverables.
+
+Course LMS and link: ________. Course communication channel: ________. Professor GitHub username: ________. TA GitHub username: ________. Exact assignment deadlines: ________. Leave these blank until staff supply them; the agent must not run commands with placeholder values.
+
+## Setup prompt {#setup-prompt}
+
+Paste this into Codex or Claude inside your extracted starter folder:
+
+```text
+Read AGENTS.md, README.md, and course-prompts/setup.md in this folder.
+Guide me through the setup procedure one question at a time. Check what is
+already done before making changes. Use my own answers for my role and plan.
+Do not guess staff usernames or deadlines. Never ask for passwords or tokens.
+```
+
+[Read the full setup procedure](course-support/starter/course-prompts/setup.md).
+
+## Sprint plan {#sprint-plan}
+
+Start here at the beginning of each sprint, or return when your plan changes:
+
+```text
+Read AGENTS.md, README.md, and course-prompts/sprint-plan.md.
+Help me plan my current sprint one question at a time. Ask which sprint
+and use my answers for Goal, Why this, Done looks like, and Predicted difficulty.
+If a plan exists, preserve it and record what changed and why.
+```
+
+[Read the full planning procedure](course-support/starter/course-prompts/sprint-plan.md). The plan lives at `sprints/sprint-N-plan.md`; submit its GitHub link through the course LMS. Exact deadline: ________.
+
+## Sprint review {#sprint-review}
+
+At the end of the sprint:
+
+```text
+Read AGENTS.md, README.md, and course-prompts/sprint-review.md.
+Help me review my current sprint. Confirm the sprint window and the projects
+and evidence I authorize you to read. Show me the work report, then ask the
+five retrospective questions one at a time. Preserve my answers word for word.
+Mark missing evidence unknown. Let me review the files before submission.
+```
+
+[Read the full review procedure](course-support/starter/course-prompts/sprint-review.md). The review lives at `sprints/sprint-N-review.md`. Submit its GitHub link and your Loom demo link. Exact deadline: ________. The [Assessments page](00-assessments.qmd#sprints) defines the deliverables and grading.
+
+## Learn a section {#learn}
+
+Use **Learn with Codex** or the **Claude** alternative beside a chapter heading. Each copies a prompt for that exact section on the current course site. You can also paste:
+
+```text
+Read course-prompts/learn.md and tutor me on this course section: <paste URL>.
+Ask one question at a time and wait for my answers. If you cannot access the
+section, ask me to paste its text. Ask before saving a short learning log.
+```
+
+[Read the full tutoring procedure](course-support/starter/course-prompts/learn.md). If you have not downloaded the starter, the copied chapter prompt also includes a self-contained tutoring procedure, so it works in either agent without installing anything.

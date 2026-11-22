@@ -1,28 +1,14 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5TPMPSE4HZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5TPMPSE4HZ');
-</script>
-
-<!-- Sidebar title: add cross-listed course numbers and relocate the version chip -->
+<!-- Course identity is shared across every chapter. -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     var title = document.querySelector('.sidebar-title');
     if (!title) return;
-
-    // Cross-listed course numbers, shown directly under the title.
     if (!document.querySelector('.sidebar-course-numbers')) {
-      var nums = document.createElement('div');
-      nums.className = 'sidebar-course-numbers';
-      nums.textContent = 'MSB 341 · IS 693R · C S 498R';
-      title.insertAdjacentElement('afterend', nums);
+      var info = document.createElement('div');
+      info.className = 'sidebar-course-numbers';
+      info.textContent = 'BYU-Idaho · Winter 2027 Second Block';
+      title.insertAdjacentElement('afterend', info);
     }
-
-    // Move the footer version chip up next to the title.
     var chip = document.getElementById('site-version-chip');
     if (chip && !title.contains(chip)) {
       title.appendChild(chip);

@@ -3,111 +3,81 @@ title: "Schedule"
 editor: visual
 ---
 
-Below is the planned schedule. Dates, topics, and assignments may adjust as needed.
+**BYU-Idaho Product Management | Winter 2027 Second Block**
 
-**Class Format:** Class meets Mondays 3:30–4:45 PM in 2439 TNRB. Each session pairs a short lecture segment with live build time in Claude Code. Most of your work happens between classes; class time is where we practice skills and review what you built.
+The seven-week course runs **February 22 through April 8, 2027**. Week 7 ends on **Thursday, April 8**. The calendar establishes the weekly ranges below. Exact assignment deadlines, exam windows, and meeting details remain blank.
 
-**Note:** Fall classes begin Wed, Sep 2, but Labor Day (Sep 7) means our first in-person class is Mon, Sep 14. Week of Sep 2 is an online setup week. We DO meet Mon, Nov 23 (Thanksgiving break begins Wed, Nov 25). Last day of class is Thu, Dec 10.
+**Class format:** Short periods of focused instruction, live building with Codex (primary) or Claude (alternative), and review of student work. Meeting days and times: ________. Location or delivery format: ________.
 
 ## The six axes
 
-The course is built around six builder skills, about two weeks each. You rate yourself on all six in week 1, and your sprint reports then show a [builder profile](00-assessments.qmd#builder-profile) on the same six axes. The chapters, the sprints, and both exams are organized the same way.
+The course retains six builder skills. Weeks 1–6 each emphasize one axis; Week 7 brings them together for testing, revision, and final demos. Rate yourself on all six in Week 1. Sprint reports show a [builder profile](00-assessments.qmd#builder-profile) on the same axes.
 
-![](images/diagrams/builder-axes.svg){fig-alt="A hexagon with one builder axis at each corner, clockwise from the upper left: Agentic Workflow, Discovery, Design, Launch and Learn, AI Systems, and Application Architecture, each with an icon. Faint rings inside mark levels from the center to the edge." fig-align="center" width="70%"}
+![](images/diagrams/builder-axes.svg){fig-alt="A hexagon with the six builder axes: Agentic Workflow, Discovery, Design, Launch and Learn, AI Systems, and Application Architecture." fig-align="center" width="70%"}
 
-| Axis | The question it answers | Classes |
+| Axis | The question it answers | Week |
 |---|---|---|
-| **Agentic Workflow** | How do I put AI to work, as the way I build and inside the product? | 1–2 |
-| **Discovery** | What should I build, for whom, and should I? | 3–4 |
-| **Design** | What does the surface look like, how does it flow, and how do I write it down so an agent can build it? | 5–6 |
-| **Application Architecture** | How is it structured, shipped, and kept safe? | 7–8 |
-| **AI Systems** | How do the models work, and why do they behave the way they do? | 9–10 |
-| **Launch and Learn** | How do people find it, and did it work? | 11–12 |
+| Agentic Workflow | How do I put AI to work, as the way I build and inside the product? | 1 |
+| Discovery | What should I build, for whom, and should I? | 2 |
+| Design | What does the surface look like, how does it flow, and how do I write it down so an agent can build it? | 3 |
+| Application Architecture | How is it structured, shipped, and kept safe? | 4 |
+| AI Systems | How do the models work, and why do they behave the way they do? | 5 |
+| Launch and Learn | How do people find it, and did it work? | 6 |
 
-Agentic Workflow comes first on purpose. You will ship something in week one that you do not fully understand, and you will spend classes 7 and 8 learning what you shipped.
+Agentic Workflow comes first on purpose. You will ship something in Week 1 that you do not fully understand, then learn how it works throughout the course.
 
 ## Weekly schedule
 
-| Class | Date | Axis | Reading | Assessments |
-|----|------|------|---------|-------------|
-| 0 | Week of Sep 2 (online) | Setup | [Computer Setup](00-computer-setup.qmd) | Accounts and installs complete |
-| 1 | Mon, Sep 14 | Agentic Workflow | [Building with AI Agents](01-building-with-ai-agents.qmd) | Baseline hexagon survey, [Sprint 1 Assigned](00-assessments.qmd#sprint-1) (plan due Wed, Sep 16, 11:59 PM) |
-| 2 | Mon, Sep 21 | Agentic Workflow | [Directing the Agent](02-directing-the-agent.qmd) | |
-| 3 | Mon, Sep 28 | Discovery | [What Is Worth Building](03-what-is-worth-building.qmd) | **Sprint 1 Due**, [Sprint 2 Assigned](00-assessments.qmd#sprint-2) (plan due Sat, Oct 3, 11:59 PM) |
-| 4 | Mon, Oct 5 | Discovery | [Finding and Validating the Problem](04-finding-and-validating-the-problem.qmd) | |
-| 5 | Mon, Oct 12 | Design | [Interface and Flow](05-interface-and-flow.qmd), [Design Fundamentals](05b-design-fundamentals.qmd) | **Sprint 2 Due**, [Sprint 3 Assigned](00-assessments.qmd#sprint-3) (plan due Wed, Oct 14, 11:59 PM) |
-| 6 | Mon, Oct 19 | Design | [Testing the Design](06-testing-the-design.qmd), [Specs](06b-specs.qmd) | |
-| – | Oct 20 to 22 | – | Testing center | **[Midterm Exam](00-assessments.qmd#midterm-exam)** (covers classes 1–6) |
-| 7 | Mon, Oct 26 | App Architecture | [Anatomy of an Application](07-anatomy-of-an-application.qmd) + [The Browser, Developer Tools, and Claude in Chrome](09c-browser-and-developer-tools.qmd) | **Sprint 3 Due**, [Sprint 4 Assigned](00-assessments.qmd#sprint-4) (plan due Wed, Oct 28, 11:59 PM) |
-| 8 | Mon, Nov 2 | App Architecture | [Data and APIs](08-data-and-apis.qmd) + [Version Control, Environments, and Deploys](09-version-control-testing-and-tech-debt.qmd) + [Tests and Tech Debt](09b-tests-and-tech-debt.qmd) | |
-| 9 | Mon, Nov 9 | AI Systems | [How Models Work](10-how-models-work.qmd) | **Sprint 4 Due**, [Sprint 5 Assigned](00-assessments.qmd#sprint-5) (plan due Wed, Nov 11, 11:59 PM) |
-| 10 | Mon, Nov 16 | AI Systems | [Models in Your Product](11-models-in-your-product.qmd) | |
-| 11 | Mon, Nov 23 | Launch and Learn | [Going to Market](12-going-to-market.qmd) + [Business Models](13-business-models.qmd) | **Sprint 5 Due**, [Sprint 6 Assigned](00-assessments.qmd#sprint-6) (plan due Wed, Nov 25, 11:59 PM). Withdraw deadline is Tue, Nov 24. |
-| 12 | Mon, Nov 30 | Launch and Learn | [Measuring What Matters](14-measuring-what-matters.qmd) | [Peer Product Testing Assigned](00-assessments.qmd#peer-product-testing) |
-| 13 | Mon, Dec 7 | Wrap Up | [Storytelling and the Final Demo](15-storytelling-and-the-final-demo.qmd) | [Peer Product Testing Due](00-assessments.qmd#peer-product-testing), closing hexagon survey |
-| – | Dec 8 to 9 | – | Testing center | **[Final Exam](00-assessments.qmd#final-exam)** (cumulative, all six axes) |
-| – | Thu, Dec 10 | – | Last day of class (no meeting) | [Sprint 6 Due](00-assessments.qmd#sprint-6) |
+Required setup is part of Week 1. You may start the [setup checklist](00-computer-setup.qmd) early; there is no required extra setup week. Read the assigned chapters before the corresponding class. All original readings remain assigned.
+
+| Week | Dates (2027) | Focus and readings | Assessment placement |
+|---|---|---|---|
+| 1 | Feb 22–28 | **Setup and Agentic Workflow:** [Computer Setup](00-computer-setup.qmd); [Building with AI Agents](01-building-with-ai-agents.qmd); [Directing the Agent](02-directing-the-agent.qmd) | Opening self-assessment; [Sprint 1](00-assessments.qmd#sprint-1) |
+| 2 | Mar 1–7 | **Discovery:** [What Is Worth Building](03-what-is-worth-building.qmd); [Finding and Validating the Problem](04-finding-and-validating-the-problem.qmd) | [Sprint 2](00-assessments.qmd#sprint-2) |
+| 3 | Mar 8–14 | **Design:** [Interface and Flow](05-interface-and-flow.qmd); [Design Fundamentals](05b-design-fundamentals.qmd); [Testing the Design](06-testing-the-design.qmd); [Specs: Designing the Build](06b-specs.qmd) | [Sprint 3](00-assessments.qmd#sprint-3); [midterm](00-assessments.qmd#midterm-exam) |
+| 4 | Mar 15–21 | **Application Architecture:** [Anatomy of an Application](07-anatomy-of-an-application.qmd); [Data and APIs](08-data-and-apis.qmd); [Version Control, Environments, and Deploys](09-version-control-testing-and-tech-debt.qmd); [Tests and Tech Debt](09b-tests-and-tech-debt.qmd); [The Browser, Developer Tools, and Claude in Chrome](09c-browser-and-developer-tools.qmd) | [Sprint 4](00-assessments.qmd#sprint-4) |
+| 5 | Mar 22–28 | **AI Systems:** [How Models Work](10-how-models-work.qmd); [Models in Your Product](11-models-in-your-product.qmd) | [Sprint 5](00-assessments.qmd#sprint-5) |
+| 6 | Mar 29–Apr 4 | **Launch and Learn:** [Going to Market](12-going-to-market.qmd); [Business Models](13-business-models.qmd); [Measuring What Matters](14-measuring-what-matters.qmd) | [Sprint 6 begins](00-assessments.qmd#sprint-6); [peer testing assigned](00-assessments.qmd#peer-product-testing) |
+| 7 | Apr 5–8 | **Final Demo and Wrap-up:** [Storytelling and the Final Demo](15-storytelling-and-the-final-demo.qmd) | [Sprint 6 completes](00-assessments.qmd#sprint-6); [peer testing](00-assessments.qmd#peer-product-testing); [final exam](00-assessments.qmd#final-exam); closing self-assessment |
 
 ## Demos and peer feedback
+
 
 Every few weeks a portion of class is given over to small-group demos: you show your real, deployed product to three or four classmates, they tell you what worked and what confused them, and you spend the rest of the session building on what you heard.
 
 These are informal working sessions. Bring something that runs. The first half of the course is mostly solo work, and these are your regular chance to see what classmates are building and to have people who have not seen your product try it before the final.
 
+
 ## Sprints
 
-Six sprints, two weeks each. Every sprint is the same assignment: plan by the first Wednesday,
-build, review and demo at the end. What changes is what you decide to work on. Full instructions are
-in [Assessments](00-assessments.qmd#sprints).
+Sprints 1–5 each last one week. Sprint 6 spans Weeks 6–7. Every sprint follows the same sequence: plan, build, review, and demo. A sprint is a timebox; your work may advance any of the six axes. Full deliverables and rubrics are in [Assessments](00-assessments.qmd#sprints).
 
-| Sprint | Assigned | Plan due | Due | Points |
+| Sprint | Placement | Plan deadline | Wrap-up deadline | Points |
 |---|---|---|---|--:|
-| [1](00-assessments.qmd#sprint-1) | Mon, Sep 14 | Wed, Sep 16 | Mon, Sep 28 | 50 |
-| [2](00-assessments.qmd#sprint-2) | Mon, Sep 28 | Sat, Oct 3 | Mon, Oct 12 | 50 |
-| [3](00-assessments.qmd#sprint-3) | Mon, Oct 12 | Wed, Oct 14 | Mon, Oct 26 | 50 |
-| [4](00-assessments.qmd#sprint-4) | Mon, Oct 26 | Wed, Oct 28 | Mon, Nov 9 | 50 |
-| [5](00-assessments.qmd#sprint-5) | Mon, Nov 9 | Wed, Nov 11 | Mon, Nov 23 | 50 |
-| [6](00-assessments.qmd#sprint-6) | Mon, Nov 23 | Wed, Nov 25 | Thu, Dec 10 | 100 |
+| [1](00-assessments.qmd#sprint-1) | Week 1 | ________ | ________ | 50 |
+| [2](00-assessments.qmd#sprint-2) | Week 2 | ________ | ________ | 50 |
+| [3](00-assessments.qmd#sprint-3) | Week 3 | ________ | ________ | 50 |
+| [4](00-assessments.qmd#sprint-4) | Week 4 | ________ | ________ | 50 |
+| [5](00-assessments.qmd#sprint-5) | Week 5 | ________ | ________ | 50 |
+| [6](00-assessments.qmd#sprint-6) | Weeks 6–7 | ________ | ________ | 100 |
 
 ## Peer Assignment
 
-| Assignment | Due | Focus |
-|------------|-----|-------|
-| [Peer Product Testing](00-assessments.qmd#peer-product-testing) | Mon, Dec 7 | Be a real test user for peer's app |
+| Assignment | Placement | Deadline | Focus |
+|---|---|---|---|
+| [Peer Product Testing](00-assessments.qmd#peer-product-testing) | Assigned Week 6; completed Week 7 | ________ | Be a real test user for a peer's app |
 
 ## Exams
 
-Both exams are taken in the testing center on your own schedule within the window. Each window opens at 8:00 AM on its first day and closes at 9:00 PM on its last, and the testing center charges a $5 late fee after 2:00 PM on the last day. They are closed book and proctored, which makes them the one place in this course where your own knowledge is measured without AI assistance. Each is worth 5% of your grade.
+Both exams remain closed book, proctored, and completed without AI assistance. Each is worth 25 points. Delivery arrangements: ________.
 
-| Exam | Window | Covers | Questions |
-|------|--------|--------|-------|
-| Midterm | Tue, Oct 20 to Thu, Oct 22 | Classes 1 through 6: Agentic Workflow, Discovery, Design | 36 |
-| Final | Tue, Dec 8 to Wed, Dec 9 | Cumulative, all six axes | 84 (72 scored), 2 hours |
+| Exam | Placement | Exact window | Covers | Questions |
+|---|---|---|---|---|
+| [Midterm](00-assessments.qmd#midterm-exam) | Week 3 | ________ | Agentic Workflow, Discovery, Design | 36 |
+| [Final](00-assessments.qmd#final-exam) | Week 7 | ________ | Cumulative, all six axes | 84 (72 scored), 2 hours |
 
-On both exams, 80% correct earns full credit, and you get a result for each axis (Developing, Proficient, or Strong). See [Assessments](00-assessments.qmd#final-exam) for how points are figured.
+On both exams, 80% correct earns full credit. Results for each axis are Developing, Proficient, or Strong. See [Assessments](00-assessments.qmd#exams) for scoring.
 
 ## Readings
 
-Read the assigned chapter before class. Two weeks pair two chapters under one session.
-
-| Axis | Chapter | Class |
-|------|---------|-------|
-| Agentic Workflow | [Building with AI Agents](01-building-with-ai-agents.qmd) | Mon, Sep 14 |
-| Agentic Workflow | [Directing the Agent](02-directing-the-agent.qmd) | Mon, Sep 21 |
-| Discovery | [What Is Worth Building](03-what-is-worth-building.qmd) | Mon, Sep 28 |
-| Discovery | [Finding and Validating the Problem](04-finding-and-validating-the-problem.qmd) | Mon, Oct 5 |
-| Design | [Interface and Flow](05-interface-and-flow.qmd) | Mon, Oct 12 |
-| Design | [Design Fundamentals](05b-design-fundamentals.qmd) | Mon, Oct 12 |
-| Design | [Testing the Design](06-testing-the-design.qmd) | Mon, Oct 19 |
-| Design | [Specs: Designing the Build](06b-specs.qmd) | Mon, Oct 19 |
-| App Architecture | [Anatomy of an Application](07-anatomy-of-an-application.qmd) | Mon, Oct 26 |
-| App Architecture | [The Browser, Developer Tools, and Claude in Chrome](09c-browser-and-developer-tools.qmd) | Mon, Oct 26 |
-| App Architecture | [Data and APIs](08-data-and-apis.qmd) | Mon, Nov 2 |
-| App Architecture | [Version Control, Environments, and Deploys](09-version-control-testing-and-tech-debt.qmd) | Mon, Nov 2 |
-| App Architecture | [Tests and Tech Debt](09b-tests-and-tech-debt.qmd) | Mon, Nov 2 |
-| AI Systems | [How Models Work](10-how-models-work.qmd) | Mon, Nov 9 |
-| AI Systems | [Models in Your Product](11-models-in-your-product.qmd) | Mon, Nov 16 |
-| Launch and Learn | [Going to Market](12-going-to-market.qmd) | Mon, Nov 23 |
-| Launch and Learn | [Business Models](13-business-models.qmd) | Mon, Nov 23 |
-| Launch and Learn | [Measuring What Matters](14-measuring-what-matters.qmd) | Mon, Nov 30 |
-| Wrap Up | [Storytelling and the Final Demo](15-storytelling-and-the-final-demo.qmd) | Mon, Dec 7 |
+The [weekly schedule](#weekly-schedule) lists every assigned reading in order. All appendices and references remain available through Topics navigation.

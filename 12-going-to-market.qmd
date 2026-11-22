@@ -47,7 +47,7 @@ individual people) and one B2B example (business to business: you sell to compan
 
 | Block | B2C example | B2B example |
 |---|---|---|
-| Who | BYU students in a large intro course with a weekly quiz | Office managers at 5-to-20-person dental practices |
+| Who | BYU-Idaho students in a large intro course with a weekly quiz | Office managers at 5-to-20-person dental practices |
 | Situation | The night before a quiz, with a stack of lecture notes | Monday morning, rebooking cancelled appointments |
 | Current habit | Rereading notes; a group chat swapping old quizzes | A paper list and phone calls |
 | Where they gather | The course's Slack or GroupMe, a study room, a club | A regional association, a Facebook group |

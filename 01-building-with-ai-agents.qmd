@@ -27,7 +27,7 @@ In short: what do you want, what is true, what's the best option, what happened.
 
 Alice does not know where she wants to go, so for her it does not matter. Monson's reading of the story is the reason Aim comes first: "Unlike Alice, we know where we want to go, and it does matter which way we go, for by choosing our path, we choose our destination" [@monson2016]. Answer *what do you want* first, and every question after it has a criterion. Skip it, and you have no reason to prefer one option over another.
 
-The course *is* this loop. Each step matches one stage of the work you will do this semester:
+The course *is* this loop. Each step matches one stage of the work you will do during this course:
 
 | The loop | The question | The part of the course |
 |---|---|---|
@@ -36,7 +36,7 @@ The course *is* this loop. Each step matches one stage of the work you will do t
 | **Reason** | what's the best option? | **Build**: decide what to build, then build it |
 | **Enact** | what happened? | **Build**, then **Grow**: ship it, measure, and learn on the live product |
 
-The **Aim**, what is worth building at all, is where strategy and values meet. What value you create and for whom, and how much of it you can capture, is the [create-versus-capture](03-what-is-worth-building.qmd#creating-value-and-capturing-it) choice in [Product Strategy](03-what-is-worth-building.qmd); whether it is worth building at all is [Product Morality](03-what-is-worth-building.qmd). And you will run the whole loop many times across the semester, once per sprint, because a single turn tells you little; the trend across sprints shows whether you are improving.
+The **Aim**, what is worth building at all, is where strategy and values meet. What value you create and for whom, and how much of it you can capture, is the [create-versus-capture](03-what-is-worth-building.qmd#creating-value-and-capturing-it) choice in [Product Strategy](03-what-is-worth-building.qmd); whether it is worth building at all is [Product Morality](03-what-is-worth-building.qmd). And you will run the whole loop many times across the course, once per sprint, because a single turn tells you little; the trend across sprints shows whether you are improving.
 
 Two things about the loop are worth knowing up front.
 
@@ -50,9 +50,9 @@ AIRE is the loop *you* run, across a sprint. Later in this chapter you will meet
 
 ### How we run class
 
-Class meets once a week: short periods of focused instruction to teach a skill, then live building with Claude Code. Each class has one emphasis, and we open it with a scripture and a quote tied to that emphasis.
+Class meeting days and times: ________. Sessions pair focused instruction with live building in Codex (primary) or Claude (alternative). Each class has one emphasis, and we open it with a scripture and a quote tied to that emphasis.
 
-The scripture is not decoration, and it is not separate from the craft. This is BYU, and we take seriously Brigham Young's charge to Karl G. Maeser as he left to found this university: to "not teach even the alphabet or the multiplication tables without the Spirit of God." All truth is God's truth, and seeking it honestly, about a customer, a market, or anything else, is a spiritual act as much as a technical one. Faith, in the oldest sense, does not mean believing without evidence; it means acting on what you believe. That is the Enact in AIRE: a belief you will not act on is dead. We will treat the whole loop that way, as work worth doing well and worth doing in good faith.
+The scripture is not decoration, and it is not separate from the craft. At BYU-Idaho, we connect faith with learning. Brigham Young's charge to Karl G. Maeser about teaching expresses that connection: to "not teach even the alphabet or the multiplication tables without the Spirit of God." All truth is God's truth, and seeking it honestly, about a customer, a market, or anything else, is a spiritual act as much as a technical one. Faith, in the oldest sense, does not mean believing without evidence; it means acting on what you believe. That is the Enact in AIRE: a belief you will not act on is dead. We will treat the whole loop that way, as work worth doing well and worth doing in good faith.
 
 <!-- learn -->
 
@@ -81,7 +81,7 @@ precisely. That work happens before the build, in Discovery and Design. The last
 the spec, the written description an agent builds from and you check the result against
 ([Specs](06b-specs.qmd)).
 
-Each axis gets about two weeks. You will rate yourself on all six this week, and that rating is your
+Each axis has a weekly emphasis in Weeks 1–6; Week 7 combines testing, revision, and final demos. You will rate yourself on all six this week, and that rating is your
 baseline. From then on, each sprint report shows your builder profile: a six-sided chart, 0 to 100
 on each axis, filled by your sprint work and the two exams. [Your builder profile](00-assessments.qmd#builder-profile)
 explains how. The baseline is there so you know which axis is your weakest and can spend your
@@ -630,13 +630,21 @@ A **package manager** installs, updates, and removes software from the command l
 
 Visual Studio Code is a free code editor from Microsoft and the main workspace for this course: a file browser, an editor, a built-in terminal, and the Claude Code extension in one window. Installation is in [Computer Setup](00-computer-setup.qmd). (On macOS, `brew install --cask visual-studio-code` installs it from the command line; `--cask` tells Homebrew it is a graphical app.)
 
+## Codex: primary course option
+
+Use Codex for the course setup, sprint planning, building, sprint reviews, and section tutoring. Follow [Computer Setup](00-computer-setup.qmd#codex-setup), then use the shared [course workflows](00-course-workflows.qmd). The [Codex appendix](A4-codex-cli-and-desktop.qmd) explains its terminal and desktop surfaces; the [agent comparison](A2-coding-agents-compared.qmd) maps tool-specific differences.
+
+The Claude examples below remain as worked examples of the same agent concepts. When using Codex, keep the goal and verification steps, and use Codex's own instructions and permissions rather than copying Claude-only settings or commands. Repository guidance for Codex belongs in `AGENTS.md`; the Claude alternative uses `CLAUDE.md`.
+
 ## Claude Code
+
+**Supported alternative:** This section retains the Claude-specific walkthrough. It does not require students using Codex to install Claude.
 
 Claude Code is Anthropic's coding agent. You describe what you want in plain language; it reads your project, plans, edits files across the codebase, runs commands and tests, and reports back, asking your permission for actions you have not pre-approved. It will not build a polished, complicated application by itself, but it writes much of the code while you direct it.
 
 {{< video https://www.youtube.com/embed/GqjvaBUk3Tc >}}
 
-You installed it in [Computer Setup](00-computer-setup.qmd): a Claude Pro (or higher) subscription, the install script in the VS Code terminal, then `claude` to sign in. As a reminder of what that looked like, the terminal opens as a pane inside VS Code:
+If you selected the Claude alternative, installation is in [Computer Setup](00-computer-setup.qmd#claude-setup): a Claude Pro (or higher) subscription, the install script in the VS Code terminal, then `claude` to sign in. As a reminder of what that looked like, the terminal opens as a pane inside VS Code:
 
 ![](images/terminal.jpg)
 
@@ -703,7 +711,21 @@ Agents usually name files for you, but when you name them yourself:
 Common folders: `src/` (source code), `data/`, `docs/`, `tests/`, `scripts/`, `configs/`, `assets/`. Name files for what they contain or do (`train-model.py`, `db-settings.json`), number notebooks to keep order (`01-data-exploration.ipynb`), and keep `README.md` in the root folder.
 :::
 
-Make the folder, move into it, and start Claude Code:
+### Codex path
+
+Make the folder, move into it, and start Codex:
+
+```bash
+mkdir my-project
+cd my-project
+codex
+```
+
+Ask Codex to explain its choices in plain language as it works. Continue to [Build in either agent](#build-in-either-agent) below.
+
+### Claude alternative
+
+For the supported alternative, make the same folder, move into it, and start `claude` instead of `codex`:
 
 ```bash
 mkdir my-project
@@ -719,7 +741,9 @@ Turn on the [Explanatory output style](https://code.claude.com/docs/en/output-st
 
 Run `ls -la` in a second terminal and you will see a new hidden **folder** named `.claude`. Claude Code saved your choice to a settings file inside it, `.claude/settings.local.json` (the *local* file holds your personal settings for this project and is not meant to be committed). The `.claude` folder is where a project's Claude Code configuration lives: settings, and later skills, hooks, and subagents. It is separate from `CLAUDE.md`, the instructions file Claude reads at the start of every session, which you will write in Chapter 2.
 
-Now paste this prompt into Claude Code:
+### Build in either agent
+
+Paste this prompt into Codex (primary) or Claude (alternative):
 
 > Build me a simple todo list app using streamlit. Use a json file as the database.
 
@@ -743,12 +767,13 @@ Spend the next 15 minutes building another application. For now, keep using stre
 
 ## AI Dev Tools Landscape
 
-Claude Code is the primary tool in this course. The wider field, roughly sorted:
+Codex is the primary tool in this course, with Claude as a supported alternative. The wider field, roughly sorted:
 
 | Tool | Type | Best for |
 |------|------|----------|
-| **Claude Code** | Coding agent (terminal, VS Code, desktop, web) | Full-stack building; the course's main tool |
-| **Codex**, **GitHub Copilot CLI**, **Antigravity CLI** | Coding agents from OpenAI, GitHub, and Google ([compared](A2-coding-agents-compared.qmd)) | The same agent-loop model, different vendors |
+| **Codex** | OpenAI coding agent ([terminal and desktop](A4-codex-cli-and-desktop.qmd)) | Full-stack building; the primary course tool |
+| **Claude Code** | Coding agent (terminal, VS Code, desktop, web) | Full-stack building; supported course alternative |
+| **GitHub Copilot CLI**, **Antigravity CLI** | Coding agents from GitHub and Google ([compared](A2-coding-agents-compared.qmd)) | The same agent-loop model, different vendors |
 | **Cursor** | AI code editor (a VS Code fork) | Editing with AI built into the editor |
 | **Lovable**, **v0** | Browser app builders | Quick UI prototypes from a prompt |
 | **Figma** | Design tool | Mockups and user flows |

@@ -2,6 +2,8 @@
 title: "Codex in the Terminal and the ChatGPT Desktop App"
 ---
 
+**Primary course option:** Use Codex with the local [course starter and workflows](00-course-workflows.qmd) for setup, planning, reviews, and tutoring. [Computer Setup](00-computer-setup.qmd#codex-setup) provides the starting path.
+
 ::: {.callout-note}
 ## What this appendix is
 

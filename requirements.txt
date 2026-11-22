@@ -1,0 +1,5 @@
+# Quarto's Jupyter engine parses the retained Python examples, even with eval: false.
+pyyaml
+nbformat
+nbclient
+ipykernel

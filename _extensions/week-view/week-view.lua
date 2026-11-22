@@ -1,5 +1,5 @@
 --[[
-week-view.lua: hand the 14-week reading order to week-view.js, which adds a Topics | Weeks
+week-view.lua: hand the seven-week reading order to week-view.js, which adds a Topics | Weeks
 switch to the left rail.
 
 The weeks live in _weeks.yml under `week-view`, loaded into every page by `metadata-files` in

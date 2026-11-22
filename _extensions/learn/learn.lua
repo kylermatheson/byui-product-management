@@ -1,28 +1,6 @@
---[[
-learn.lua: give each `##` section that states its model a small "Learn" button beside its
-heading. A section states its model in a paragraph that opens in bold with "The model:". That
-line is the rule: write one and the section gets a button; the /learn skill teaches that model.
-
-A section that practice/version-a.json cites (the public practice form parallel to the midterm)
-also gets a button, so every section the midterm draws on has one, and /learn uses those
-practice items in its check.
-
-Until a section's model line is written, a `<!-- learn -->` comment inside the section gives it a
-button anyway. Each marker left in the book is a section still waiting for its model line; once
-the line exists, delete the marker.
-
-The heading carries `/learn <page url>#<anchor>`. learn.js turns that into a plain-text prompt
-(run the learn skill on this section, and install it from builder-template first if it is
-missing), draws the button, and does
-the copying; this filter only marks the heading with `data-learn`, so the table of contents and the
-heading text are untouched.
-
-The anchor is the identifier pandoc already gave the `##` heading, so it is always the real id on
-the page. The page URL is the site URL plus this file's name with .html. Set `learn-base-url` in
-_quarto.yml to change the site. A marker before any `##` heading is dropped with a warning.
-]]
-
-local DEFAULT_BASE = "https://byu-strategy.github.io/product-management/"
+-- Mark teaching sections for the Codex-first learning buttons in learn.js.
+-- Only the real section anchor is embedded; the browser resolves it against the
+-- active course page so previews and later deployments never point at the source site.
 
 -- A model line is a paragraph that opens in bold with "The model:", either as a label
 -- ("**The model:** a flow is ...") or as a whole bold sentence ("**The model: a flow is ...**").
@@ -76,12 +54,6 @@ local function page_name()
 end
 
 function Pandoc(doc)
-  local base = DEFAULT_BASE
-  if doc.meta["learn-base-url"] then
-    base = pandoc.utils.stringify(doc.meta["learn-base-url"])
-    if not base:match("/$") then base = base .. "/" end
-  end
-  local page = base .. page_name()
 
   -- pass 1: which ## sections state a model, are cited by the practice form, or carry a marker
   local marked, section = {}, nil
@@ -101,7 +73,7 @@ function Pandoc(doc)
   for _, block in ipairs(doc.blocks) do
     if not is_marker(block) then
       if block.t == "Header" and block.level == 2 and marked[block.identifier] then
-        block.attributes["data-learn"] = "/learn " .. page .. "#" .. block.identifier
+        block.attributes["data-learn"] = "#" .. block.identifier
         found = found + 1
       end
       out:insert(block)
@@ -112,7 +84,7 @@ function Pandoc(doc)
   if found > 0 then
     quarto.doc.add_html_dependency({
       name = "learn-button",
-      version = "2.0.0",
+      version = "3.0.0",
       scripts = { "learn.js" },
       stylesheets = { "learn.css" },
     })

@@ -23,6 +23,10 @@
   // starts or after the course ends.
   function currentWeek(DATA, WEEKS) {
     var t = today(), cur = null;
+    // Undated or partially configured courses keep navigation without guessing a current week.
+    if (!WEEKS.length || WEEKS.some(function (w) {
+      return typeof w.start !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(w.start);
+    })) return null;
     if (DATA["course-end"] && t > DATA["course-end"]) return null;
     WEEKS.forEach(function (w) { if (w.start <= t) cur = w.n; });
     return cur;
@@ -33,7 +37,7 @@
     var DATA = window.PM_WEEK_VIEW;
     if (!DATA || !DATA.weeks) return;
     var WEEKS = DATA.weeks.map(function (w) {
-      return { n: Number(w.week), date: w.date, start: w.start, axis: w.axis,
+      return { n: Number(w.week), date: w.date || "Dates: ________", start: w.start, axis: w.axis,
                read: w.read || [], items: w.items || [] };
     });
     var COURSE_INFO = DATA["course-info"] || [];

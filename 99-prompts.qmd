@@ -5,7 +5,7 @@ editor: visual
 
 ## Architecture
 
-Open ChatGPT (4o, not o1/o3/o4) and say:
+Start with Codex (primary) or Claude (alternative) in your project folder and say:
 
 “ I’m building a [description of your product - the more detailed the better]. Use Next.js for frontend, Supabase for DB + auth. 
 
@@ -34,7 +34,7 @@ Save it as tasks.md. Again, throw it in the folder.
 
 ## Engineering
 
-Step 3: In Cursor/Windsurf
+Step 3: Continue in Codex (primary) or Claude (alternative). Cursor and Windsurf are supplemental options.
 
 “ You’re an engineer building this codebase.
 

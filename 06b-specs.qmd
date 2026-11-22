@@ -2,6 +2,8 @@
 title: "Specs: Designing the Build"
 ---
 
+**Course tool options:** Use Codex (primary) or Claude (alternative) to explore and write your spec before authorizing implementation. The Claude plan-mode and Agent Team Kit sections below remain worked examples. With Codex, ask for a plan first and review it before requesting edits; consult the [Codex appendix](A4-codex-cli-and-desktop.qmd) for its controls.
+
 ## Why This Matters
 
 Discovery decides what to build and for whom. Design decides how it looks and how it flows. The

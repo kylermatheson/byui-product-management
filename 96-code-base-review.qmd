@@ -630,7 +630,7 @@ To build your app, a **traditional company would need:**
 
 **Why even smaller?**
 - Next.js 15 (full-stack framework)
-- AI tools (Copilot, Claude Code)
+- AI tools (Codex, Claude Code, Copilot)
 - No-code backend (Supabase)
 - Serverless (no DevOps needed)
 - Managed everything (Stripe, Vercel, OpenAI APIs)
