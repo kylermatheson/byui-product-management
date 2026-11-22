@@ -2,6 +2,11 @@
 title: "Interface and Flow"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 3: Design](W03-design.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 ## Why This Matters
 
 Your product is only as good as the interface people use. An agent will generate a

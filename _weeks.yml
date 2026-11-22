@@ -1,62 +1,67 @@
 # Winter 2027 Second Block: February 22 through April 8.
-# Keep reading and assessment placement synchronized with 00-schedule.qmd.
-# Dates establish weekly ranges only; exact deadlines are intentionally unassigned.
+# Required preparation: short weekly essentials, not all full chapters.
+# Keep deadlines in step with 00-schedule.qmd, 00-assignments.qmd,
+# 00-assessments.qmd, and course-support/starter/course-schedule.json.
 week-view:
   course-end: "2027-04-08"
-  course-info: [index, 00-schedule, 00-assessments, 00-course-workflows, 00-release-notes]
+  course-info: [index, 00-schedule, 00-assignments, 00-assessments, 00-course-workflows, 00-release-notes]
   weeks:
     - week: 1
       date: "Feb 22–28, 2027"
       start: "2027-02-22"
-      axis: Setup and Agentic Workflow
-      read: [00-computer-setup, 01-building-with-ai-agents, 02-directing-the-agent]
+      axis: Agentic Workflow
+      read: [00-computer-setup, W01-agentic-workflow]
       items:
-        - {kind: task, text: "Sprint 1; plan deadline: ________; wrap-up deadline: ________", href: "00-assessments.html#sprint-1"}
-        - {kind: task, text: "Opening self-assessment"}
+        - {"kind": "plan", "text": "Sprint 1 plan: during first class", "href": "00-assessments.html#sprint-1"}
+        - {"kind": "task", "text": "Setup and opening self-assessment", "href": "00-assignments.html#ungraded-activities"}
+        - {"kind": "due", "text": "Sprint 1 wrap-up: Sat, Feb 27; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-1"}
+        - {"kind": "plan", "text": "Sprint 2 plan: Sat, Feb 27", "href": "00-assessments.html#sprint-2"}
     - week: 2
       date: "Mar 1–7, 2027"
       start: "2027-03-01"
       axis: Discovery
-      read: [03-what-is-worth-building, 04-finding-and-validating-the-problem]
+      read: [W02-discovery]
       items:
-        - {kind: task, text: "Sprint 2; plan deadline: ________; wrap-up deadline: ________", href: "00-assessments.html#sprint-2"}
+        - {"kind": "due", "text": "Sprint 2 wrap-up: Sat, Mar 6; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-2"}
+        - {"kind": "plan", "text": "Sprint 3 plan: Sat, Mar 6; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-3"}
     - week: 3
       date: "Mar 8–14, 2027"
       start: "2027-03-08"
       axis: Design
-      read: [05-interface-and-flow, 05b-design-fundamentals, 06-testing-the-design, 06b-specs]
+      read: [W03-design]
       items:
-        - {kind: task, text: "Sprint 3; plan deadline: ________; wrap-up deadline: ________", href: "00-assessments.html#sprint-3"}
-        - {kind: exam, text: "Midterm; window: ________", href: "00-assessments.html#midterm-exam"}
+        - {"kind": "due", "text": "Sprint 3 wrap-up: Sat, Mar 13; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-3"}
+        - {"kind": "plan", "text": "Sprint 4 plan: Sat, Mar 13; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-4"}
+        - {"kind": "exam", "text": "Midterm: proposed Mar 12\u201313", "href": "00-assessments.html#midterm-exam"}
     - week: 4
       date: "Mar 15–21, 2027"
       start: "2027-03-15"
       axis: Application Architecture
-      read: [07-anatomy-of-an-application, 08-data-and-apis, 09-version-control-testing-and-tech-debt, 09b-tests-and-tech-debt, 09c-browser-and-developer-tools]
+      read: [W04-application-architecture]
       items:
-        - {kind: task, text: "Sprint 4; plan deadline: ________; wrap-up deadline: ________", href: "00-assessments.html#sprint-4"}
+        - {"kind": "due", "text": "Sprint 4 wrap-up: Sat, Mar 20; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-4"}
+        - {"kind": "plan", "text": "Sprint 5 plan: Sat, Mar 20; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-5"}
     - week: 5
       date: "Mar 22–28, 2027"
       start: "2027-03-22"
       axis: AI Systems
-      read: [10-how-models-work, 11-models-in-your-product]
+      read: [W05-ai-systems]
       items:
-        - {kind: task, text: "Sprint 5; plan deadline: ________; wrap-up deadline: ________", href: "00-assessments.html#sprint-5"}
+        - {"kind": "due", "text": "Sprint 5 wrap-up: Sat, Mar 27; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-5"}
+        - {"kind": "plan", "text": "Sprint 6 plan: Sat, Mar 27; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-6"}
     - week: 6
       date: "Mar 29–Apr 4, 2027"
       start: "2027-03-29"
       axis: Launch and Learn
-      read: [12-going-to-market, 13-business-models, 14-measuring-what-matters]
+      read: [W06-launch-and-learn]
       items:
-        - {kind: assigned, text: "Sprint 6 begins; plan deadline: ________", href: "00-assessments.html#sprint-6"}
-        - {kind: assigned, text: "Peer Product Testing assigned", href: "00-assessments.html#peer-product-testing"}
+        - {"kind": "due", "text": "Sprint 6 wrap-up: Sat, Apr 3; 11:59 p.m. America/Boise", "href": "00-assessments.html#sprint-6"}
+        - {"kind": "due", "text": "Peer testing: Sat, Apr 3; share feedback in class; 11:59 p.m. America/Boise", "href": "00-assessments.html#peer-product-testing"}
     - week: 7
       date: "Apr 5–8, 2027"
       start: "2027-04-05"
-      axis: Final Demo and Wrap-up
-      read: [15-storytelling-and-the-final-demo]
+      axis: Storytelling and Reflection
+      read: [W07-storytelling-and-reflection]
       items:
-        - {kind: task, text: "Sprint 6 wrap-up and final demos; deadline: ________", href: "00-assessments.html#sprint-6"}
-        - {kind: task, text: "Peer Product Testing; deadline: ________", href: "00-assessments.html#peer-product-testing"}
-        - {kind: exam, text: "Final exam; window: ________", href: "00-assessments.html#final-exam"}
-        - {kind: task, text: "Closing self-assessment"}
+        - {"kind": "task", "text": "Final showcase: Session 2; closing self-assessment", "href": "00-assignments.html#ungraded-activities"}
+        - {"kind": "exam", "text": "Final: proposed Apr 5\u20138", "href": "00-assessments.html#final-exam"}

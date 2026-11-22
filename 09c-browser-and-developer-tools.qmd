@@ -2,6 +2,11 @@
 title: "The Browser, Developer Tools, and Claude in Chrome"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 4: Application Architecture](W04-application-architecture.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 ::: {.callout-note}
 ::: {.callout-note title="Course tool options"}
 Browser and developer-tool concepts apply to either coding agent. Codex is the primary course option; use its [browser guidance](A4-codex-cli-and-desktop.qmd) where available, or use the browser's developer tools yourself and share the observed result with your agent. The Claude in Chrome walkthrough below is an optional tool-specific example, not a requirement to buy a second subscription.

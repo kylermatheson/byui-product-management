@@ -1,0 +1,50 @@
+---
+title: "Assignment Checklist"
+---
+
+Use this list to see what to submit, when it is due, and how it contributes to your grade. [Assessments](00-assessments.qmd) contains the full requirements and rubrics; the [course schedule](00-schedule.qmd) and weekly essentials explain preparation and class activities.
+
+## Graded submissions
+
+**All dated submissions are due at 11:59 p.m. America/Boise.** Plans for the next sprint and wrap-ups for the current sprint share a Saturday deadline. Prepare the next plan using what you learned, and keep its dated changes current. Sprint 1's plan is the one-time first-class exception. Meeting days and times remain unconfirmed.
+
+| Assignment | What to submit | Due | Points |
+|---|---|---|---:|
+| [Sprint 1 Plan](00-assessments.qmd#sprint-1) | GitHub link to `sprints/sprint-1-plan.md`: Goal, Why this, Done looks like, Predicted difficulty | During first class (Feb 22 or 23, depending on confirmed meeting days) | 10 |
+| [Sprint 1 Wrap-up](00-assessments.qmd#sprint-1) | GitHub review link with all five retrospective answers, Loom demo link, and checkable output listed in your README. Also include your repo URL and context declaration. | Saturday, February 27 | 40 |
+| [Sprint 2 Plan](00-assessments.qmd#sprint-2) | GitHub link to `sprints/sprint-2-plan.md`: Goal, Why this, Done looks like, Predicted difficulty | Saturday, February 27 | 10 |
+| [Sprint 2 Wrap-up](00-assessments.qmd#sprint-2) | GitHub review link with all five retrospective answers, Loom demo link, and checkable output listed in your README. | Saturday, March 6 | 40 |
+| [Sprint 3 Plan](00-assessments.qmd#sprint-3) | GitHub link to `sprints/sprint-3-plan.md`: Goal, Why this, Done looks like, Predicted difficulty | Saturday, March 6 | 10 |
+| [Sprint 3 Wrap-up](00-assessments.qmd#sprint-3) | GitHub review link with all five retrospective answers, Loom demo link, and checkable output listed in your README. | Saturday, March 13 | 40 |
+| [Sprint 4 Plan](00-assessments.qmd#sprint-4) | GitHub link to `sprints/sprint-4-plan.md`: Goal, Why this, Done looks like, Predicted difficulty | Saturday, March 13 | 10 |
+| [Sprint 4 Wrap-up](00-assessments.qmd#sprint-4) | GitHub review link with all five retrospective answers, Loom demo link, and checkable output listed in your README. | Saturday, March 20 | 40 |
+| [Sprint 5 Plan](00-assessments.qmd#sprint-5) | GitHub link to `sprints/sprint-5-plan.md`: Goal, Why this, Done looks like, Predicted difficulty | Saturday, March 20 | 10 |
+| [Sprint 5 Wrap-up](00-assessments.qmd#sprint-5) | GitHub review link with all five retrospective answers, Loom demo link, and checkable output listed in your README. | Saturday, March 27 | 40 |
+| [Sprint 6 Plan](00-assessments.qmd#sprint-6) | GitHub link to `sprints/sprint-6-plan.md`: Goal, Why this, Done looks like, Predicted difficulty | Saturday, March 27 | 10 |
+| [Sprint 6 Wrap-up](00-assessments.qmd#sprint-6) | GitHub review link with all five retrospective answers, Loom demo link, and checkable output listed in your README. | Saturday, April 3 | 90 |
+| [Peer Product Testing](00-assessments.qmd#peer-product-testing) | 5-minute think-aloud Loom video using your peer's product; share it with your peer too | Saturday, April 3 | 50 |
+| [Midterm Exam](00-assessments.qmd#midterm-exam) | Complete the closed-book, proctored exam without AI | Proposed March 12–13 window; closes Saturday, March 13 | 25 |
+| [Final Exam](00-assessments.qmd#final-exam) | Complete the closed-book, proctored exam without AI | Proposed April 5–8 window; closes Thursday, April 8 | 25 |
+| **Total** | **Existing grading weights and rubrics are unchanged** | | **450** |
+
+Sprint 6's 90-point wrap-up consists of Output 50, Review 20, and Demo 20. Other wrap-ups consist of Output 20, Review 10, and Demo 10. Plans are 10 points each. See the [rubric](00-assessments.qmd#grading-rubric) for details, including demo lengths and penalties.
+
+Peer testing is assigned in Week 6. Conduct the test and exchange actionable feedback during class before submitting the final sprint on April 3. Do not wait until the video deadline to tell your partner what you observed.
+
+## Ungraded activities {#ungraded-activities}
+
+| Activity | When | What to do |
+|---|---|---|
+| Computer setup | Week 1; may be started early | Complete the [setup checklist](00-computer-setup.qmd), open your own course repo, and confirm agent access. Setup time is additional to the weekly reading estimate. |
+| Opening self-assessment | Week 1 | Rate yourself on the six builder axes; use your own judgment. |
+| Weekly preparation and peer teaching | Before and during each session | Read the short essentials, bring questions, explain ideas, practice skills, and give respectful feedback. No separate graded posts or worksheets. |
+| Final showcase | Week 7, Session 2: Apr 7 or Apr 8 depending on meeting days | Explain the product, evidence, and learning from your submitted Sprint 6 work. No new graded video, essay, or sprint. |
+| Closing self-assessment | Week 7, during the wrap-up | Revisit the six axes and reflect using evidence from your work. |
+
+## Optional extra credit
+
+Complete end-of-course student ratings for the existing **5-point extra-credit opportunity**. Completion and verification instructions: ________. Extra credit is outside the 450-point base total.
+
+## Where to submit
+
+LMS name and assignment links: ________. Staff contact and access details: ________. Use the [course workflows](00-course-workflows.qmd) with Codex or Claude to prepare your files. Review your own work and verify that staff can open the submitted links. Exact meeting days, times, and exam delivery remain blank until confirmed; the proposed exam windows above are course planning dates.

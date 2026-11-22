@@ -1,0 +1,78 @@
+---
+title: "Week 1: Agentic Workflow"
+reading-minutes: "20–30"
+---
+
+**February 22–28, 2027 | Weekly essentials**
+
+Use a coding agent to make a small, checkable change while keeping responsibility for the result.
+
+**Required preparation: 20–30 minutes for the whole week**, split between the two Prepare sections. Read these essentials and think through the questions before the corresponding session. Building, setup, and other homework take additional time. The full chapters linked at the end are optional, not additional required reading.
+
+The course follows [Prepare](https://www.byui.edu/learning-model/prepare), [Teach One Another](https://www.byui.edu/learning-model/teach-one-another), and [Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove). Prepare academically and spiritually, help classmates refine their understanding, then apply and reflect. AIRE remains the framework for making product decisions.
+
+Meeting days are still either Monday/Wednesday or Tuesday/Thursday; use Session 1 and Session 2 below until confirmed. Meeting times: ________. Use Codex first, or Claude as the supported alternative.
+
+## Prepare: Session 1
+
+**The model:** A product builder runs AIRE: Aim, Inform, Reason, Enact. A coding agent works inside that larger process by gathering context, acting, and checking the result. You choose a useful goal and judge the evidence; the agent helps carry out the work.
+
+Aim asks what you want to accomplish and whose life should improve. Inform asks what is actually true about the problem and the current product. Reason compares plausible next actions. Enact turns the decision into a change and observes what happens. AIRE is a repeating loop, not a one-time sequence that makes later decisions unnecessary. A working first version gives you new information; it does not prove you chose the right problem.
+
+Consider a student who keeps missing project meetings. An initial aim might be to make coordination easier. Before building reminders, ask how the group currently schedules meetings and why people miss them. Perhaps calendar conflicts, rather than forgetfulness, cause the problem. The right next action could be an interview, a calendar experiment, or a small feature. An agent can help execute any of those actions, but it cannot make missing customer evidence appear.
+
+A coding agent combines a model with tools. The model proposes text and actions; tools let the agent inspect files, edit code, run commands, and observe results. The surrounding software, often called the harness, controls which tools and permissions are available. Codex is our primary option, and Claude is an alternative. Their menus and configuration differ, so a command that works in one tool may not work in the other.
+
+A useful request tells the agent the goal, relevant context, constraints, and what success would look like. Compare “make this better” with “add a task-completion checkbox, preserve existing tasks after reload, and show how you checked persistence.” The second request gives you something concrete to inspect. Keep the first task small enough to understand what changed.
+
+Before class, think about a routine task you would like to improve. Identify who experiences the problem and one thing you have actually observed. It is fine if your project is undecided. Prepare to explain the difference between a claim you believe and evidence you have collected. Spiritually, consider how honesty about uncertainty changes the way you serve another person.
+
+## Prepare: Session 2
+
+**The model:** Trust in an agent's work should come from inspected evidence, not from the confidence of its final message. Give it a small task, inspect the change, and check the behavior yourself.
+
+The agent sees the files and context supplied to its session. It does not automatically know every previous decision or conversation. Put durable project facts in your repository instructions and README. In the course starter, Codex uses `AGENTS.md`; the Claude alternative is directed through `CLAUDE.md` to the same student-work rules. State important constraints clearly, such as keeping private customer data out of the repo. Written guidance helps the agent, but it is not a substitute for reviewing consequential actions.
+
+A repository is a project folder with a history managed by Git. A commit records a selected set of changes. A remote, such as your private GitHub repository, stores a shared copy of that history. Saving a file, committing it, and pushing it are different actions. You can save a working file without committing it, and commit locally without uploading anything. Review the diff, the comparison showing added and removed text, before a commit or push.
+
+You only need a few terminal ideas at first. Know which folder you are working in, recognize the name of a command, and ask what it will change before approving it. Be especially careful with commands that delete files, change permissions, publish work, or operate on a different repository. Do not paste secrets into prompts or screenshots. Complete account sign-in through the provider's own authentication flow.
+
+Checking means observing the behavior promised by the task. If a task says saved items survive reload, add one, reload, and look for it. If a feature should reject an empty value, try an empty value. A successful build is useful evidence that the software can be assembled, but it does not by itself prove the interaction works. Ask the agent what it tested and what remains unverified.
+
+Your first sprint plan records Goal, Why this, Done looks like, and Predicted difficulty. These answers must be yours. You can revise the plan when evidence changes, provided you record what changed and why. A small finished improvement is easier to learn from than an ambitious collection of features that nobody can run.
+
+Bring one example of a check that could fail even though the agent says “done.” Be ready to explain why that check matters to the person using the product.
+
+## Teach One Another
+
+### Session 1
+
+The instructor introduces AIRE, the agent loop, the course repo, and the difference between a model and its tools. In pairs, explain where your project idea fits in AIRE and identify one missing fact. Your partner restates your goal and asks what evidence would change your next action. Write and submit the Sprint 1 plan during this first class. This is the only exception to Saturday sprint-plan deadlines.
+
+### Session 2
+
+The instructor demonstrates a small change in Codex, with Claude shown as an alternative where useful. Predict what should happen before each check. Build or inspect a small working change, then have a partner try it without your coaching. Teach them how the agent gathered context, what it changed, and how you verified the result. End by identifying an untested assumption rather than declaring the whole product finished.
+
+## Ponder and Prove
+
+Complete the setup actions and make your course repo available to staff once their usernames are supplied. Build toward your own sprint goal, inspect the diff, and verify the relevant behavior. Save evidence that you can use in your sprint review.
+
+When preparing the review, distinguish what you intended, what exists, and what you observed. Answer all five retrospective questions in your own words. Do not let an agent invent your role, goals, hours, or reflection. Explain one place where your judgment improved the agent's work. These reflections belong in the existing review, not in a new essay.
+
+Before the next sprint, ask whether you need more information, a smaller goal, or a different check. Use what you learned to write a realistic plan rather than repeating the same broad intention.
+
+## Assignments this week
+
+- Complete setup and the opening self-assessment during Week 1; these are ungraded.
+- Submit the Sprint 1 plan during the first class.
+- [Sprint 1 wrap-up](00-assessments.qmd#sprint-1): **Saturday, February 27**.
+- [Sprint 2 plan](00-assessments.qmd#sprint-2): **Saturday, February 27**.
+
+All dated submissions close at **11:59 p.m. America/Boise**, which follows local daylight saving time. See the [assignment checklist](00-assignments.qmd) for deliverables and points and [Assessments](00-assessments.qmd) for the unchanged rubrics. The class activities above add no separate graded submissions. Exam preparation includes these essentials and explicitly taught class material, not every optional reference section.
+
+## Optional full chapters
+
+These longer readings remain available for questions, examples, and deeper study. You do not need to read them in full to prepare for class.
+
+- [Building with AI Agents](01-building-with-ai-agents.qmd)
+- [Directing the Agent](02-directing-the-agent.qmd)

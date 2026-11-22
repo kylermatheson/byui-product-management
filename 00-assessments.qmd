@@ -14,6 +14,8 @@ editor: visual
 | Final Exam | 25 | 5.6% |
 | **TOTAL** | **450** | **100%** |
 
+See the [Assignment Checklist](00-assignments.qmd) for every submission, date, and point allocation. All dated submissions close at **11:59 p.m. America/Boise**. Meeting days remain Monday/Wednesday or Tuesday/Thursday, pending confirmation.
+
 ## List of All Assessments
 
 | Type | Description | Points | Learning Outcome(s)<sup>1</sup> |
@@ -48,7 +50,7 @@ editor: visual
 
 ## Exams {#exams}
 
-Two exams, each worth 25 points (about 5.6% of your grade). Delivery arrangements: ________. Complete each exam within its posted window: ________. Both are closed book, proctored, and
+Two exams, each worth 25 points (about 5.6% of your grade). Delivery arrangements: ________. The proposed midterm window is March 12–13 and the proposed final window is April 5–8. Each opens at 12:00 a.m. on its first date and closes at 11:59 p.m. on its last in America/Boise. These are proposed course windows; delivery details remain unconfirmed. Both are closed book, proctored, and
 multiple choice.
 
 Almost everything else you submit in this course is built with AI assistance, and that is
@@ -62,20 +64,19 @@ worth it and not enough for one bad morning to matter.
 
 ### Midterm Exam {#midterm-exam}
 
-**25 points | Week 3 | Window: ________ | Delivery: ________ | 36 questions**
+**25 points | Week 3 | Proposed window: March 12–13 | Delivery: ________ | 36 questions**
 
 Covers Weeks 1–3: the Agentic Workflow, Discovery, and Design axes. Scored the same way
 as the final (below): 80% correct or better earns all 25 points.
 
 ### Final Exam {#final-exam}
 
-**25 points | Week 7 | Window: ________ | Delivery: ________ | 84 questions, 2 hours**
+**25 points | Week 7 | Proposed window: April 5–8 | Delivery: ________ | 84 questions, 2 hours**
 
 Cumulative across all six axes. 72 questions count toward your score, weighted toward the axes
 with the most to know: Agentic Workflow 16, Application Architecture 14, AI Systems 11, Discovery
 11, Launch and Learn 11, and Design 9. The other 12 are trial questions being tested for future
-exams; they look like the rest and do not count. Every question comes from what the chapters
-teach, in three kinds: know it (what something is or is for), use it (which tool or step fits a
+exams; they look like the rest and do not count. Every question comes from the required weekly essentials and explicitly taught class material, in three kinds: know it (what something is or is for), use it (which tool or step fits a
 short situation), and predict it (what happens, or what went wrong, and why).
 
 **Your points.** The exam is meant to be hard, so 80% correct earns full credit:
@@ -95,7 +96,9 @@ on each axis, one part of your builder profile; your sprint work shows what you 
 - **Predict it** describes a setup or a result and asks what will happen, or what went wrong and
   why. Example: the team watched this metric for a month; why did it fail to warn them?
 
-Reading the chapters is the preparation; skimming them is not.
+Read the short weekly essentials and review explicitly taught class examples to prepare. Optional full chapters do not independently add exam requirements. The retained full-source practice bank is supplemental reference material, not a list of additional required topics. Class activities should make the concepts students are expected to know explicit.
+
+The midterm covers Weeks 1–3 essentials and class teaching; the final covers all six axes at that same required level. The three question types and scoring remain unchanged.
 
 ## Your builder profile {#builder-profile}
 
@@ -116,8 +119,8 @@ builder axes, each scored from 0 to 100. It shows what you can do, and it is not
 
 ## Sprints
 
-Six sprints: Sprints 1–5 each occupy one week; Sprint 6 spans Weeks 6–7. Sprints 1 through 5 are worth 50 points. Sprint 6 is worth 100.
-From Sprint 2 on, each sprint is two assignments in the course LMS: the **Plan** (10 points, deadline: ________) and the **Wrap-up** (40 points, or 90 for Sprint 6, due the day the sprint ends).
+Six sprints: Sprints 1–6 each occupy one week in Weeks 1–6. Sprint 6 closes Saturday, April 3; Week 7 is the showcase, reflection, and final exam. Sprints 1 through 5 are worth 50 points. Sprint 6 is worth 100.
+Each sprint has two submissions in the course LMS: the **Plan** (10 points) and the **Wrap-up** (40 points, or 90 for Sprint 6). Plans for Sprints 2–6 are due the preceding Saturday, and wrap-ups are due Saturday of the work week. Submit Sprint 1's plan during the first class, the one-time exception. Use the exact dates in the [assignment checklist](00-assignments.qmd).
 
 Every sprint is the same assignment: same structure, same deliverables, same rubric. What
 changes is what you decide to work on. A sprint is a timebox, not a phase.
@@ -132,23 +135,25 @@ Every sprint has the same four deliverables.
 
 | Deliverable | What it is | Where it lives | How you turn it in | When | Points |
 |---|---|---|---|---|--:|
-| **Plan** | What you will do, why, how you will know it is done, and how hard you expect it to be. [`sprint-plan`](00-course-workflows.qmd#sprint-plan) helps you write it. | `sprints/sprint-N-plan.md` in your course repo | Commit it, and paste its GitHub link into **Sprint N Plan** in the course LMS. To change it later, run `sprint-plan` again; no resubmitting | Plan deadline: ________ | 10 |
-| **Output** | What you finished this sprint, in whatever form the work takes: code, research, a design, a model, copy, a deck, an automation | Your course repo, another repo, a link, or your demo | Nothing separate to submit. List every place it lives under **Where the work lives** in your README | Wrap-up deadline: ________ | 20 |
-| **Review** | What [`sprint-review`](00-course-workflows.qmd#sprint-review) produces: a report on your sprint, then your answers to its five retro questions | `sprints/sprint-N-review.md` in your course repo | Commit it, and paste its GitHub link into **Sprint N Wrap-up** in the course LMS | Wrap-up deadline: ________ | 10 |
-| **Demo** | 2 to 3 minutes on Loom of the work, working | Loom | Paste the Loom share link into **Sprint N Wrap-up** in the course LMS. Set the Loom to "Anyone with the link" or share it with the course staff email (________) | Wrap-up deadline: ________ | 10 |
+| **Plan** | What you will do, why, how you will know it is done, and how hard you expect it to be. [`sprint-plan`](00-course-workflows.qmd#sprint-plan) helps you write it. | `sprints/sprint-N-plan.md` in your course repo | Commit it, and paste its GitHub link into **Sprint N Plan** in the course LMS. To change it later, run `sprint-plan` again; no resubmitting | Plan date in [checklist](00-assignments.qmd) | 10 |
+| **Output** | What you finished this sprint, in whatever form the work takes: code, research, a design, a model, copy, a deck, an automation | Your course repo, another repo, a link, or your demo | Nothing separate to submit. List every place it lives under **Where the work lives** in your README | Wrap-up date in [checklist](00-assignments.qmd) | 20 |
+| **Review** | What [`sprint-review`](00-course-workflows.qmd#sprint-review) produces: a report on your sprint, then your answers to its five retro questions | `sprints/sprint-N-review.md` in your course repo | Commit it, and paste its GitHub link into **Sprint N Wrap-up** in the course LMS | Wrap-up date in [checklist](00-assignments.qmd) | 10 |
+| **Demo** | 2 to 3 minutes on Loom of the work, working | Loom | Paste the Loom share link into **Sprint N Wrap-up** in the course LMS. Set the Loom to "Anyone with the link" or share it with the course staff email (________) | Wrap-up date in [checklist](00-assignments.qmd) | 10 |
 
 **Retro**, short for retrospective, is your part of the review: your answers to the five
 questions `sprint-review` asks after it shows you the report. Did you hit the goal, about how
 many hours did you work, why did the plan change if it did, how hard was it really, and what will you
 change next sprint. It saves your answers word for word with the report.
 
-Sprint 6 is worth 100: Plan 10, Output 50, Review 20, Demo 20, and it wraps up in Week 7; exact deadline: ________.
+Sprint 6 is worth 100: Plan 10, Output 50, Review 20, Demo 20, and its wrap-up is due Saturday, April 3, at 11:59 p.m. America/Boise.
 
 ### How every sprint works
 
-Two local workflows support every sprint: [sprint-plan](00-course-workflows.qmd#sprint-plan) at the start and [sprint-review](00-course-workflows.qmd#sprint-review) at the end. Use Codex (primary) or Claude (alternative). Both read the same files in your starter repo's `course-prompts/` folder. Paste the plain-text prompts on the workflow page; no slash-command installation or external template update is required.
+Two local workflows support every sprint: [sprint-plan](00-course-workflows.qmd#sprint-plan) before the work week and [sprint-review](00-course-workflows.qmd#sprint-review) at the end. Use Codex (primary) or Claude (alternative). Both read the same files in your starter repo's `course-prompts/` folder. Paste the plain-text prompts on the workflow page; no slash-command installation or external template update is required.
 
-#### Day one
+[]{#day-one}
+
+#### Before the sprint
 
 Run [`sprint-plan`](00-course-workflows.qmd#sprint-plan). It asks you what you are going to do and writes `sprints/sprint-N-plan.md`:
 
@@ -165,7 +170,7 @@ that someone else could check.
 **Predicted difficulty:** 1 to 5.
 ```
 
-**Submit it in the course LMS by the posted plan deadline (________).** Commit and push the file, then paste its GitHub
+**Submit it in the course LMS by the plan deadline in the [assignment checklist](00-assignments.qmd).** Commit and push the file, then paste its GitHub
 link into that sprint's Plan assignment. On time, with Goal, Why this, Done looks like, and
 Predicted difficulty all filled in, earns all 10 points. You do not resubmit when the plan
 changes: the link always shows the current file.
@@ -190,7 +195,7 @@ reading your plan can tell what you set out to do.
 
 Do the work, in your repo.
 
-#### Wrap-up deadline: ________
+#### At the wrap-up deadline
 
 **1. Run [sprint-review](00-course-workflows.qmd#sprint-review).** Confirm the sprint window and which projects belong to this sprint. The agent reads only the projects and evidence you authorize. It uses your plan, commits, artifacts, and any session notes you choose to provide to report when you worked, where you got stuck and how you got unstuck, what took the most time, and which of the six axes your work advanced. Missing evidence is marked unknown. Private source code and raw session transcripts do not go in the report.
 
@@ -223,7 +228,7 @@ link someone would need to check your output. For Sprint 1, also include your co
 - **Professor Teigen can check it, privately.** It is in your course repo, in another repo shared with
   Professor Teigen or summarized by `sprint-review`, at a link, or shown working in your demo.
   Work nobody can check, anywhere, cannot be graded.
-- **The plan,** submitted in the course LMS by the posted plan deadline (________), committed, and kept current with any changes
+- **The plan,** submitted in the course LMS by the plan deadline in the [assignment checklist](00-assignments.qmd), committed, and kept current with any changes
   noted.
 - **The review,** committed: the `sprint-review` report with your answers to its five retro
   questions at the bottom.
@@ -314,7 +319,7 @@ the first category; the Wrap-up assignment is the other three.
 
 | Category | Points | Sprint 6 | What earns full points |
 |---|--:|--:|---|
-| **Plan** | 10 | 10 | Its GitHub link submitted in the course LMS by the posted plan deadline (________), with Goal, Why this, Done looks like, and Predicted difficulty all filled in. Graded for completion. |
+| **Plan** | 10 | 10 | Its GitHub link submitted in the course LMS by the plan deadline in the [assignment checklist](00-assignments.qmd), with Goal, Why this, Done looks like, and Predicted difficulty all filled in. Graded for completion. |
 | **Output** | 20 | 50 | Real, finished, and checkable by the course; it does not have to be public or used by anyone. Read against your plan as it stands at the end, and weighed by how hard the work was for you. A goal that needs someone else's yes is graded on the asks you made. |
 | **Review** | 10 | 20 | Report committed, with your retro answering all five questions. Each question left unanswered costs 1 point. An empty retro earns at most half. Your hours estimate is never graded on the number. |
 | **Demo** | 10 | 20 | 2 to 3 minutes on Loom of your work, working, as described in [What your demo shows](#what-your-demo-shows), with real content. A demo that is not a Loom scores 0. Set it to "Anyone with the link" or share it with the course staff email (________). Length rules below. |
@@ -360,7 +365,7 @@ Nothing in this course has to be public.
 
 ### Sprint 1 {#sprint-1}
 
-**50 points | Week 1 | Plan deadline: ________ | Wrap-up deadline: ________**
+**50 points (Plan 10, Wrap-up 40) | Week 1 | Plan: During first class | Wrap-up: Saturday, February 27**
 
 The standard sprint, plus two one-time items:
 
@@ -377,33 +382,33 @@ If you get stuck, copy the last error and task you were working on into the cour
 
 ### Sprint 2 {#sprint-2}
 
-**50 points (Plan 10, Wrap-up 40) | Week 2 | Plan deadline: ________ | Wrap-up deadline: ________**
+**50 points (Plan 10, Wrap-up 40) | Week 2 | Plan: Saturday, February 27 | Wrap-up: Saturday, March 6**
 
 The standard sprint, completed during Week 2.
 
 ### Sprint 3 {#sprint-3}
 
-**50 points (Plan 10, Wrap-up 40) | Week 3 | Plan deadline: ________ | Wrap-up deadline: ________**
+**50 points (Plan 10, Wrap-up 40) | Week 3 | Plan: Saturday, March 6 | Wrap-up: Saturday, March 13**
 
 The standard sprint.
 
 ### Sprint 4 {#sprint-4}
 
-**50 points (Plan 10, Wrap-up 40) | Week 4 | Plan deadline: ________ | Wrap-up deadline: ________**
+**50 points (Plan 10, Wrap-up 40) | Week 4 | Plan: Saturday, March 13 | Wrap-up: Saturday, March 20**
 
 The standard sprint.
 
 ### Sprint 5 {#sprint-5}
 
-**50 points (Plan 10, Wrap-up 40) | Week 5 | Plan deadline: ________ | Wrap-up deadline: ________**
+**50 points (Plan 10, Wrap-up 40) | Week 5 | Plan: Saturday, March 20 | Wrap-up: Saturday, March 27**
 
 The standard sprint.
 
 ### Sprint 6 {#sprint-6}
 
-**100 points (Plan 10, Wrap-up 90) | Weeks 6–7 | Plan deadline: ________ | Wrap-up deadline: ________**
+**100 points (Plan 10, Wrap-up 90) | Week 6 | Plan: Saturday, March 27 | Wrap-up: Saturday, April 3**
 
-The standard sprint, worth double, with a higher bar. By the end of Week 7 what you have built should be
+The standard sprint, worth double, with a higher bar. By Saturday, April 3, what you have built should be
 as good as you can make it. The demo runs 3 to 4 minutes instead of 2 to 3 and covers
 the course rather than the sprint: the problem, a live demo, and what you learned.
 
@@ -417,7 +422,9 @@ The peer assignment teaches you to give and receive constructive feedback, a cri
 
 ### Peer Product Testing {#peer-product-testing}
 
-**50 points | Assigned Week 6; completed Week 7 | Deadline: ________**
+**50 points | Assigned Week 6 | Due Saturday, April 3, 11:59 p.m. America/Boise**
+
+Conduct the test and exchange actionable feedback during the Week 6 classes before the final sprint submission. The Loom video is due Saturday; do not wait until then to share the observations your peer can act on.
 
 **Goal:** Be a real test user for a peer's product and provide actionable UX feedback.
 
@@ -462,3 +469,6 @@ Your job is to help your peer see their product the way a new user sees it. Be h
 ## Student Ratings
 
 Complete the end-of-course student ratings to earn 5 extra credit points.
+
+
+Completion and verification instructions for student ratings: ________. The 5 extra-credit points are outside the 450-point base total.

@@ -2,7 +2,7 @@
 title: "Computer Setup"
 ---
 
-*Complete setup during Week 1 (February 22–28). You may start early. Exact setup deadline: ________.*
+*Complete setup during Week 1 (February 22–28). You may start early. Setup is an ungraded Week 1 activity; use the first class to write the Sprint 1 plan. Setup actions take additional time beyond the weekly reading estimate.*
 
 **Laptop requirement:** You need your own Windows or macOS laptop with at least 4GB of RAM (more is better). Bring a charging cord, and a mouse if you like using one.
 

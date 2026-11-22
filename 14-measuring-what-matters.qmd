@@ -2,6 +2,11 @@
 title: "Measuring What Matters"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 6: Launch and Learn](W06-launch-and-learn.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 ## Why This Matters
 
 You can't improve what you don't measure. But measuring the wrong things is worse than measuring nothing. It leads you to optimize for metrics that don't matter while ignoring what does.

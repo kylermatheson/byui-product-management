@@ -2,6 +2,11 @@
 title: "Specs: Designing the Build"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 3: Design](W03-design.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 **Course tool options:** Use Codex (primary) or Claude (alternative) to explore and write your spec before authorizing implementation. The Claude plan-mode and Agent Team Kit sections below remain worked examples. With Codex, ask for a plan first and review it before requesting edits; consult the [Codex appendix](A4-codex-cli-and-desktop.qmd) for its controls.
 
 ## Why This Matters

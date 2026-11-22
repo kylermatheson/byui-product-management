@@ -2,6 +2,11 @@
 title: "Business Models"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 6: Launch and Learn](W06-launch-and-learn.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 ## Why This Matters
 
 A product that cannot pay for itself is a project. The business model is the argument for

@@ -27,7 +27,12 @@ Name: ________
 - Professor: Rob Teigen. GitHub username / email: ________ / ________
 - Teaching Assistant: Kyle Matheson. GitHub username / email: ________ / ________
 - LMS and course communication links: ________
-- Exact plan, wrap-up, and exam deadlines: ________
+- Sprint dates and proposed exam windows: see `course-schedule.json`.
+- All dated submissions close at 11:59 p.m. America/Boise.
+- Plans for Sprints 2–6 are due the preceding Saturday; Sprint 1's plan is submitted during the first class.
+- Wrap-ups: Feb 27, Mar 6, Mar 13, Mar 20, Mar 27, and Apr 3.
+- Meeting days: Monday/Wednesday or Tuesday/Thursday, pending confirmation. Time: ________.
+- Weekly essentials require 20–30 minutes of preparation; full chapters are optional. Setup, building, and homework take additional time.
 
 ## Working with your agent
 

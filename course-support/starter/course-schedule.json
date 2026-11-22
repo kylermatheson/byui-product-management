@@ -1,0 +1,80 @@
+{
+  "timezone": "America/Boise",
+  "submission_time": "23:59",
+  "course_start": "2027-02-22",
+  "course_end": "2027-04-08",
+  "meeting_pattern": "Mon/Wed or Tue/Thu; not confirmed",
+  "sprints": [
+    {
+      "sprint": 1,
+      "week": 1,
+      "plan_due": null,
+      "plan_exception": "During the first class",
+      "wrap_up_due": "2027-02-27",
+      "plan_points": 10,
+      "wrap_up_points": 40
+    },
+    {
+      "sprint": 2,
+      "week": 2,
+      "plan_due": "2027-02-27",
+      "plan_exception": null,
+      "wrap_up_due": "2027-03-06",
+      "plan_points": 10,
+      "wrap_up_points": 40
+    },
+    {
+      "sprint": 3,
+      "week": 3,
+      "plan_due": "2027-03-06",
+      "plan_exception": null,
+      "wrap_up_due": "2027-03-13",
+      "plan_points": 10,
+      "wrap_up_points": 40
+    },
+    {
+      "sprint": 4,
+      "week": 4,
+      "plan_due": "2027-03-13",
+      "plan_exception": null,
+      "wrap_up_due": "2027-03-20",
+      "plan_points": 10,
+      "wrap_up_points": 40
+    },
+    {
+      "sprint": 5,
+      "week": 5,
+      "plan_due": "2027-03-20",
+      "plan_exception": null,
+      "wrap_up_due": "2027-03-27",
+      "plan_points": 10,
+      "wrap_up_points": 40
+    },
+    {
+      "sprint": 6,
+      "week": 6,
+      "plan_due": "2027-03-27",
+      "plan_exception": null,
+      "wrap_up_due": "2027-04-03",
+      "plan_points": 10,
+      "wrap_up_points": 90
+    }
+  ],
+  "midterm": {
+    "proposed": true,
+    "opens": "2027-03-12",
+    "closes": "2027-03-13",
+    "points": 25
+  },
+  "peer_testing": {
+    "assigned_week": 6,
+    "due": "2027-04-03",
+    "points": 50
+  },
+  "final_exam": {
+    "proposed": true,
+    "opens": "2027-04-05",
+    "closes": "2027-04-08",
+    "points": 25
+  }
+}

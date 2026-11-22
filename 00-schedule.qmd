@@ -1,83 +1,68 @@
 ---
-title: "Schedule"
+title: "Course Schedule"
 editor: visual
 ---
 
-**BYU-Idaho Product Management | Winter 2027 Second Block**
+**Winter 2027 Second Block: February 22–April 8, 2027. Week 7 ends Thursday, April 8.**
 
-The seven-week course runs **February 22 through April 8, 2027**. Week 7 ends on **Thursday, April 8**. The calendar establishes the weekly ranges below. Exact assignment deadlines, exam windows, and meeting details remain blank.
+Two class sessions are planned each week. Meeting days will be **Monday/Wednesday or Tuesday/Thursday**, pending confirmation. Until then, this page uses **Session 1** and **Session 2**. Meeting times and location: ________.
 
-**Class format:** Short periods of focused instruction, live building with Codex (primary) or Claude (alternative), and review of student work. Meeting days and times: ________. Location or delivery format: ________.
+## Learning Model
+
+Each week follows BYU-Idaho's [Prepare](https://www.byui.edu/learning-model/prepare), [Teach One Another](https://www.byui.edu/learning-model/teach-one-another), and [Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove) steps. Prepare academically and spiritually with the short reading and questions; participate in instructor-led discussion, peer teaching, and application in class; then build, check, and reflect through your existing sprint work. AIRE remains our product decision framework.
 
 ## The six axes
 
-The course retains six builder skills. Weeks 1–6 each emphasize one axis; Week 7 brings them together for testing, revision, and final demos. Rate yourself on all six in Week 1. Sprint reports show a [builder profile](00-assessments.qmd#builder-profile) on the same axes.
-
-![](images/diagrams/builder-axes.svg){fig-alt="A hexagon with the six builder axes: Agentic Workflow, Discovery, Design, Launch and Learn, AI Systems, and Application Architecture." fig-align="center" width="70%"}
-
-| Axis | The question it answers | Week |
-|---|---|---|
-| Agentic Workflow | How do I put AI to work, as the way I build and inside the product? | 1 |
-| Discovery | What should I build, for whom, and should I? | 2 |
-| Design | What does the surface look like, how does it flow, and how do I write it down so an agent can build it? | 3 |
-| Application Architecture | How is it structured, shipped, and kept safe? | 4 |
-| AI Systems | How do the models work, and why do they behave the way they do? | 5 |
-| Launch and Learn | How do people find it, and did it work? | 6 |
-
-Agentic Workflow comes first on purpose. You will ship something in Week 1 that you do not fully understand, then learn how it works throughout the course.
+Weeks 1–6 emphasize Agentic Workflow, Discovery, Design, Application Architecture, AI Systems, and Launch and Learn. Week 7 brings those skills together in storytelling, reflection, and the showcase. Your own sprint goal can advance any axis; the class emphasis is not a new required feature list.
 
 ## Weekly schedule
 
-Required setup is part of Week 1. You may start the [setup checklist](00-computer-setup.qmd) early; there is no required extra setup week. Read the assigned chapters before the corresponding class. All original readings remain assigned.
+**Required reading is 20–30 minutes per week**, split between the two sessions in the linked essentials guide. Setup actions, building, and homework require additional time. The full chapters remain available as optional references and do not need to be read in full. Class activities do not introduce new graded posts, quizzes, worksheets, or essays.
 
-| Week | Dates (2027) | Focus and readings | Assessment placement |
+| Week and dates | Prepare: required essentials | Session 1: taught and practiced | Session 2: taught and practiced |
 |---|---|---|---|
-| 1 | Feb 22–28 | **Setup and Agentic Workflow:** [Computer Setup](00-computer-setup.qmd); [Building with AI Agents](01-building-with-ai-agents.qmd); [Directing the Agent](02-directing-the-agent.qmd) | Opening self-assessment; [Sprint 1](00-assessments.qmd#sprint-1) |
-| 2 | Mar 1–7 | **Discovery:** [What Is Worth Building](03-what-is-worth-building.qmd); [Finding and Validating the Problem](04-finding-and-validating-the-problem.qmd) | [Sprint 2](00-assessments.qmd#sprint-2) |
-| 3 | Mar 8–14 | **Design:** [Interface and Flow](05-interface-and-flow.qmd); [Design Fundamentals](05b-design-fundamentals.qmd); [Testing the Design](06-testing-the-design.qmd); [Specs: Designing the Build](06b-specs.qmd) | [Sprint 3](00-assessments.qmd#sprint-3); [midterm](00-assessments.qmd#midterm-exam) |
-| 4 | Mar 15–21 | **Application Architecture:** [Anatomy of an Application](07-anatomy-of-an-application.qmd); [Data and APIs](08-data-and-apis.qmd); [Version Control, Environments, and Deploys](09-version-control-testing-and-tech-debt.qmd); [Tests and Tech Debt](09b-tests-and-tech-debt.qmd); [The Browser, Developer Tools, and Claude in Chrome](09c-browser-and-developer-tools.qmd) | [Sprint 4](00-assessments.qmd#sprint-4) |
-| 5 | Mar 22–28 | **AI Systems:** [How Models Work](10-how-models-work.qmd); [Models in Your Product](11-models-in-your-product.qmd) | [Sprint 5](00-assessments.qmd#sprint-5) |
-| 6 | Mar 29–Apr 4 | **Launch and Learn:** [Going to Market](12-going-to-market.qmd); [Business Models](13-business-models.qmd); [Measuring What Matters](14-measuring-what-matters.qmd) | [Sprint 6 begins](00-assessments.qmd#sprint-6); [peer testing assigned](00-assessments.qmd#peer-product-testing) |
-| 7 | Apr 5–8 | **Final Demo and Wrap-up:** [Storytelling and the Final Demo](15-storytelling-and-the-final-demo.qmd) | [Sprint 6 completes](00-assessments.qmd#sprint-6); [peer testing](00-assessments.qmd#peer-product-testing); [final exam](00-assessments.qmd#final-exam); closing self-assessment |
+| **1 · Feb 22–28** | [Week 1: Agentic Workflow](W01-agentic-workflow.qmd) · AIRE; agent loop; repository basics; checking work | Orientation; explain the agent loop to a partner; write Sprint 1 plans | Build a small working change; demonstrate and verify it with a partner |
+| **2 · Mar 1–7** | [Week 2: Discovery](W02-discovery.qmd) · Problems, customer evidence, interviews, narrow scope | Problem interviews; distinguish observations from assumptions | Synthesize evidence; critique a problem statement and smallest useful test |
+| **3 · Mar 8–14** | [Week 3: Design](W03-design.qmd) · Flows, interface clarity, usability tests, acceptance criteria | Flow mapping; clear and accessible interactions; peer critique | Observe a usability test; improve a small specification |
+| **4 · Mar 15–21** | [Week 4: Application Architecture](W04-application-architecture.qmd) · Frontend/backend/database; APIs; access, secrets, Git, testing | Trace a request; explain data ownership and access boundaries | Review a diff; run checks; diagnose a failure and discuss rollback |
+| **5 · Mar 22–28** | [Week 5: AI Systems](W05-ai-systems.qmd) · Model limits; prompts; grounding; evaluation; cost | Explain model behavior; rewrite a vague request; identify unsupported claims | Evaluate an AI task with examples; compare quality, failure, cost, and latency |
+| **6 · Mar 29–Apr 4** | [Week 6: Launch and Learn](W06-launch-and-learn.qmd) · Audience; positioning; business models; useful metrics | Explain product value; conduct peer testing and exchange feedback | Apply feedback; verify the product; rehearse the final sprint demo |
+| **7 · Apr 5–8** | [Week 7: Storytelling and Reflection](W07-storytelling-and-reflection.qmd) · Product story; evidence; demonstration; reflection | Rehearse and critique product stories and supported claims | Final showcase; teach lessons learned; closing self-assessment |
 
 ## Demos and peer feedback
 
-
-Every few weeks a portion of class is given over to small-group demos: you show your real, deployed product to three or four classmates, they tell you what worked and what confused them, and you spend the rest of the session building on what you heard.
-
-These are informal working sessions. Bring something that runs. The first half of the course is mostly solo work, and these are your regular chance to see what classmates are building and to have people who have not seen your product try it before the final.
-
+Bring real, checkable work to class and explain it to classmates. Listen to their attempts rather than coaching every click. Exchange peer-testing feedback during Week 6 classes before Saturday's submission so you have time to apply it. Informal peer teaching and critique are classroom learning activities, not additional graded assignments.
 
 ## Sprints
 
-Sprints 1–5 each last one week. Sprint 6 spans Weeks 6–7. Every sprint follows the same sequence: plan, build, review, and demo. A sprint is a timebox; your work may advance any of the six axes. Full deliverables and rubrics are in [Assessments](00-assessments.qmd#sprints).
+All six sprints now occupy **Weeks 1–6**, one week each. Plans for Sprints 2–6 are due the preceding Saturday. **Sprint 1's plan is written and submitted during the first class**, the only exception. Wrap-ups include output, review, and demo. All dated submissions close at **11:59 p.m. America/Boise**, following local daylight saving time.
 
-| Sprint | Placement | Plan deadline | Wrap-up deadline | Points |
-|---|---|---|---|--:|
-| [1](00-assessments.qmd#sprint-1) | Week 1 | ________ | ________ | 50 |
-| [2](00-assessments.qmd#sprint-2) | Week 2 | ________ | ________ | 50 |
-| [3](00-assessments.qmd#sprint-3) | Week 3 | ________ | ________ | 50 |
-| [4](00-assessments.qmd#sprint-4) | Week 4 | ________ | ________ | 50 |
-| [5](00-assessments.qmd#sprint-5) | Week 5 | ________ | ________ | 50 |
-| [6](00-assessments.qmd#sprint-6) | Weeks 6–7 | ________ | ________ | 100 |
+| Sprint | Work period | Plan due | Wrap-up due | Points |
+|---|---|---|---|---:|
+| [Sprint 1](00-assessments.qmd#sprint-1) | Week 1 | During first class | Sat, Feb 27 | 50 |
+| [Sprint 2](00-assessments.qmd#sprint-2) | Week 2 | Sat, Feb 27 | Sat, Mar 6 | 50 |
+| [Sprint 3](00-assessments.qmd#sprint-3) | Week 3 | Sat, Mar 6 | Sat, Mar 13 | 50 |
+| [Sprint 4](00-assessments.qmd#sprint-4) | Week 4 | Sat, Mar 13 | Sat, Mar 20 | 50 |
+| [Sprint 5](00-assessments.qmd#sprint-5) | Week 5 | Sat, Mar 20 | Sat, Mar 27 | 50 |
+| [Sprint 6](00-assessments.qmd#sprint-6) | Week 6 | Sat, Mar 27 | Sat, Apr 3 | 100 |
+
+Sprint 6 closes **Saturday, April 3**. Week 7 is for the showcase, reflection, and final exam. There is no seventh sprint or new sprint deadline after the block ends. See the [complete assignment checklist](00-assignments.qmd) for submission details and the [assessment rubrics](00-assessments.qmd#sprints) for grading.
 
 ## Peer Assignment
 
-| Assignment | Placement | Deadline | Focus |
-|---|---|---|---|
-| [Peer Product Testing](00-assessments.qmd#peer-product-testing) | Assigned Week 6; completed Week 7 | ________ | Be a real test user for a peer's app |
+[Peer Product Testing](00-assessments.qmd#peer-product-testing) is assigned in Week 6. Exchange feedback during class before the final build closes. The 5-minute Loom video is due **Saturday, April 3, at 11:59 p.m. America/Boise** and is worth **50 points**.
 
 ## Exams
 
-Both exams remain closed book, proctored, and completed without AI assistance. Each is worth 25 points. Delivery arrangements: ________.
+Both exams are closed book, proctored, and completed without AI assistance. Each is worth 25 points. Delivery arrangements: ________. These are **proposed course windows**, not university-mandated testing dates. Each opens at 12:00 a.m. on the first date and closes at 11:59 p.m. on the last in America/Boise.
 
-| Exam | Placement | Exact window | Covers | Questions |
-|---|---|---|---|---|
-| [Midterm](00-assessments.qmd#midterm-exam) | Week 3 | ________ | Agentic Workflow, Discovery, Design | 36 |
-| [Final](00-assessments.qmd#final-exam) | Week 7 | ________ | Cumulative, all six axes | 84 (72 scored), 2 hours |
+| Exam | Proposed window | Scope | Format |
+|---|---|---|---|
+| [Midterm](00-assessments.qmd#midterm-exam) | March 12–13 | Weeks 1–3 essentials and explicitly taught class material | 36 questions |
+| [Final](00-assessments.qmd#final-exam) | April 5–8 | Cumulative across all six axes: essentials and explicitly taught class material | 84 questions (72 scored), 2 hours |
 
-On both exams, 80% correct earns full credit. Results for each axis are Developing, Proficient, or Strong. See [Assessments](00-assessments.qmd#exams) for scoring.
+Optional full chapters do not independently add exam requirements. The existing scoring remains: 80% correct earns full credit. The full-source practice bank is supplemental reference material, not a list of additional required preparation.
 
 ## Readings
 
-The [weekly schedule](#weekly-schedule) lists every assigned reading in order. All appendices and references remain available through Topics navigation.
+The seven essentials guides are the required reading path. The original chapters remain in Topics navigation under **Optional** and are linked from each weekly guide. Use them when you need a fuller explanation or want to go deeper. Setup is included in Week 1 and may be started early; it is not a required extra week.

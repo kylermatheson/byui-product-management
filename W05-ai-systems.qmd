@@ -1,0 +1,81 @@
+---
+title: "Week 5: AI Systems"
+reading-minutes: "20–30"
+---
+
+**March 22–28, 2027 | Weekly essentials**
+
+Use models for a defined task and judge their performance with examples, not just a convincing demonstration.
+
+**Required preparation: 20–30 minutes for the whole week**, split between the two Prepare sections. Read these essentials and think through the questions before the corresponding session. Building, setup, and other homework take additional time. The full chapters linked at the end are optional, not additional required reading.
+
+The course follows [Prepare](https://www.byui.edu/learning-model/prepare), [Teach One Another](https://www.byui.edu/learning-model/teach-one-another), and [Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove). Prepare academically and spiritually, help classmates refine their understanding, then apply and reflect. AIRE remains the framework for making product decisions.
+
+Meeting days are still either Monday/Wednesday or Tuesday/Thursday; use Session 1 and Session 2 below until confirmed. Meeting times: ________. Use Codex first, or Claude as the supported alternative.
+
+## Prepare: Session 1
+
+**The model:** A language model generates a response from patterns learned during training and the context provided in its current request. A fluent answer is not proof that the answer is true or appropriate for your user.
+
+Training changes the model's parameters using data and a learning process. Using the trained model to produce an answer is inference. You usually do not retrain a model when building a small product. Instead, you choose a model, supply instructions and relevant context, connect tools when needed, and check the outputs against the task you want performed.
+
+Models work with tokens, units into which text is divided. The context window limits what can be considered in a request. A long conversation or large collection of files may exceed the available context, be shortened, or be summarized by the application. Do not assume a fact from an earlier interaction remains available. Ask what context the product actually supplies to the model when the user takes an action.
+
+A model can generate a plausible but unsupported answer. It may also follow an ambiguous instruction in a way you did not intend. The right response depends on the task. For brainstorming, several imperfect suggestions may be useful. For a factual course-policy answer, inventing a deadline can mislead someone. Define the consequence of error before deciding how much verification and human review the feature needs.
+
+A useful prompt describes the task, relevant audience, constraints, source material, and desired output. It can also give an example of an acceptable response. “Summarize this interview, separate observations from inferences, and quote only statements present in the notes” is more checkable than “find insights.” An improved prompt can help, but it does not guarantee a correct answer.
+
+Keep instructions distinct from untrusted material. A customer document, retrieved page, or pasted message may contain text that looks like a command. Your application should treat that text as data for the task, not as permission to change the task or expose information. This is one reason a product needs controls beyond a sentence asking the model to behave well.
+
+Before class, choose a model-assisted task and describe one helpful response, one unacceptable response, and the consequence of the unacceptable response. Consider whether the feature should acknowledge uncertainty, ask a question, defer to a person, or decline to act when evidence is missing. Respecting the user includes being honest about those limits.
+
+## Prepare: Session 2
+
+**The model:** An AI feature is a system around a model: context, instructions, tools, access rules, interface behavior, and evaluation all affect the result. Test the system on representative examples before claiming it works.
+
+Place a secret model API key on the server, not in a browser bundle. The browser can ask your backend to perform the task; the backend enforces access and sends the authorized request. A model's tools should have only the permissions needed for that task. If an action can change important records or contact another person, decide what the user must review before the action occurs.
+
+An API call does not automatically remember previous calls. Your application must supply the conversation or other state it wants the model to use, subject to the model's context limits. Different users' histories must remain separate. A helpful answer based on the wrong person's data is still a product failure.
+
+Grounding supplies relevant source information, often by retrieving selected passages. For a course-help feature, retrieve the actual assignment instructions rather than asking the model to recall the schedule. Retrieval can fail too: the product may select an old policy or a passage about the wrong kind of deadline. Inspect which material was retrieved and whether the answer is supported by it. Adding more documents does not automatically improve relevance.
+
+Structured output requests a particular shape, such as fields for a summary and open questions. A valid shape does not make the contents correct. Validate required fields and values in application code, and decide what should happen if the model cannot provide a useful result. Streaming can show partial text sooner, but it does not solve unsupported claims, privacy problems, or failed requests.
+
+Create a small evaluation set with ordinary cases, difficult cases, missing information, and cases the feature should refuse or escalate. Define what counts as a useful response before comparing versions. For an interview summarizer, checks might include preserving important facts, avoiding invented quotes, distinguishing inference, and protecting identities. Keep some examples separate from the ones used to tune your prompt so you can notice overfitting to familiar cases.
+
+Measure cost and response time alongside quality. Request size, response length, model choice, and number of calls affect cost. A cheaper model that causes frequent retries may not produce a cheaper workflow. Compare complete tasks under realistic conditions rather than selecting a model solely because it is new or expensive.
+
+Bring a few sanitized examples and an explicit acceptance rule. Be ready to explain what your small test set can establish and which situations you have not tested.
+
+## Teach One Another
+
+### Session 1
+
+The instructor explains training versus inference, context, unsupported answers, and prompt structure using a small product task. In pairs, teach back why a confident response can still be wrong. Rewrite one vague request into a checkable task and identify a case where the product should ask for help rather than guess.
+
+### Session 2
+
+The instructor follows an AI request through the product and demonstrates a small evaluation set. Partners compare responses against criteria chosen in advance. Discuss differences in support, usefulness, latency, and cost. Use build time to improve the feature, evaluation, or failure handling; avoid claiming improvement based on one selected answer.
+
+## Ponder and Prove
+
+Run the tests that are appropriate to your sprint goal and record the inputs, expected behavior, observed result, and limitations. Use sanitized examples rather than private user information. A careful evaluation or documented failure analysis can be valuable output even when you decide not to ship the AI feature.
+
+In the existing sprint review, explain a result that changed your judgment. Did the failure come from missing context, a weak instruction, incorrect retrieval, excessive permissions, or model behavior you could not control? Say what you changed and how you checked it.
+
+Prepare Sprint 6 by choosing a finishable goal with a clear audience and demonstration. You will have one final build week, followed by a showcase week. Leave time for peer feedback and repair rather than using the final plan to introduce every idea you have postponed.
+
+## Assignments this week
+
+- [Sprint 5 wrap-up](00-assessments.qmd#sprint-5): **Saturday, March 27**.
+- [Sprint 6 plan](00-assessments.qmd#sprint-6): **Saturday, March 27**.
+- Bring sanitized evaluation examples to class. The evaluation discussion is not an additional graded submission.
+
+All dated submissions close at **11:59 p.m. America/Boise**, which follows local daylight saving time. See the [assignment checklist](00-assignments.qmd) for deliverables and points and [Assessments](00-assessments.qmd) for the unchanged rubrics. The class activities above add no separate graded submissions. Exam preparation includes these essentials and explicitly taught class material, not every optional reference section.
+
+## Optional full chapters
+
+These longer readings remain available for questions, examples, and deeper study. You do not need to read them in full to prepare for class.
+
+- [How Models Work](10-how-models-work.qmd)
+- [Models in Your Product](11-models-in-your-product.qmd)

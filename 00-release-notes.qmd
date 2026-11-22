@@ -2,6 +2,14 @@
 title: "Release Notes"
 ---
 
+## v1.1.0
+
+- Added seven short essentials guides with 20–30 minutes of weekly preparation; retained every full chapter as an optional reference.
+- Organized two weekly sessions around Prepare, Teach One Another, and Ponder and Prove, with specific instruction and peer activities.
+- Added a complete assignment checklist and Saturday sprint dates. Sprint 1's plan stays in the first class; Sprint 6 ends April 3.
+- Published proposed midterm and final exam windows, limited exam scope to essentials and explicitly taught class material, and retained all grading weights and optional extra credit.
+- Updated weekly navigation and the downloadable starter to match. Meeting days, times, and exam delivery remain unconfirmed.
+
 ## v1.0.0
 
 - Organized the full course into seven weeks for BYU-Idaho, Winter 2027 Second Block, February 22–April 8.

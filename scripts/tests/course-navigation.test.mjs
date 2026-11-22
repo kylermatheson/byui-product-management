@@ -118,7 +118,7 @@ test('Topics preference and explicit Weeks override preserve both navigation ord
   assert.equal(topics.nav.innerHTML, 'original topics navigation');
   const weeks = weeksAt('2027-03-02', data, '?view=weeks', 'topics');
   assert.equal(weeks.weeks.hidden, false);
-  assert.match(weeks.weeks.innerHTML, /Appendix and references/);
+  assert.match(weeks.weeks.innerHTML, /Optional chapters and references/);
   assert.match(weeks.weeks.innerHTML, /extra.html/);
   assert.match(weeks.nav.innerHTML, /Week 2/);
 });

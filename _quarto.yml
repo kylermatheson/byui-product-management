@@ -19,34 +19,44 @@ book:
         - 00-computer-setup.qmd
         - 00-course-workflows.qmd
         - 00-schedule.qmd
+        - 00-assignments.qmd
         - 00-assessments.qmd
         - 00-release-notes.qmd
-    - part: Agentic Workflow
+    - part: Weekly Essentials (Required)
+      chapters:
+        - W01-agentic-workflow.qmd
+        - W02-discovery.qmd
+        - W03-design.qmd
+        - W04-application-architecture.qmd
+        - W05-ai-systems.qmd
+        - W06-launch-and-learn.qmd
+        - W07-storytelling-and-reflection.qmd
+    - part: "Optional: Agentic Workflow"
       chapters:
         - 01-building-with-ai-agents.qmd
         - 02-directing-the-agent.qmd
-    - part: Discovery
+    - part: "Optional: Discovery"
       chapters:
         - 03-what-is-worth-building.qmd
         - 04-finding-and-validating-the-problem.qmd
-    - part: Design
+    - part: "Optional: Design"
       chapters:
         - 05-interface-and-flow.qmd
         - 05b-design-fundamentals.qmd
         - 06-testing-the-design.qmd
         - 06b-specs.qmd
-    - part: Application Architecture
+    - part: "Optional: Application Architecture"
       chapters:
         - 07-anatomy-of-an-application.qmd
         - 08-data-and-apis.qmd
         - 09-version-control-testing-and-tech-debt.qmd
         - 09b-tests-and-tech-debt.qmd
         - 09c-browser-and-developer-tools.qmd
-    - part: AI Systems
+    - part: "Optional: AI Systems"
       chapters:
         - 10-how-models-work.qmd
         - 11-models-in-your-product.qmd
-    - part: Launch and Learn
+    - part: "Optional: Launch and Learn"
       chapters:
         - 12-going-to-market.qmd
         - 13-business-models.qmd

@@ -2,6 +2,11 @@
 title: "Data and APIs"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 4: Application Architecture](W04-application-architecture.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 ## Why This Matters
 
 Everything your product remembers lives in a database, and everything it gets from

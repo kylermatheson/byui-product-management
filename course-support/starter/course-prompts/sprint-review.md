@@ -1,6 +1,6 @@
 # Sprint review
 
-Read AGENTS.md, README.md, and this sprint's plan. Confirm the sprint number, sprint window, current plan, and which local projects or linked artifacts the student authorizes you to read. Use templates/sprint-review.md for the output file shape.
+Read AGENTS.md, README.md, course-schedule.json, and this sprint's plan. Confirm the sprint number, sprint window, current plan, and which local projects or linked artifacts the student authorizes you to read. Use templates/sprint-review.md for the output file shape.
 
 Use approved commit history and artifacts as evidence. The student may supply selected session notes or exports; do not scrape account-wide histories or assume Codex and Claude store sessions identically. Keep private source code, raw transcripts, credentials, and identifiable customer data out of the report. For confidential work, report dates, commit messages, artifact paths, and a student-approved summary rather than copying code. If an artifact cannot be inspected, say so; do not claim it worked.
 
@@ -15,4 +15,6 @@ Then ask these five questions one at a time, waiting after each. Save each answe
 
 Save `sprints/sprint-N-review.md` with the report and all five student answers. Do not generate or improve their retrospective answers. Remind them their hours estimate is not graded on its number. Ensure README.md's Where the work lives section lists all required locations. Ask for the Loom demo link: 2–3 minutes for Sprints 1–5 and 3–4 minutes for Sprint 6; the actual published assessment rubric governs length penalties and content. For Sprint 6, include the course-wide problem, live demo, and what the student learned.
 
-Review the diff, help commit only the intended files, and ask for approval before pushing to the student's confirmed repo. Verify the review file on GitHub after an authorized push. Provide the review URL and Loom URL for the LMS Wrap-up assignment, plus the repo URL for Sprint 1. Staff email and exact deadlines remain blank until supplied. Do not claim a submission or sharing step succeeded unless verified.
+Review the diff, help commit only the intended files, and ask for approval before pushing to the student's confirmed repo. Verify the review file on GitHub after an authorized push. Provide the review URL and Loom URL for the LMS Wrap-up assignment, plus the repo URL for Sprint 1. Use course-schedule.json for deadlines. Staff email and meeting details remain blank until supplied. Do not claim a submission or sharing step succeeded unless verified.
+
+Every sprint wraps up on Saturday at 23:59 America/Boise, with Sprint 6 closing April 3. Peer-testing video is also due April 3; the student should exchange actionable feedback with their peer during Week 6 classes before the final build is submitted. Week 7 is the showcase and final exam, not another build submission. Frame the existing retrospective as Ponder and Prove: connect an observed result to what the student learned and will do next. Do not add a graded reflection essay.

@@ -4,6 +4,10 @@ title: "Why This Class Works This Way"
 
 This class is built on evidence about how people actually learn. I am putting the reasoning here in the open so you can see why each piece of the course exists and get more out of it. If a part of the class feels harder than a normal lecture, that is usually by design.
 
+## BYU-Idaho Learning Model
+
+The [weekly essentials](00-schedule.qmd#weekly-schedule) put [Prepare](https://www.byui.edu/learning-model/prepare), [Teach One Another](https://www.byui.edu/learning-model/teach-one-another), and [Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove) into a two-session weekly rhythm. Short required reading and questions prepare you academically and spiritually; instructor-led peer explanation and practice refine your understanding; product work and the existing retrospective support application and reflection. These activities add no new graded submissions. The full chapters remain available for optional depth.
+
 ## How you actually learn
 
 A handful of study methods account for most of the benefit. They are not intuitive, and most of them feel worse in the moment than the methods that don't work.
@@ -30,7 +34,7 @@ We run class as a working session rather than a lecture because that is how skil
 
 The most important idea is that low-stakes work and graded judgment are two different jobs, and they need opposite stakes.
 
-- **Low-stakes work should be safe to fail.** The `/learn` checks and the sprint plans exist to cause learning. They are low-stakes on purpose. The point is to make your errors early, when they cost few or no points and feedback can fix them. Treat them as your best preparation.
+- **Low-stakes work should be safe to fail.** The section-tutoring checks and the sprint plans exist to cause learning. They are low-stakes on purpose. The point is to make your errors early, when they cost few or no points and feedback can fix them. Treat them as your best preparation.
 - **Grades are based on the real work.** Most of your grade is on building an actual product, the whole game in junior form, iterated with feedback. That is the thing worth certifying, and it is the thing employers and customers care about.
 - **No single high-stakes final.** Pressure consumes the working memory you need to perform, and it hurts your best thinking most. Weight is distributed and, where possible, retakeable, so one bad day does not determine your grade.
 - **Feedback is about the work.** Comments aimed at the task help. Praise or criticism aimed at the self, like "you're smart" or "you're behind," mostly hurts. Expect specific, task-focused feedback.

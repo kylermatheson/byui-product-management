@@ -2,6 +2,11 @@
 title: "Storytelling and the Final Demo"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 7: Storytelling and Reflection](W07-storytelling-and-reflection.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 ## Why This Matters
 
 You spent the semester finding a truth about a customer and building something in response to it. Now you have to make someone else care. That is a different skill, and it is not optional. A good product can lose to a worse one that is explained better. Your [Sprint 6](00-assessments.qmd#sprint-6) demo is a three-minute video that tells a story, and the ability to tell it well is the same ability you use in a customer interview, a landing page, a sales call, a stakeholder update, and a job interview.

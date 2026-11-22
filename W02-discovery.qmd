@@ -1,0 +1,81 @@
+---
+title: "Week 2: Discovery"
+reading-minutes: "20–30"
+---
+
+**March 1–7, 2027 | Weekly essentials**
+
+Find evidence of a real problem before choosing a larger solution.
+
+**Required preparation: 20–30 minutes for the whole week**, split between the two Prepare sections. Read these essentials and think through the questions before the corresponding session. Building, setup, and other homework take additional time. The full chapters linked at the end are optional, not additional required reading.
+
+The course follows [Prepare](https://www.byui.edu/learning-model/prepare), [Teach One Another](https://www.byui.edu/learning-model/teach-one-another), and [Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove). Prepare academically and spiritually, help classmates refine their understanding, then apply and reflect. AIRE remains the framework for making product decisions.
+
+Meeting days are still either Monday/Wednesday or Tuesday/Thursday; use Session 1 and Session 2 below until confirmed. Meeting times: ________. Use Codex first, or Claude as the supported alternative.
+
+## Prepare: Session 1
+
+**The model:** A problem describes an undesirable situation for a particular person. A solution is one possible response. Keep them separate long enough to discover whether your proposed response fits.
+
+“Students need an AI planner” starts with a solution. “Students working changing shifts miss short assignments because their study time moves every week” describes a person, situation, and difficulty. The second statement gives you something to investigate. It may eventually support a planner, but it could also lead to a simpler calendar workflow or a change in how deadlines are communicated.
+
+Start with a narrow customer and a recent event. Ask a person to walk through the last time the problem happened. What were they trying to accomplish? What did they do next? What alternative did they use? What did that cost in time, money, effort, or worry? Look for the current habit, even when it is a spreadsheet, a conversation, or doing nothing. Your competitor is not limited to another software product.
+
+Avoid interview questions that invite approval of your idea. “Would you use this?” asks people to predict their future behavior and be polite. “Show me how you handled the last occurrence” invites a concrete account. You can still be friendly and explain your interest without turning the conversation into a sales pitch. Ask permission before taking notes or recording, and protect the person's identity in course artifacts.
+
+Jobs-to-be-Done is a way to describe the progress a person wants in a situation. It directs attention beyond a feature request to the underlying task and circumstances. A customer asking for more reminders may really need confidence that an important commitment will not be forgotten. You should not assume that interpretation is correct; use it to ask a better follow-up question.
+
+Keep observations separate from interpretations. An observation might be that someone checked three calendars before accepting a shift. An interpretation might be that coordinating calendars is their largest problem. The first can be supported by what you saw. The second needs more evidence and comparison with other difficulties.
+
+Before class, bring one problem statement and one question about a recent real event. Prepare to explain which parts of the statement are observed, reported, or still guessed. Consider how listening without steering the answer shows respect for another person's experience.
+
+## Prepare: Session 2
+
+**The model:** Useful discovery changes a decision. Gather the smallest amount of trustworthy evidence that can help you choose a next step, rather than collecting material simply to make the project look researched.
+
+Evidence differs in strength and relevance. Someone saying a problem matters is one signal. Watching them spend time solving it is another. A meaningful commitment, such as making an introduction or agreeing to a scheduled test, can tell you more than an enthusiastic compliment. Payment may be strong evidence of willingness to pay, but it does not answer every question about usability, retention, or ethical value. Ask what each observation actually establishes.
+
+After an interview, write a short synthesis: who experienced the problem, when it occurred, how they handled it, what consequence mattered, and what remains uncertain. Avoid treating a single interview as proof of a whole market. Look for repeated patterns, important differences, and a customer group you can realistically reach again. An AI-generated persona can organize your assumptions, but it is not additional customer evidence.
+
+Choose your riskiest assumption. Perhaps customers do not care enough to change their habit. Perhaps you cannot reach them. Perhaps the proposed workflow is too difficult to complete. Design a small test that makes a decision possible. For a coordination tool, that might be a manual scheduling trial with one group before you build integrations for several calendars.
+
+Define the test before seeing the result. State what you expect to observe, what result would make you continue, and what would make you change direction. Otherwise it is easy to explain every result as success. A negative result can be valuable when it prevents you from spending the rest of the block building the wrong thing.
+
+An MVP is the smallest useful product or experiment that tests an important assumption. It is not permission to ignore basic reliability or expose people to avoidable harm. Limit the audience and the feature set while keeping the core task understandable and checkable. Use a manual step when automation is not needed to learn the next thing.
+
+Value matters alongside feasibility. Ask who benefits, who bears the cost, and whether your product respects the customer's agency and well-being. A product can attract attention while making the user's life worse. State one boundary you will keep even if breaking it might improve a convenient metric.
+
+Bring a proposed smallest test and explain what decision its result would inform. Your sprint may advance discovery through research or another checkable artifact; you are not required to invent a feature just to produce code.
+
+## Teach One Another
+
+### Session 1
+
+The instructor contrasts problem statements with solution pitches and demonstrates a short problem interview. Partners alternate interviewer and customer roles using a recent event. The observer identifies a leading question and suggests a neutral replacement. Each student teaches back the customer's current habit and consequence, then checks whether the partner agrees with that account.
+
+### Session 2
+
+The instructor models how to separate interview evidence from inference and choose a risky assumption. Small groups critique each other's smallest tests. Explain what you would do after a positive, negative, or ambiguous result. Use the remaining class time to improve your problem statement, test, or product scope. Connect the decision to Aim and Inform before choosing what to enact.
+
+## Ponder and Prove
+
+Carry out the discovery work appropriate to your own plan. Store sanitized notes, a synthesis, and the decision the evidence supports. If another person's response is part of your goal, report the asks you made and what happened; do not manufacture a favorable answer.
+
+In the existing sprint review, explain how the evidence changed or confirmed your next action. Distinguish “we heard this once” from “we observed this pattern.” If your test was inconclusive, identify the missing information instead of turning uncertainty into a success claim.
+
+Use the next sprint plan to select work you can finish and show. You may continue discovery rather than moving automatically to design if the problem is still unclear. The weekly class emphasis gives you tools, while your evidence determines which work is most useful for your project.
+
+## Assignments this week
+
+- [Sprint 2 wrap-up](00-assessments.qmd#sprint-2): **Saturday, March 6**.
+- [Sprint 3 plan](00-assessments.qmd#sprint-3): **Saturday, March 6**.
+- Bring sanitized observations and your smallest-test proposal to the class discussions; there is no separate graded discussion submission.
+
+All dated submissions close at **11:59 p.m. America/Boise**, which follows local daylight saving time. See the [assignment checklist](00-assignments.qmd) for deliverables and points and [Assessments](00-assessments.qmd) for the unchanged rubrics. The class activities above add no separate graded submissions. Exam preparation includes these essentials and explicitly taught class material, not every optional reference section.
+
+## Optional full chapters
+
+These longer readings remain available for questions, examples, and deeper study. You do not need to read them in full to prepare for class.
+
+- [What Is Worth Building](03-what-is-worth-building.qmd)
+- [Finding and Validating the Problem](04-finding-and-validating-the-problem.qmd)

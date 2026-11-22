@@ -94,7 +94,7 @@
                     w.read.map(link).join("") + w.items.map(item).join(""),
                     now || w.read.indexOf(here) >= 0, cls);
     });
-    html += group("wk-ref", "Appendix and references", "", rest.map(link).join(""),
+    html += group("wk-ref", "Optional chapters and references", "", rest.map(link).join(""),
                   rest.indexOf(here) >= 0, "wk-meta");
 
     var weeks = document.createElement("ul");

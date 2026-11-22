@@ -1,0 +1,81 @@
+---
+title: "Week 7: Storytelling and Reflection"
+reading-minutes: "20–30"
+---
+
+**April 5–8, 2027 | Weekly essentials**
+
+Tell an evidence-based product story, teach classmates what you learned, and identify an honest next step.
+
+**Required preparation: 20–30 minutes for the whole week**, split between the two Prepare sections. Read these essentials and think through the questions before the corresponding session. Building, setup, and other homework take additional time. The full chapters linked at the end are optional, not additional required reading.
+
+The course follows [Prepare](https://www.byui.edu/learning-model/prepare), [Teach One Another](https://www.byui.edu/learning-model/teach-one-another), and [Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove). Prepare academically and spiritually, help classmates refine their understanding, then apply and reflect. AIRE remains the framework for making product decisions.
+
+Meeting days are still either Monday/Wednesday or Tuesday/Thursday; use Session 1 and Session 2 below until confirmed. Meeting times: ________. Use Codex first, or Claude as the supported alternative.
+
+## Prepare: Session 1
+
+**The model:** A useful product story helps a particular audience understand a problem, a decision, and the evidence behind the result. Its purpose determines what belongs in the story.
+
+Decide what you want the audience to understand or do. A customer may need to judge whether the product fits a task. A teammate may need enough context to continue development. A course showcase should make your learning and the working result understandable to classmates. These audiences may need different details even when you are showing the same product.
+
+Start with a specific person and situation, while protecting private information. Explain the difficulty and the current alternative before describing your features. “A student with changing shifts could not find a study group at a workable time” gives the audience a reason to care about the flow you will demonstrate. A long list of technologies rarely establishes that reason on its own.
+
+Select a few important decisions rather than narrating every day of the course. Explain what you believed, what you observed, what you chose, and what changed. This is AIRE made visible. The audience should be able to distinguish your initial assumption from the information that later challenged it. A decision to remove a feature, narrow an audience, or stop an experiment can show useful judgment.
+
+Make the story concrete. A brief before-and-after example, a relevant observation, or a working interaction is often easier to understand than a general statement about innovation. Use only quotes, results, and usage claims you can support. If a demonstration uses sample data, identify it as sample data. Do not present a classmate's test as evidence of a large market.
+
+Arrange the demonstration around the customer's task. Show where the person begins, the key action, and the result. Avoid touring every menu simply because you built it. Explain enough context to make the result meaningful, then let the audience see the work. Choose a small amount of supporting evidence that answers likely questions instead of filling the presentation with unreadable screenshots.
+
+Before the first session, prepare a short outline: audience, problem, working result, one important decision, evidence, limitation, and next step. You may use an agent to organize material, but the experience and claims must be yours. Consider whether a listener could accurately restate what you learned without having worked on your project.
+
+## Prepare: Session 2
+
+**The model:** Reflection connects an experience to a future decision. An honest account of limits makes the next step clearer and makes the evidence you do have more useful.
+
+A reflection goes beyond saying the project was difficult or that AI saved time. Identify a specific moment: you believed a customer needed reminders, an interview suggested scheduling conflicts instead, and you changed the experiment. Explain what prompted the change and what you would do differently if beginning again. A mistake can support a strong learning claim when you can show how it changed your judgment.
+
+Separate product outcomes from your own growth. A product may have few users while the work demonstrates careful discovery or a sound technical improvement. A product may attract attention without teaching you whether it provides lasting value. The course rubric evaluates checkable work and decisions; it does not turn a favorable outcome into proof that every decision was sound.
+
+Describe limitations directly. Perhaps you tested with only a few people, used sample data, did not verify a particular device, or have not checked long-term retention. State how each limitation affects the conclusion. “We do not know yet” is useful when followed by a specific way to learn. Avoid claiming certainty because an agent produced a polished explanation.
+
+Prepare your demonstration environment. Open the correct version, check your links, use appropriate sample accounts, and keep private information off screen. Have a fallback way to show the relevant work if a live service is unavailable. A recorded interaction can support explanation, but label it correctly and do not pretend that an unavailable service is currently working.
+
+Choose a next step that follows from the evidence. It might be another interview, a test of repeat use, a security improvement, or stopping the project. Explain why it is the next useful step rather than listing a backlog of every possible feature. You are demonstrating the ability to continue learning after the course, not promising to build every idea.
+
+For the final exam, review the required weekly essentials and the concepts explicitly taught in class across all six axes. Explain them without relying on AI: distinguish a problem from a solution, describe a useful test, follow a request, recognize a model limitation, or interpret a metric. Optional reference chapters remain available for deeper understanding but do not independently add examinable material.
+
+Bring one question you still have and one principle you can teach with evidence from your own work. Listen for a classmate's example that challenges or extends your understanding, then consider how you would apply that lesson in a different product setting.
+
+## Teach One Another
+
+### Session 1
+
+The instructor demonstrates how to choose evidence and structure a product story for an audience. In small groups, rehearse your outline and a focused demonstration. Each listener restates the problem, key decision, and evidence. Use any mismatch to improve clarity. Give feedback about supported claims and understandable behavior rather than presentation style alone.
+
+### Session 2
+
+Hold the final showcase during the second class, whether that falls on Wednesday, April 7, or Thursday, April 8. Teach classmates one lesson from the work already submitted for Sprint 6. Ask questions that reveal reasoning, acknowledge limitations, and discuss useful next steps. Complete the closing self-assessment and reflect on growth across the six builder axes.
+
+## Ponder and Prove
+
+Compare your closing self-assessment with the one from Week 1. Use actual work to explain a change in confidence or skill. Identify one habit worth continuing, such as asking a neutral interview question, writing a check before building, or verifying a model's answer against its source.
+
+Keep your portfolio and staff-access links understandable, and use the existing review and demo as your record of the final build. The showcase does not add a new graded video, essay, or sprint. Complete the final exam within its proposed April 5–8 window and follow the published delivery arrangements once staff supply them.
+
+If you choose to complete student ratings for the existing extra-credit opportunity, follow the staff instructions. There is no Saturday submission after the block ends. Leave with a realistic account of what you can now do, what remains uncertain, and how you would learn the next thing.
+
+## Assignments this week
+
+- [Final exam](00-assessments.qmd#final-exam): **proposed April 5–8 window**, closing Thursday, April 8.
+- Final showcase: **Session 2**; closing self-assessment: **Week 7**, ungraded.
+- Optional student ratings: existing **5-point extra-credit opportunity**; completion instructions: ________.
+- No new sprint submission is added in Week 7 or after the block ends.
+
+All dated submissions close at **11:59 p.m. America/Boise**, which follows local daylight saving time. See the [assignment checklist](00-assignments.qmd) for deliverables and points and [Assessments](00-assessments.qmd) for the unchanged rubrics. The class activities above add no separate graded submissions. Exam preparation includes these essentials and explicitly taught class material, not every optional reference section.
+
+## Optional full chapters
+
+These longer readings remain available for questions, examples, and deeper study. You do not need to read them in full to prepare for class.
+
+- [Storytelling and the Final Demo](15-storytelling-and-the-final-demo.qmd)

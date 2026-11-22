@@ -1,0 +1,82 @@
+---
+title: "Week 6: Launch and Learn"
+reading-minutes: "20–30"
+---
+
+**March 29–April 4, 2027 | Weekly essentials**
+
+Explain who the product helps, how it can reach them, and what evidence would show that it is useful.
+
+**Required preparation: 20–30 minutes for the whole week**, split between the two Prepare sections. Read these essentials and think through the questions before the corresponding session. Building, setup, and other homework take additional time. The full chapters linked at the end are optional, not additional required reading.
+
+The course follows [Prepare](https://www.byui.edu/learning-model/prepare), [Teach One Another](https://www.byui.edu/learning-model/teach-one-another), and [Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove). Prepare academically and spiritually, help classmates refine their understanding, then apply and reflect. AIRE remains the framework for making product decisions.
+
+Meeting days are still either Monday/Wednesday or Tuesday/Thursday; use Session 1 and Session 2 below until confirmed. Meeting times: ________. Use Codex first, or Claude as the supported alternative.
+
+## Prepare: Session 1
+
+**The model:** A product needs a specific audience, a credible reason for that audience to try it, and a practical way to reach them. Launching a URL is not the same as earning adoption.
+
+Start with a narrow first customer group, sometimes called a beachhead. A small group with a shared situation is easier to understand and reach than “everyone who wants to be productive.” Describe the problem, the current alternative, and why your product might be a meaningful improvement in that situation. Your audience can broaden later if the evidence supports it.
+
+Positioning gives a customer a useful frame for understanding the product. Messaging expresses that frame in words they encounter. Explain the useful result before listing implementation details. “Find a study group that fits your work shift” tells a student more than “an AI-powered collaboration platform.” Make claims that the product can demonstrate. Do not imply reliability, privacy, or results you have not established.
+
+Choose a way to reach your first users based on where those people already gather and how they decide. A personal invitation to a reachable group can teach you more than buying broad attention. Keep outreach respectful and be honest that you are seeking feedback. A channel that produces visits but no relevant users may be a poor match even if its traffic looks impressive.
+
+A business model explains how value is created, delivered, and sustained. A revenue model describes how money comes in, such as a subscription or transaction fee. Revenue alone does not show whether the work is sustainable. Consider the cost of providing service, supporting users, and acquiring customers, including model calls and other variable costs for an AI product.
+
+A simple contribution calculation starts with money received per customer or transaction and subtracts the costs that rise as you serve it. Fixed costs still need to be covered, and estimates are not results. You do not need a complex financial model to notice that every new use costs more than it earns. You do need to state your assumptions honestly.
+
+Before class, write a one-sentence explanation of who the product is for and what useful result it provides. Identify one reachable place to find those people and one cost that grows with usage. Consider whether your messaging helps customers make an informed choice rather than pressuring them into an action that serves only your metric.
+
+## Prepare: Session 2
+
+**The model:** Decide what useful behavior would look like before choosing a metric. A number is evidence only when it connects to the customer outcome and the decision you need to make.
+
+Signups show that someone created an account. Activation asks whether they reached an initial useful outcome. Retention asks whether they return in a way that fits the product's purpose. For a study-group tool, creating an account may matter less than joining a suitable group and attending a useful session. A product intended for occasional use should not be judged automatically by daily visits.
+
+Choose one core action and a small set of supporting checks. State the audience, action, observation period, and decision. For example: “Among students invited from this study group, can people find and join a meeting without personal help?” You can investigate that question through observed tasks before you have enough usage for reliable trend analysis.
+
+An event is a recorded occurrence, such as a successful join. Record the event that matters, not merely a button click that may fail afterward. Keep the collection proportionate to the question and avoid storing unnecessary personal information. Verify the event is recorded when it should be and not duplicated by reloads or repeated clicks.
+
+A metric can improve while the user experience worsens. Longer sessions might mean deeper engagement or that people cannot find what they need. More messages might mean active collaboration or repeated requests for clarification. Pair the number with observations and the customer's account of what happened. Do not claim that a change caused an outcome simply because the outcome followed the change.
+
+Peer testing gives you an immediate chance to see the product through another person's eyes. Give your partner a realistic task, then observe without directing every click. As the tester, think aloud, show confusing states, and distinguish “I expected this” from “this is broken.” Offer specific improvements that connect to the task. Treat feedback as evidence to evaluate, not a command to implement every preference.
+
+Use feedback early enough to act on it. Exchange the important observations during class, before Saturday's Sprint 6 submission. The peer-testing Loom video is submitted Saturday, but the live conversation should not wait for that deadline. Prioritize a small number of meaningful fixes and verify them rather than making broad late changes.
+
+Bring your product or checkable artifact, a core task for your partner, and a way to observe whether the task succeeds. Be ready to explain what you would keep, change, or stop after seeing the result.
+
+## Teach One Another
+
+### Session 1
+
+The instructor models a clear value explanation and connects audience, channel, revenue, and service costs. Students teach their product's value to a partner, who restates it in customer language. Conduct the peer product test and exchange actionable observations during class so there is time to respond before the sprint closes.
+
+### Session 2
+
+The instructor distinguishes signups, useful actions, retention, and misleading metrics. Partners explain what their chosen measure can and cannot show. Use build time to apply prioritized feedback, verify the product, and rehearse the final sprint demo. Share a remaining limitation and how you will describe it honestly.
+
+## Ponder and Prove
+
+Finish the work promised in your Sprint 6 plan, recording any justified changes. Your final sprint review and demo cover the course-wide problem, the working result, and what you learned. Use evidence from interviews, tests, or product use; do not replace missing evidence with ambitious claims.
+
+Complete your peer-testing video and share it with your partner as well as the course. Check that staff can open your review, output, and Loom links. The sprint rubric remains the source for the 100-point assessment and demo-length rules.
+
+Reflect on which decision most improved the product and which assumption remains uncertain. Use that reflection to prepare your Week 7 story. There is no seventh sprint and no new build submission in Week 7; you will present and explain the work already submitted.
+
+## Assignments this week
+
+- [Sprint 6 wrap-up](00-assessments.qmd#sprint-6): **Saturday, April 3**.
+- [Peer Product Testing video](00-assessments.qmd#peer-product-testing): **Saturday, April 3**.
+- Exchange peer feedback in class before these submissions; Week 7 is for the showcase, reflection, and final exam.
+
+All dated submissions close at **11:59 p.m. America/Boise**, which follows local daylight saving time. See the [assignment checklist](00-assignments.qmd) for deliverables and points and [Assessments](00-assessments.qmd) for the unchanged rubrics. The class activities above add no separate graded submissions. Exam preparation includes these essentials and explicitly taught class material, not every optional reference section.
+
+## Optional full chapters
+
+These longer readings remain available for questions, examples, and deeper study. You do not need to read them in full to prepare for class.
+
+- [Going to Market](12-going-to-market.qmd)
+- [Business Models](13-business-models.qmd)
+- [Measuring What Matters](14-measuring-what-matters.qmd)

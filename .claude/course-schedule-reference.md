@@ -1,7 +1,7 @@
 # Current course schedule reference
 
-BYU-Idaho Product Management, Winter 2027 Second Block: February 22–April 8.
+BYU-Idaho Product Management: February 22–April 8, 2027. Use root AGENTS.md, 00-schedule.qmd, 00-assignments.qmd, _weeks.yml, and course-support/starter/course-schedule.json together. Two sessions weekly; Mon/Wed or Tue/Thu remains unconfirmed.
 
-Use `00-schedule.qmd` and `_weeks.yml` as the synchronized source of truth. Weeks 1–6 emphasize Agentic Workflow, Discovery, Design, Application Architecture, AI Systems, and Launch and Learn, respectively. Week 7 is final demos and wrap-up. Sprints 1–5 occupy one week each; Sprint 6 spans Weeks 6–7. Midterm: Week 3. Final: Week 7. Peer testing: assigned Week 6, completed Week 7.
+Required preparation is the seven W01–W07 essentials guides, 20–30 minutes weekly. Full chapters remain optional references. Use Prepare, Teach One Another, and Ponder and Prove throughout. All six sprints occupy Weeks 1–6, with Saturday wrap-ups February 27–April 3. Plans for Sprints 2–6 are due the preceding Saturday; Sprint 1's plan is submitted during the first class. Dated submissions close at 23:59 America/Boise. Proposed midterm: March 12–13; proposed final: April 5–8. Peer testing video: April 3; share feedback during Week 6 classes before submitting Sprint 6. Week 7 is showcase and reflection, with no new sprint.
 
-Meeting days, exact deadlines, exam delivery, and institutional details remain blank. Codex is primary; Claude is a supported alternative. Original schedule references are preserved in the excluded original-source archive. Read root AGENTS.md for current adaptation guidance.
+Codex is primary; Claude is a supported alternative. No new graded quizzes, posts, worksheets, or essays. Preserve the 450-point model, extra credit, and original-source archive. Do not infer exam delivery or import administrative deadlines.

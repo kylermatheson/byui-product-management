@@ -11,9 +11,9 @@ Use **Codex first**, or **Claude as a supported alternative**. Both follow the s
 3. Start `codex` in its terminal, or `claude` if you selected the alternative. Finish [Computer Setup](00-computer-setup.qmd) first if needed.
 4. Paste the setup prompt below. It checks what is done and can resume when you reopen the project.
 
-The starter contains `AGENTS.md` for Codex, `CLAUDE.md` for the Claude alternative, a README context declaration, sprint templates, shared `course-prompts/`, and folders for sprint work, learning, discovery, design, product, specs, go-to-market, metrics, and decisions. Templates are starting points; your actual answers and finished work are the deliverables.
+The starter includes `course-schedule.json` with the current dates and first-class exception. It also contains `AGENTS.md` for Codex, `CLAUDE.md` for the Claude alternative, a README context declaration, sprint templates, shared `course-prompts/`, and folders for sprint work, learning, discovery, design, product, specs, go-to-market, metrics, and decisions. Templates are starting points; your actual answers and finished work are the deliverables.
 
-Course LMS and link: ________. Course communication channel: ________. Professor GitHub username: ________. TA GitHub username: ________. Exact assignment deadlines: ________. Leave these blank until staff supply them; the agent must not run commands with placeholder values.
+Course LMS and link: ________. Course communication channel: ________. Professor GitHub username: ________. TA GitHub username: ________. Use the [assignment checklist](00-assignments.qmd) for the published sprint dates and proposed exam windows. Leave staff details blank until supplied; the agent must not run commands with placeholder values.
 
 ## Setup prompt {#setup-prompt}
 
@@ -23,14 +23,14 @@ Paste this into Codex or Claude inside your extracted starter folder:
 Read AGENTS.md, README.md, and course-prompts/setup.md in this folder.
 Guide me through the setup procedure one question at a time. Check what is
 already done before making changes. Use my own answers for my role and plan.
-Do not guess staff usernames or deadlines. Never ask for passwords or tokens.
+Read course-schedule.json for deadlines; do not guess staff usernames. Never ask for passwords or tokens.
 ```
 
 [Read the full setup procedure](course-support/starter/course-prompts/setup.md).
 
 ## Sprint plan {#sprint-plan}
 
-Start here at the beginning of each sprint, or return when your plan changes:
+Write the plan by the Saturday before Sprints 2–6 begin, or return when your plan changes. Write Sprint 1's plan during the first class. All six wrap-ups are due Saturdays, February 27 through April 3:
 
 ```text
 Read AGENTS.md, README.md, and course-prompts/sprint-plan.md.
@@ -39,7 +39,7 @@ and use my answers for Goal, Why this, Done looks like, and Predicted difficulty
 If a plan exists, preserve it and record what changed and why.
 ```
 
-[Read the full planning procedure](course-support/starter/course-prompts/sprint-plan.md). The plan lives at `sprints/sprint-N-plan.md`; submit its GitHub link through the course LMS. Exact deadline: ________.
+[Read the full planning procedure](course-support/starter/course-prompts/sprint-plan.md). The plan lives at `sprints/sprint-N-plan.md`; submit its GitHub link through the course LMS. See the [assignment checklist](00-assignments.qmd) for the exact Saturday deadline or the first-class Sprint 1 exception.
 
 ## Sprint review {#sprint-review}
 
@@ -53,7 +53,7 @@ five retrospective questions one at a time. Preserve my answers word for word.
 Mark missing evidence unknown. Let me review the files before submission.
 ```
 
-[Read the full review procedure](course-support/starter/course-prompts/sprint-review.md). The review lives at `sprints/sprint-N-review.md`. Submit its GitHub link and your Loom demo link. Exact deadline: ________. The [Assessments page](00-assessments.qmd#sprints) defines the deliverables and grading.
+[Read the full review procedure](course-support/starter/course-prompts/sprint-review.md). The review lives at `sprints/sprint-N-review.md`. Submit its GitHub link and your Loom demo link. See the [assignment checklist](00-assignments.qmd) for the exact Saturday deadline or the first-class Sprint 1 exception. The [Assessments page](00-assessments.qmd#sprints) defines the deliverables and grading.
 
 ## Learn a section {#learn}
 

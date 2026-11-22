@@ -18,7 +18,7 @@ format:
 | **Office Hours Location** | ________ |
 | **LMS and course link** | ________ |
 | **Course communication channel and link** | ________ |
-| **Class Days and Time** | ________ |
+| **Class Days and Time** | Two sessions weekly: Monday/Wednesday or Tuesday/Thursday, pending confirmation. Time: ________ |
 | **Class Location / Delivery Format** | ________ |
 
 ## Course Numbers
@@ -54,7 +54,7 @@ as the way you build and inside the product you build), **Discovery** (what to b
 whom, and whether you should), **Design** (the surface and the flow), **Application
 Architecture** (how it is structured, shipped, and kept safe), **AI Systems** (how the models
 work, and why they behave the way they do), and **Launch and Learn** (how people find it, and
-whether it worked). Each has a weekly emphasis in Weeks 1–6, followed by a final week of testing, revision, and demos. You rate yourself on all six in the first week.
+whether it worked). Each has a weekly emphasis in Weeks 1–6, followed by a final week of storytelling, reflection, and the showcase. You rate yourself on all six in the first week.
 After that, your sprint reports show a builder profile on the same six axes, filled by your sprint
 work and the two exams ([Your builder profile](00-assessments.qmd#builder-profile)).
 
@@ -94,7 +94,19 @@ Biography: ________.
 
 ## Schedule
 
-See the [Schedule section](00-schedule.qmd) for a weekly schedule of class topics, assignments, due dates, etc.
+See the [course schedule](00-schedule.qmd) for what is taught in each of the two weekly sessions and the [assignment checklist](00-assignments.qmd) for submission dates and points. Sprint wrap-ups are due Saturdays, February 27 through April 3. Plans for Sprints 2–6 are due the preceding Saturday; Sprint 1's plan is submitted during the first class.
+
+## Learning Model
+
+Each week follows BYU-Idaho's three learning steps:
+
+- **[Prepare](https://www.byui.edu/learning-model/prepare):** Prepare academically and spiritually by studying the short essentials and bringing questions to class.
+- **[Teach One Another](https://www.byui.edu/learning-model/teach-one-another):** Explain ideas, demonstrate work, listen respectfully, and refine understanding through instructor-led peer activities.
+- **[Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove):** Apply concepts to your product, check the result, and reflect through the existing sprint review.
+
+Required preparation is **20–30 minutes per week**, split between the two class sessions. Setup, building, and homework take additional time. Start with the [Week 1 essentials](W01-agentic-workflow.qmd). All full chapters remain available as optional references. The Learning Model organizes how we learn; AIRE remains the product decision framework. Classroom preparation and peer teaching add no separate graded submissions.
+
+Exams assess the essentials and explicitly taught class material. Optional chapters do not independently add exam requirements.
 
 ## Grading
 
@@ -134,7 +146,7 @@ The grading scale is show below:
 
 ### Late work policy
 
-**Exams**: Both exams remain closed book and proctored. Midterm window: ________. Final exam window: ________. Delivery arrangements: ________. Windows cannot be extended; complete each exam within its posted window.
+**Exams**: Both exams remain closed book and proctored. Proposed midterm window: March 12–13. Proposed final exam window: April 5–8. Windows open at 12:00 a.m. and close at 11:59 p.m. America/Boise on their listed dates. Delivery arrangements: ________. Windows cannot be extended; complete each exam within its posted window.
 **Homework**: May be turned in up to 9 days late for partial credit with a 10% penalty per day according to the following schedule:
 
 | Days Late | Late Penalty |
@@ -150,9 +162,9 @@ The grading scale is show below:
 | 9         | -90%         |
 | 10        | No Credit    |
 
-**Sprint 6**: Submission deadline: ________. It cannot be turned in late for credit.
+**Sprint 6**: Submission deadline: Saturday, April 3, at 11:59 p.m. America/Boise. It cannot be turned in late for credit.
 
-**Final Exam**: Complete it within the posted window: ________. It cannot be taken late.
+**Final Exam**: Complete it within the proposed April 5–8 window, closing at 11:59 p.m. America/Boise on April 8. It cannot be taken late.
 
 ## Classroom Culture
 

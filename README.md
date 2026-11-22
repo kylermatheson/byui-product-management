@@ -2,8 +2,11 @@
 
 Winter 2027 Second Block: **February 22–April 8, 2027**. Professor: **Rob Teigen**. Teaching Assistant: **Kyle Matheson**. Codex is the primary tool; Claude is a supported alternative.
 
-The full course is organized into seven weeks without dropping readings or assessments. Sprints 1–5 each occupy one week; Sprint 6 spans Weeks 6–7. Exact assignment deadlines, meeting details, and other unknown offering information are labeled blanks. The calendar supplies only the block dates and weekly ranges.
+The course has seven short weekly essentials guides, designed for **20–30 minutes of preparation per week**, with two class sessions organized around **Prepare, Teach One Another, and Ponder and Prove**. All full chapters remain available as optional references. Setup, building, and homework take additional time.
 
+All six sprint wrap-ups are due Saturdays, February 27 through April 3. Plans for Sprints 2–6 are due the preceding Saturday; Sprint 1's plan is submitted during the first class. Dated submissions close at 11:59 p.m. America/Boise. Week 7 is the showcase, reflection, and final exam. Proposed exam windows are March 12–13 and April 5–8; delivery details and exact meeting days/times remain unconfirmed. The 450-point grading model and existing optional extra credit are unchanged.
+
+Start with `00-schedule.qmd` for class activities and `00-assignments.qmd` for submissions and dates. `course-support/starter/course-schedule.json` records the same dates for the portable student procedures. The calendar supplies only the block dates and weekly ranges.
 ## Preview and validate
 
 Install Quarto and Python. For the retained Python examples, install the build dependencies in a virtual environment and select that interpreter:

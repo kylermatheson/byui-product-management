@@ -2,6 +2,11 @@
 title: "Anatomy of an Application"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 4: Application Architecture](W04-application-architecture.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 ## Why This Matters
 
 You have been shipping since week one, and Claude Code has been making the architectural

@@ -2,6 +2,11 @@
 title: "Building with AI Agents"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 1: Agentic Workflow](W01-agentic-workflow.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 ## Why This Matters
 
 This is a course about building products, and you are going to start building in week one,

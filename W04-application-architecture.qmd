@@ -1,0 +1,84 @@
+---
+title: "Week 4: Application Architecture"
+reading-minutes: "20–30"
+---
+
+**March 15–21, 2027 | Weekly essentials**
+
+Explain where a product runs, where its data lives, and how to check and recover from a change.
+
+**Required preparation: 20–30 minutes for the whole week**, split between the two Prepare sections. Read these essentials and think through the questions before the corresponding session. Building, setup, and other homework take additional time. The full chapters linked at the end are optional, not additional required reading.
+
+The course follows [Prepare](https://www.byui.edu/learning-model/prepare), [Teach One Another](https://www.byui.edu/learning-model/teach-one-another), and [Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove). Prepare academically and spiritually, help classmates refine their understanding, then apply and reflect. AIRE remains the framework for making product decisions.
+
+Meeting days are still either Monday/Wednesday or Tuesday/Thursday; use Session 1 and Session 2 below until confirmed. Meeting times: ________. Use Codex first, or Claude as the supported alternative.
+
+## Prepare: Session 1
+
+**The model:** A web application connects code running in a browser, code running on a server, and stored data. Following one user action through those places helps you explain both normal behavior and failures.
+
+The frontend is the interface a person sees and operates. The backend handles work that should happen on a server, such as checking access and calling a service with a secret key. The database stores information the product needs later. These are responsibilities, not necessarily three companies or three separate projects. A hosted platform can provide several of them, but the boundaries still matter.
+
+Follow a simple action: a student saves a group description. The browser gathers the new text and sends a request. Server-side logic checks who the student is and whether that person may change the group. The database stores the allowed change. A response reaches the browser, which shows success or an error. If the browser displays “saved” before persistence actually succeeds, the interface can mislead the user.
+
+An API is an interface through which software requests an action or data. A request has inputs, an operation, and an expected response. When you inspect a failing interaction, ask what request was sent, which inputs it carried, what response came back, and whether the interface handled that response correctly. Developer tools and server logs can help you see those facts. A screenshot of a spinner alone rarely explains the whole failure.
+
+Authentication asks who someone is. Authorization asks what they are allowed to do. A signed-in person should not automatically gain access to another person's private records. Hiding an edit button is useful interface behavior, but it does not secure the underlying endpoint or database operation. Access must be enforced where the protected action or data is controlled.
+
+Keep secret keys and private customer information out of browser code, public repositories, and screenshots. Environment variables are a way to provide configuration, but naming a value “secret” does not make it safe if it is sent to the browser. Ask which part of the system can read the value and whether the deployment exposes it.
+
+Before class, choose one action in your product and sketch its browser, server, and data steps. Identify the owner of the data and one person who must not be able to change it. If you cannot yet locate a step, mark it unknown and bring that question rather than inventing an architecture.
+
+## Prepare: Session 2
+
+**The model:** Safe change depends on a recoverable history, a suitable environment, and checks that exercise the behavior at risk. A deployment is an event to verify, not a reason to stop looking.
+
+Git records changes in commits. A branch provides a separate line of work, and a pull request gives people a place to review a proposed change before merging it. A useful commit groups an understandable concern and explains what changed. Review the diff for accidental files, secrets, and unrelated edits. More commits are not automatically better work; the point is a history you can understand and recover from.
+
+Know which environment and data you are using. Development and testing should avoid putting real customers at risk. A local application can still connect to a production database if configured that way. Ask which service and dataset a command will reach before running a migration, deleting records, or testing an action that sends messages or charges money.
+
+Tests are programs that check expected behavior. A focused test can check a calculation; a broader test can follow a request across several components; a user-flow check can exercise the product through its interface. Choose checks based on what could break. A formatting check does not prove access controls work, and a successful compilation does not prove data survives reload.
+
+For a save feature, useful checks could include valid input, missing input, a failed request, reload after saving, and an unauthorized edit attempt. State the expected result before running each check. If a test only repeats how the implementation was written, it may confirm the code's assumptions rather than the behavior the user needs.
+
+When a check fails, narrow the problem. Reproduce it, note the inputs, inspect the response or relevant log, and change one plausible cause. Avoid sharing logs containing tokens or personal data. Ask the agent to explain why its proposed fix addresses the observed failure, then repeat the original check and a nearby behavior that could have regressed.
+
+Plan how to recover from a bad deployment. Reverting code may not reverse a database change or an email that was already sent. Before a consequential change, know what backup, rollback, or limited release is available. Technical debt is the future cost of a shortcut or poorly understood design. You do not need to remove every imperfection this week, but you should recognize which shortcuts threaten the next useful change.
+
+Bring one check and one recovery question for your own product. Be ready to teach a partner where the evidence would appear if the check failed.
+
+## Teach One Another
+
+### Session 1
+
+The instructor traces a request from browser to server to database and demonstrates authentication versus authorization. Partners explain their own sketches to each other. Ask where access is enforced and where a secret belongs. Use a harmless example to predict what a request should return before inspecting its result.
+
+### Session 2
+
+The instructor reviews a small diff, runs a check, and diagnoses a controlled failure. Partners choose a behavior, predict its success and failure cases, then inspect the evidence together. Explain why one check is relevant and another is insufficient. Use build time to fix a narrow issue or document a recovery procedure you can actually perform.
+
+## Ponder and Prove
+
+Apply these checks to the work in your sprint plan. You may improve code, data design, tests, deployment instructions, or another checkable artifact. Keep the scope small enough to inspect the result. Do not run a destructive operation on a real service merely to demonstrate a concept for class.
+
+In your existing review, explain one boundary you now understand better: browser and server, one user's records and another's, development and production, or a claim and its evidence. Show the relevant test or observation, including its limits.
+
+If you discover debt you will leave in place, explain the consequence and what would trigger paying it down. That is more useful than reporting that the agent “cleaned up the code.” Use your next plan to address the most valuable next step, not every architecture topic at once.
+
+## Assignments this week
+
+- [Sprint 4 wrap-up](00-assessments.qmd#sprint-4): **Saturday, March 20**.
+- [Sprint 5 plan](00-assessments.qmd#sprint-5): **Saturday, March 20**.
+- Bring a request trace, a proposed check, and a recovery question to class; no separate graded architecture worksheet is added.
+
+All dated submissions close at **11:59 p.m. America/Boise**, which follows local daylight saving time. See the [assignment checklist](00-assignments.qmd) for deliverables and points and [Assessments](00-assessments.qmd) for the unchanged rubrics. The class activities above add no separate graded submissions. Exam preparation includes these essentials and explicitly taught class material, not every optional reference section.
+
+## Optional full chapters
+
+These longer readings remain available for questions, examples, and deeper study. You do not need to read them in full to prepare for class.
+
+- [Anatomy of an Application](07-anatomy-of-an-application.qmd)
+- [Data and APIs](08-data-and-apis.qmd)
+- [Version Control, Environments, and Deploys](09-version-control-testing-and-tech-debt.qmd)
+- [Tests and Tech Debt](09b-tests-and-tech-debt.qmd)
+- [The Browser, Developer Tools, and Claude in Chrome](09c-browser-and-developer-tools.qmd)

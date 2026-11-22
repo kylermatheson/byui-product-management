@@ -2,6 +2,11 @@
 title: "Models in Your Product"
 ---
 
+::: {.callout-note title="Optional full chapter"}
+Required preparation for this topic is [Week 5: AI Systems](W05-ai-systems.qmd), a short essentials guide. This full chapter remains available for examples and deeper study; it is not assigned in full. Exams cover required essentials and explicitly taught class material. Optional sections do not independently add exam requirements.
+:::
+
+
 ## Why This Matters
 
 Knowing how a model works and putting one inside a product are different skills. This chapter

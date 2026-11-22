@@ -1,0 +1,83 @@
+---
+title: "Week 3: Design"
+reading-minutes: "20–30"
+---
+
+**March 8–14, 2027 | Weekly essentials**
+
+Make a useful task easy to complete and describe the intended behavior clearly enough to test.
+
+**Required preparation: 20–30 minutes for the whole week**, split between the two Prepare sections. Read these essentials and think through the questions before the corresponding session. Building, setup, and other homework take additional time. The full chapters linked at the end are optional, not additional required reading.
+
+The course follows [Prepare](https://www.byui.edu/learning-model/prepare), [Teach One Another](https://www.byui.edu/learning-model/teach-one-another), and [Ponder and Prove](https://www.byui.edu/learning-model/ponder-and-prove). Prepare academically and spiritually, help classmates refine their understanding, then apply and reflect. AIRE remains the framework for making product decisions.
+
+Meeting days are still either Monday/Wednesday or Tuesday/Thursday; use Session 1 and Session 2 below until confirmed. Meeting times: ________. Use Codex first, or Claude as the supported alternative.
+
+## Prepare: Session 1
+
+**The model:** Design begins with the path a person must follow to accomplish a useful task. Individual screens should help that path make sense, including when something goes wrong.
+
+Write the core task as a short sequence before decorating the interface. For a study-group product, the sequence might be finding a group, understanding its meeting time, joining it, and knowing whether membership was saved. Identify where a new user begins, which information they need, which decision comes next, and what confirms success. A beautiful join button is insufficient if the meeting time is hidden or the result is ambiguous.
+
+Use visual hierarchy to make the next action apparent. Give related information a clear relationship through spacing, grouping, and consistent placement. Labels should describe the user's task rather than the internal database. “Join this group” says more than “Submit.” Avoid asking for information you do not need; every field creates work and another possible error.
+
+A flow includes more than the happy path. What happens when there are no groups, the network fails, a required field is empty, or the user lacks access? The interface should acknowledge the state and offer an appropriate next step. Distinguish “nothing exists yet” from “something failed to load.” A person should not have to guess whether clicking again will duplicate an action.
+
+Accessibility is part of the basic design, not a final decoration. Use meaningful labels, readable text, adequate contrast, and controls that can be operated with a keyboard. Do not rely on color alone to communicate an error. When you inspect an interaction, ask whether someone can understand the task without already knowing how the product works.
+
+Choose the cheapest representation that answers the current question. A sketch can compare two flows. A wireframe can show structure. A more detailed mockup can test visual hierarchy. A working prototype can reveal whether a person can complete the task. Increasing fidelity costs time; do it because the question requires it, not because polished work feels more finished.
+
+Before class, describe one core task and sketch its steps. Mark a likely point of confusion and one failure state. Be ready to explain the design in terms of the user's goal, rather than your personal preference for a particular layout. Think about how making a task understandable can reduce unnecessary burden for someone else.
+
+## Prepare: Session 2
+
+**The model:** A usability test observes what a person can do without your coaching. A specification turns the intended behavior into a shared description and explicit checks.
+
+Give a test participant a realistic task, such as “find a group that meets after your work shift and join it.” Do not tell them which button to press. Ask them to think aloud, observe where they hesitate, and record what they actually do. If you explain the interface during the attempt, you are testing your explanation along with the product. Intervene when necessary to protect the participant or recover from a blocked test, then note that intervention.
+
+Separate an observation from a diagnosis. “The participant clicked the title three times” is an observation. “They did not understand our icons” is an interpretation that may need another question or comparison. A useful improvement addresses the obstacle to completing the task. It does not need to implement every suggestion a participant offers.
+
+Prioritize issues by the task they block, their consequence, and how often they appear. A broken confirmation can be more important than an unattractive border. After making a change, repeat the relevant part of the test. Do not assume a revised design is easier just because the revision sounds reasonable.
+
+A small specification can contain the user, goal, intended behavior, constraints, acceptance criteria, and what is out of scope. A user story such as “As a student, I want to see the meeting time before joining” gives context. Acceptance criteria state observable outcomes: the time is visible on the group page; joining shows confirmation; reloading preserves membership; an unavailable group cannot be joined. These checks help both you and your coding agent understand when the work is complete.
+
+Include relevant failure states and access rules in the specification. If only group members may see a private discussion, say so explicitly. If an AI-generated answer may be wrong, describe how the person can recognize its limits or recover. Do not leave the most consequential behavior to whatever an agent happens to build.
+
+With Codex or Claude, explore the existing project and write the plan or specification before requesting a larger change. Review what the agent proposes, narrow the scope, then authorize implementation. Having a written spec does not guarantee correct code; it gives you a clearer basis for checking the result.
+
+Bring one acceptance criterion that a classmate can verify without asking what you meant. Explain the difference between “the page is user-friendly” and an observable completion condition.
+
+## Teach One Another
+
+### Session 1
+
+The instructor demonstrates flow mapping, hierarchy, accessible labels, and basic interaction states. Partners teach each other the task behind their sketches, then walk through the steps as a new user. Identify one obstacle and one state the sketch omitted. Explain a design choice using the user's situation rather than taste.
+
+### Session 2
+
+The instructor models a short usability test and translates an observed obstacle into acceptance criteria. In pairs, run a task without coaching, record the observation, and propose a focused change. Use the remaining time to refine a small spec or verify an implementation. End by teaching back what the test established and what it did not.
+
+## Ponder and Prove
+
+Apply a design improvement or produce another artifact appropriate to your sprint plan. Preserve the relevant before-and-after evidence and checks. A sketch, flow, tested prototype, usability synthesis, or specification can be real output when it advances the goal and is checkable.
+
+Use the existing sprint review to describe the most important observation and your response. If the plan changed after testing, add a dated explanation to the plan. Record what you learned from the person, not just what the agent generated.
+
+Prepare for the midterm by explaining the Week 1–3 essentials and class examples without AI. Practice distinguishing evidence from inference, tracing an agent's work, and turning a vague goal into a check. Optional full chapters do not add independent exam requirements.
+
+## Assignments this week
+
+- [Midterm](00-assessments.qmd#midterm-exam): **proposed March 12–13 window**, closing Saturday, March 13.
+- [Sprint 3 wrap-up](00-assessments.qmd#sprint-3): **Saturday, March 13**.
+- [Sprint 4 plan](00-assessments.qmd#sprint-4): **Saturday, March 13**.
+
+All dated submissions close at **11:59 p.m. America/Boise**, which follows local daylight saving time. See the [assignment checklist](00-assignments.qmd) for deliverables and points and [Assessments](00-assessments.qmd) for the unchanged rubrics. The class activities above add no separate graded submissions. Exam preparation includes these essentials and explicitly taught class material, not every optional reference section.
+
+## Optional full chapters
+
+These longer readings remain available for questions, examples, and deeper study. You do not need to read them in full to prepare for class.
+
+- [Interface and Flow](05-interface-and-flow.qmd)
+- [Design Fundamentals](05b-design-fundamentals.qmd)
+- [Testing the Design](06-testing-the-design.qmd)
+- [Specs: Designing the Build](06b-specs.qmd)
