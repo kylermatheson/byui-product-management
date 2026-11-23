@@ -16,6 +16,6 @@ Original course information and historical guidance are preserved in `_source-or
 
 ## Working discipline
 
-Use the `byui-seven-week` adaptation branch as requested. Preserve unrelated working-tree changes, including the user's untracked `AGENT.md` and deletion of `CLAUDE.md`. Stage and commit explicit paths only. Do not push, merge, or publish without an explicit request. The GitHub Actions workflow publishes pushes to main and should not be expanded for this branch.
+Use the `byui-seven-week` adaptation branch as requested. Preserve unrelated working-tree changes, including the user's untracked `AGENT.md` and deletion of `CLAUDE.md`. Stage and commit explicit paths only. Do not push, merge, or publish without an explicit request. The GitHub Actions workflow publishes the rendered `_book/` artifact from `byui-seven-week`, following the requested branch deployment. Pages must use GitHub Actions as its source, and the github-pages environment should allow only this deployment branch. Do not use the repository root as a Pages publishing folder.
 
 Keep `quarto preview` available during edits and run a full `quarto render` before finishing navigation or cross-reference changes. Inspect the site in a browser. Run `python3 scripts/check-seven-week-course.py` and the navigation/button tests when changing their behavior. Keep chapter names and anchors stable. Use plain factual language, no em dashes or decorative emoji in new copy. Do not rewrite unrelated instructional material.

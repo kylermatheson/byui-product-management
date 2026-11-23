@@ -45,4 +45,12 @@ The same test file can run with Deno using its Node compatibility support: `deno
 
 `_source-original/source.tar.gz` contains the unchanged tracked source at the commit recorded in its manifest. It preserves the original course information and release history and is excluded from publication. See `99-credits.qmd` for authorship and copyright attribution, and `AGENTS.md` for current repository guidance.
 
-Work on `byui-seven-week`. Do not push, merge, or publish as part of the adaptation. The existing workflow publishes pushes to `main`.
+Work on `byui-seven-week`. Do not push, merge, or publish as part of the adaptation. The deployment workflow renders and publishes pushes to `byui-seven-week` after explicit push authorization. It uploads only `_book/` and validates the book before deployment.
+
+## GitHub Pages deployment
+
+In repository **Settings > Pages > Build and deployment**, set **Source** to **GitHub Actions**. Do not select the source branch root as the publishing folder: it contains Quarto source files, and GitHub's default Jekyll build serves the README instead of rendering the course.
+
+The workflow in `.github/workflows/publish.yml` checks out `byui-seven-week`, installs Quarto and Python dependencies, renders the course, validates the output, and deploys the `_book/` artifact to https://kylermatheson.github.io/byui-product-management/.
+
+In **Settings > Environments > github-pages**, restrict deployment branches to `byui-seven-week` so an older workflow on `main` cannot replace this offering. GitHub Pages has one live site at this URL, not a separate site per source branch. Commit changes locally, obtain push authorization, then push `byui-seven-week`. Check the **Publish Quarto Website** run and confirm the live site shows the course sidebar, weekly essentials, and assignments. `_book/` remains generated and untracked; no rendered files need to be committed to the source branch.

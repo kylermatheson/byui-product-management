@@ -2,14 +2,15 @@ name: Publish Quarto Website
 
 on:
   push:
-    branches: [main]
+    branches: [byui-seven-week]
 
 concurrency:
-  group: pages-${{ github.ref }}
+  group: github-pages
   cancel-in-progress: true
 
 jobs:
   build-deploy:
+    if: github.ref == 'refs/heads/byui-seven-week'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -22,6 +23,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          # The preservation check compares the archive with its original source commit.
+          fetch-depth: 0
 
       # Ensure Python is available and install Jupyter + friends for Quarto's python engine
       - name: Set up Python
@@ -49,6 +53,11 @@ jobs:
         # with:
         #   path: .
 
+      - name: Validate rendered course
+        run: python3 scripts/check-seven-week-course.py
+
+      # Upload the rendered book, never the repository root or its README.
+      # Repository Settings > Pages > Source must be GitHub Actions.
       # Configure and deploy to GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v4
