@@ -2,6 +2,13 @@
 title: "Release Notes"
 ---
 
+## v1.1.1 (2026-11-23)
+
+The published course site now opens the full course book.
+
+- Restored the course navigation, weekly essentials, assignment checklist, and reading pages at the course website address.
+- Kept all course content, assignment dates, and grading requirements unchanged.
+
 ## v1.1.0
 
 - Added seven short essentials guides with 20–30 minutes of weekly preparation; retained every full chapter as an optional reference.
